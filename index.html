@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sarah Records · Catálogo SARAH 1–100</title>
+  <meta name="description" content="Catálogo visual de Sarah Records: los 100 lanzamientos (1987–1995) de Clare Wadd y Matt Haynes en Bristol." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="brand" id="brand-home" role="button" tabindex="0" title="Volver al catálogo">
+        <span class="brand-mark">Sarah</span>
+        <span class="brand-sub">Records · Bristol 1987–1995</span>
+      </div>
+      <nav class="top-nav" aria-label="Principal">
+        <a href="#/" class="nav-link" data-nav="catalog">Catálogo</a>
+        <a href="#/about" class="nav-link" data-nav="about">Acerca de</a>
+      </nav>
+    </header>
+
+    <main id="app" class="app" aria-live="polite">
+      <div class="loading-state">
+        <div class="spinner" aria-hidden="true"></div>
+        <p>Cargando catálogo…</p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p class="disclaimer">
+        Los embeds de YouTube son ayudas de escucha archivística (fan / best-effort).
+        Cuando exista edición oficial, compra en Bandcamp o en las fuentes del sello.
+      </p>
+      <p class="sources">
+        Fuentes:
+        <a href="http://sarahrecords.org.uk/music/discography/discography-1-100/" target="_blank" rel="noopener">Discografía oficial</a>
+        ·
+        <a href="https://www.discogs.com/label/9801-Sarah-Records" target="_blank" rel="noopener">Discogs</a>
+        ·
+        <a href="https://en.wikipedia.org/wiki/Sarah_Records_discography" target="_blank" rel="noopener">Wikipedia</a>
+      </p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

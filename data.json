@@ -1,0 +1,4257 @@
+{
+  "label": "Sarah Records",
+  "location": "Bristol, UK",
+  "active": "1987–1995",
+  "founders": [
+    "Clare Wadd",
+    "Matt Haynes"
+  ],
+  "catalog_series": "SARAH 1–100",
+  "generated": "2026-08-12",
+  "sources_primary": [
+    "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+    "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+    "https://www.discogs.com/label/887-Sarah-Records",
+    "http://home.clara.net/koogy/sarah/"
+  ],
+  "release_count": 100,
+  "releases": [
+    {
+      "catalog": "SARAH 1",
+      "number": 1,
+      "artist": "The Sea Urchins",
+      "title": "Pristine Christine",
+      "type": "single",
+      "year": 1987,
+      "date": "1987-11",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Pristine Christine"
+        },
+        {
+          "position": "B1",
+          "title": "Sullen Eyes"
+        },
+        {
+          "position": "B2",
+          "title": "Everglades"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/Zt_XI02QsZXApt75bD7JNWrHN9kwBQHXhkf_xOfB_2o/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzOTU0/Ni0xNDQzNTQ3NzI3/LTE2OTIuanBlZw.jpeg",
+      "cover_local": "covers/001.jpg",
+      "listen": {
+        "youtube_search": "The Sea Urchins Pristine Christine Sarah Records",
+        "youtube": "DbGjLFpsuKU",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://theseaurchins.bandcamp.com/track/pristine-christine"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/939546",
+        "http://home.clara.net/koogy/sarah/disco/001.htm"
+      ],
+      "producers": [
+        "Shel Gomelsky"
+      ],
+      "discogs_release_id": 939546,
+      "cover_bytes": 77779
+    },
+    {
+      "catalog": "SARAH 2",
+      "number": 2,
+      "artist": "The Orchids",
+      "title": "I've Got A Habit",
+      "type": "single",
+      "year": 1988,
+      "date": "1988-01-25",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "I've Got A Habit"
+        },
+        {
+          "position": "A2",
+          "title": "Give Me Some Peppermint Freedom"
+        },
+        {
+          "position": "B",
+          "title": "Apologies"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/DLTUIAULOX1O7pdVOAJaMiKEPWwSTM7q4zmBbHjYHOE/rs:fit/g:sm/q:90/h:588/w:588/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTM0/MzQtMTM0NTgyNTA3/MS0xMDU4LmpwZWc.jpeg",
+      "cover_local": "covers/002.jpg",
+      "listen": {
+        "youtube_search": "The Orchids I've Got A Habit Sarah Records",
+        "youtube": "F3INlkiY4R4",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://theorchids.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1053434",
+        "http://home.clara.net/koogy/sarah/disco/002.htm"
+      ],
+      "discogs_release_id": 1053434,
+      "cover_bytes": 96844
+    },
+    {
+      "catalog": "SARAH 3",
+      "number": 3,
+      "artist": "Another Sunny Day",
+      "title": "Anorak City",
+      "type": "flexi",
+      "year": 1988,
+      "date": "1988",
+      "format": "5\" flexi",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Anorak City",
+          "duration": "2:15"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/3oQAjWiKePvsKxHbbAF1wx9C-JtH1fUJH2seHzkIcX0/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5NzI4/Ny0xNTA2MzkxNjYx/LTYzMzUuanBlZw.jpeg",
+      "cover_local": "covers/003.jpg",
+      "listen": {
+        "youtube_search": "Another Sunny Day Anorak City Sarah Records",
+        "youtube": "uHlvQoamg0I",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://anothersunnyday.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/397287",
+        "http://home.clara.net/koogy/sarah/disco/003.htm"
+      ],
+      "discogs_release_id": 397287,
+      "cover_bytes": 70502
+    },
+    {
+      "catalog": "SARAH 4",
+      "number": 4,
+      "artist": "N/A",
+      "title": "Sarah 4",
+      "type": "other",
+      "year": 1988,
+      "date": null,
+      "format": "fanzine",
+      "tracks": [],
+      "notes": "Fanzine (non-music catalog item)",
+      "cover_url": "http://home.clara.net/koogy/sarah/covers/004.gif",
+      "cover_local": "covers/004.jpg",
+      "listen": {
+        "youtube_search": "Sarah Records Sarah 4"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "http://home.clara.net/koogy/sarah/disco/004.htm"
+      ],
+      "cover_bytes": 12055
+    },
+    {
+      "catalog": "SARAH 5",
+      "number": 5,
+      "artist": "14 Iced Bears",
+      "title": "Come Get Me",
+      "type": "single",
+      "year": 1988,
+      "date": "1988-04-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Unhappy Days"
+        },
+        {
+          "position": "A2",
+          "title": "Come Get Me"
+        },
+        {
+          "position": "B",
+          "title": "Sure To See"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/DoMUPNkjKHvEx-t24oq8wXD-Ft_NUjgXkyIbfD00ySA/rs:fit/g:sm/q:90/h:533/w:543/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDY2/Mi0xMTI4NzU1NDE0/LmpwZWc.jpeg",
+      "cover_local": "covers/005.jpg",
+      "listen": {
+        "youtube_search": "14 Iced Bears Come Get Me Sarah Records",
+        "youtube": "LDw4AW1qq14",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/534662",
+        "http://home.clara.net/koogy/sarah/disco/005.htm"
+      ],
+      "engineers": [
+        "Chris Mansbridge",
+        "Terry Popple"
+      ],
+      "discogs_release_id": 534662,
+      "cover_bytes": 24423
+    },
+    {
+      "catalog": "SARAH 6",
+      "number": 6,
+      "artist": "The Poppyheads",
+      "title": "Cremation Town",
+      "type": "single",
+      "year": 1988,
+      "date": "1988-04-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Cremation Town"
+        },
+        {
+          "position": "A2",
+          "title": "Pictures You Weave"
+        },
+        {
+          "position": "B",
+          "title": "Dreamabout"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/kmlkpIaZlepa23Lv16Dm6DfPsUTyX6SjpShK-RnKdSI/rs:fit/g:sm/q:90/h:582/w:582/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTM0/MzgtMTE4ODQyMzMy/MS5qcGVn.jpeg",
+      "cover_local": "covers/006.jpg",
+      "listen": {
+        "youtube_search": "The Poppyheads Cremation Town Sarah Records",
+        "youtube": "NOaJ-BKH0ao",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1053438",
+        "http://home.clara.net/koogy/sarah/disco/006.htm"
+      ],
+      "studio": "Facility Studios, Bristol",
+      "producers": [
+        "Chris Martin (2)"
+      ],
+      "discogs_release_id": 1053438,
+      "cover_bytes": 115981
+    },
+    {
+      "catalog": "SARAH 7",
+      "number": 7,
+      "artist": "Another Sunny Day",
+      "title": "I'm In Love With A Girl Who Doesn't Know I Exist",
+      "type": "single",
+      "year": 1988,
+      "date": "1988-07-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "I'm In Love With A Girl Who Doesn't Know I Exist"
+        },
+        {
+          "position": "B1",
+          "title": "Things Will Be Nice"
+        },
+        {
+          "position": "B2",
+          "title": "The Centre Of My Little World"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/T4ln85YTCM0UrW0b_oB_Umih4ugnxtEJOSp2NeeMosg/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4MjA4/Ni0xMTgwNDY3NzU2/LmpwZWc.jpeg",
+      "cover_local": "covers/007.jpg",
+      "listen": {
+        "youtube_search": "Another Sunny Day I'm In Love With A Girl Who Doesn't Know I Exist Sarah Records",
+        "youtube": "kCy4F9-wKbE",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://anothersunnyday.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/982086",
+        "http://home.clara.net/koogy/sarah/disco/007.htm"
+      ],
+      "discogs_release_id": 982086,
+      "cover_bytes": 136021
+    },
+    {
+      "catalog": "SARAH 8",
+      "number": 8,
+      "artist": "The Sea Urchins",
+      "title": "Solace",
+      "type": "single",
+      "year": 1988,
+      "date": "1988-07-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Solace"
+        },
+        {
+          "position": "B",
+          "title": "Please Rain Fall"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/NGXRyyR-KNEL3E5YS14XUW2wRxxhyNSX-crlt9u0-pQ/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyNjUz/OS0xMTczNjIzMzk1/LmpwZWc.jpeg",
+      "cover_local": "covers/008.jpg",
+      "listen": {
+        "youtube_search": "The Sea Urchins Solace Sarah Records",
+        "youtube": "pCKVCDH5tKc",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://theseaurchins.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/926539",
+        "http://home.clara.net/koogy/sarah/disco/008.htm"
+      ],
+      "producers": [
+        "Joe Foster"
+      ],
+      "discogs_release_id": 926539,
+      "cover_bytes": 125308
+    },
+    {
+      "catalog": "SARAH 9",
+      "number": 9,
+      "artist": "The Golden Dawn",
+      "title": "My Secret World",
+      "type": "single",
+      "year": 1988,
+      "date": "1988-07-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "My Secret World"
+        },
+        {
+          "position": "B1",
+          "title": "Spring - Heeled Jack"
+        },
+        {
+          "position": "B2",
+          "title": "The Railway Track"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/ktyLYGWXpync9Or87D-7YLfo0TR-BAxJBbvKkSLC3Lg/rs:fit/g:sm/q:90/h:540/w:549/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNjkz/OS0xMTI3NzM1NzA3/LmpwZWc.jpeg",
+      "cover_local": "covers/009.jpg",
+      "listen": {
+        "youtube_search": "The Golden Dawn My Secret World Sarah Records",
+        "youtube": "EDrYQWylrSg",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/526939",
+        "http://home.clara.net/koogy/sarah/disco/009.htm"
+      ],
+      "producers": [
+        "Marcus Noble"
+      ],
+      "discogs_release_id": 526939,
+      "cover_bytes": 60755
+    },
+    {
+      "catalog": "SARAH 10",
+      "number": 10,
+      "artist": "The Springfields",
+      "title": "Sunflower",
+      "type": "ep",
+      "year": 1988,
+      "date": "1988-07-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Sunflower"
+        },
+        {
+          "position": "B1",
+          "title": "Clown"
+        },
+        {
+          "position": "B2",
+          "title": "Are We Gonna Be Alright?"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/6XAOny1B2_UEqEd1iGdD-kp8ErdGIyO8Hj9dDmA6ht4/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyMDQ5/MS0xMTcyOTk0NDYw/LmpwZWc.jpeg",
+      "cover_local": "covers/010.jpg",
+      "listen": {
+        "youtube_search": "The Springfields Sunflower Sarah Records",
+        "youtube": "CZcNGEuIFO0",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/920491",
+        "http://home.clara.net/koogy/sarah/disco/010.htm"
+      ],
+      "producers": [
+        "Geoff Merritt"
+      ],
+      "engineers": [
+        "Holden Richards",
+        "Michael Hausman",
+        "Teddy Vosnos",
+        "Wes Lachot",
+        "Willie Wells"
+      ],
+      "discogs_release_id": 920491,
+      "cover_bytes": 162847
+    },
+    {
+      "catalog": "SARAH 11",
+      "number": 11,
+      "artist": "The Orchids",
+      "title": "Underneath The Window, Underneath The Sink",
+      "type": "ep",
+      "year": 1988,
+      "date": "1988",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Defy The Law"
+        },
+        {
+          "position": "A2",
+          "title": "Underneath The Window, Underneath The Sink"
+        },
+        {
+          "position": "B1",
+          "title": "Tiny Words"
+        },
+        {
+          "position": "B2",
+          "title": "Walter"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/jB92fU2NLOHJhcv61ghkZ5FotvRinvze8eetn8tGdkc/rs:fit/g:sm/q:90/h:533/w:541/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzM2/OS0xMTI1MTMzMjI1/LmpwZw.jpeg",
+      "cover_local": "covers/011.jpg",
+      "listen": {
+        "youtube_search": "The Orchids Underneath The Window, Underneath The Sink Sarah Records",
+        "youtube": "dne6CR6vVqQ",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://theorchids.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/507369",
+        "http://home.clara.net/koogy/sarah/disco/011.htm"
+      ],
+      "studio": "Toad Hall Studios",
+      "producers": [
+        "Ian Carmichael",
+        "The Orchids (2)"
+      ],
+      "engineers": [
+        "Ian Carmichael",
+        "The Orchids (2)"
+      ],
+      "discogs_release_id": 507369,
+      "cover_bytes": 28874
+    },
+    {
+      "catalog": "SARAH 12",
+      "number": 12,
+      "artist": "The Field Mice",
+      "title": "Emma's House",
+      "type": "ep",
+      "year": 1988,
+      "date": "1988-11-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Emma's House",
+          "duration": "3:36"
+        },
+        {
+          "position": "A2",
+          "title": "When You Sleep",
+          "duration": "3:32"
+        },
+        {
+          "position": "B1",
+          "title": "Fabulous Friend",
+          "duration": "2:52"
+        },
+        {
+          "position": "B2",
+          "title": "The Last Letter",
+          "duration": "2:43"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/cODo3xkA3VdNaU4jM_UiBHq0OFGl7lKs8CAMtwQ9uak/rs:fit/g:sm/q:90/h:542/w:542/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwOTgz/OC0xMTIyODEzNDc0/LmpwZw.jpeg",
+      "cover_local": "covers/012.jpg",
+      "listen": {
+        "youtube_search": "The Field Mice Emma's House Sarah Records",
+        "youtube": "sIppK6kDCUM",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://thefieldmice.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/409838",
+        "http://home.clara.net/koogy/sarah/disco/012.htm"
+      ],
+      "discogs_release_id": 409838,
+      "cover_bytes": 14402
+    },
+    {
+      "catalog": "SARAH 13",
+      "number": 13,
+      "artist": "Christine's Cat",
+      "title": "Your Love Is...",
+      "type": "flexi",
+      "year": 1989,
+      "date": "1989",
+      "format": "5\" flexi",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Your Love Is..."
+        }
+      ],
+      "cover_url": "https://i.discogs.com/UCGcMJcypA1lx93-EFyns3EwxBp-oR8_kchfTw1wlVc/rs:fit/g:sm/q:90/h:596/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTM0/NDUtMTE4ODk0NDE5/Ny5qcGVn.jpeg",
+      "cover_local": "covers/013.jpg",
+      "listen": {
+        "youtube_search": "Christine's Cat Your Love Is... Sarah Records",
+        "youtube": "3aOaN91DelQ",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1053445",
+        "http://home.clara.net/koogy/sarah/disco/013.htm"
+      ],
+      "discogs_release_id": 1053445,
+      "cover_bytes": 41686
+    },
+    {
+      "catalog": "SARAH 14",
+      "number": 14,
+      "artist": "N/A",
+      "title": "Lemonade / Cold",
+      "type": "other",
+      "year": 1988,
+      "date": null,
+      "format": "two fanzines",
+      "tracks": [],
+      "notes": "Two fanzines: Lemonade and Cold (SARAH 14A / 14AA)",
+      "cover_url": "http://home.clara.net/koogy/sarah/covers/014.gif",
+      "cover_local": "covers/014.jpg",
+      "listen": {
+        "youtube_search": "Sarah Records Lemonade / Cold"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "http://home.clara.net/koogy/sarah/disco/014.htm"
+      ],
+      "cover_bytes": 7697
+    },
+    {
+      "catalog": "SARAH 15",
+      "number": 15,
+      "artist": "St. Christopher",
+      "title": "You Deserve More Than A Maybe",
+      "type": "single",
+      "year": 1989,
+      "date": "1989-02-27",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "You Deserve More Than A Maybe",
+          "duration": "2:51"
+        },
+        {
+          "position": "B1",
+          "title": "The Kind Of Girl",
+          "duration": "2:40"
+        },
+        {
+          "position": "B2",
+          "title": "The Summer You Love",
+          "duration": "2:23"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/dUAx9FlUxMByRrbPQpeKqK9dWgAE60qvyxGu9dSucog/rs:fit/g:sm/q:90/h:538/w:544/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMDIy/OC0xMTI1NTg4MzMw/LmpwZWc.jpeg",
+      "cover_local": "covers/015.jpg",
+      "listen": {
+        "youtube_search": "St. Christopher You Deserve More Than A Maybe Sarah Records",
+        "youtube": "yCM5ETivKqE",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/510228",
+        "http://home.clara.net/koogy/sarah/disco/015.htm"
+      ],
+      "studio": "ICC Tollerton North Yorkshire",
+      "discogs_release_id": 510228,
+      "cover_bytes": 44831
+    },
+    {
+      "catalog": "SARAH 16",
+      "number": 16,
+      "artist": "Another Sunny Day",
+      "title": "What's Happened?",
+      "type": "single",
+      "year": 1989,
+      "date": "1989-05-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "What's Happened?"
+        },
+        {
+          "position": "A2",
+          "title": "Can't You Tell It's True?"
+        },
+        {
+          "position": "B",
+          "title": "Impossible?"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/H2IBT0Gue4hFt0MZ0XPZ3bvZvRWdxBcdUDNeudTpW5w/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMzU1/ODAtMTE4NjY5NTM1/OC5qcGVn.jpeg",
+      "cover_local": "covers/016.jpg",
+      "listen": {
+        "youtube_search": "Another Sunny Day What's Happened? Sarah Records",
+        "youtube": "TfngEOIFZfQ",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://anothersunnyday.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1035580",
+        "http://home.clara.net/koogy/sarah/disco/016.htm"
+      ],
+      "discogs_release_id": 1035580,
+      "cover_bytes": 149062
+    },
+    {
+      "catalog": "SARAH 17",
+      "number": 17,
+      "artist": "The Golden Dawn",
+      "title": "George Hamilton's Dead",
+      "type": "single",
+      "year": 1989,
+      "date": "1989",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "George Hamilton's Dead"
+        },
+        {
+          "position": "A2",
+          "title": "The Sweetest Touch"
+        },
+        {
+          "position": "B",
+          "title": "Let's Build A Dysonsphere"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/SIdXGZa9xEcyxbIQyy78E91jbVE3ea5WovrKSVi-6JU/rs:fit/g:sm/q:90/h:533/w:535/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDY1/Mi0xMTI4NzI3Nzc4/LmpwZWc.jpeg",
+      "cover_local": "covers/017.jpg",
+      "listen": {
+        "youtube_search": "The Golden Dawn George Hamilton's Dead Sarah Records",
+        "youtube": "5h3jzEWT1gk",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/534652",
+        "http://home.clara.net/koogy/sarah/disco/017.htm"
+      ],
+      "discogs_release_id": 534652,
+      "cover_bytes": 46090
+    },
+    {
+      "catalog": "SARAH 18",
+      "number": 18,
+      "artist": "The Field Mice",
+      "title": "Sensitive",
+      "type": "single",
+      "year": 1989,
+      "date": "1989-02-27",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Sensitive"
+        },
+        {
+          "position": "B",
+          "title": "When Morning Comes To Town"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/VKxGirw2nc_j4S-Qa_nyPsNns9Sp9jCZmTgi_s5mJ94/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwOTg0/MS0xNDQzNTI3Mjk5/LTE3MjIuanBlZw.jpeg",
+      "cover_local": "covers/018.jpg",
+      "listen": {
+        "youtube_search": "The Field Mice Sensitive Sarah Records",
+        "bandcamp": "https://thefieldmice.bandcamp.com/track/sensitive-2",
+        "youtube": "E4D6v71_nx0",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/409841",
+        "http://home.clara.net/koogy/sarah/disco/018.htm"
+      ],
+      "discogs_release_id": 409841,
+      "cover_bytes": 91398
+    },
+    {
+      "catalog": "SARAH 19",
+      "number": 19,
+      "artist": "Brighter",
+      "title": "Around The World In Eighty Days",
+      "type": "ep",
+      "year": 1989,
+      "date": "1989-08-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Inside Out"
+        },
+        {
+          "position": "A2",
+          "title": "Tinsel Heart"
+        },
+        {
+          "position": "B1",
+          "title": "Around The World In Eighty Days"
+        },
+        {
+          "position": "B2",
+          "title": "Things Will Get Better"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/ULAxbViiFVp-QO82QR-omQW66N1TVa-5GDB-gtBwz5Q/rs:fit/g:sm/q:90/h:535/w:539/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzMz/NC0xMTI1MTI4MDA5/LmpwZw.jpeg",
+      "cover_local": "covers/019.jpg",
+      "listen": {
+        "youtube_search": "Brighter Around The World In Eighty Days Sarah Records",
+        "youtube": "48C1n2Wj92E",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/507334",
+        "http://home.clara.net/koogy/sarah/disco/019.htm"
+      ],
+      "studio": "cat mitcham\"",
+      "discogs_release_id": 507334,
+      "cover_bytes": 39092
+    },
+    {
+      "catalog": "SARAH 20",
+      "number": 20,
+      "artist": "St. Christopher",
+      "title": "All Of A Tremble",
+      "type": "single",
+      "year": 1989,
+      "date": "1989-07-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "All Of A Tremble",
+          "duration": "2:32"
+        },
+        {
+          "position": "B1",
+          "title": "My Fortune",
+          "duration": "3:28"
+        },
+        {
+          "position": "B2",
+          "title": "The Hummingbird",
+          "duration": "1:25"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/K_neV6F2eITELNf0SK419iyS3TcUZb2HYIaMH437DgU/rs:fit/g:sm/q:90/h:598/w:585/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTM0/NDgtMTE4ODQyNDY4/Ny5qcGVn.jpeg",
+      "cover_local": "covers/020.jpg",
+      "listen": {
+        "youtube_search": "St. Christopher All Of A Tremble Sarah Records",
+        "youtube": "i0IYBVCNtns",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1053448",
+        "http://home.clara.net/koogy/sarah/disco/020.htm"
+      ],
+      "discogs_release_id": 1053448,
+      "cover_bytes": 62372
+    },
+    {
+      "catalog": "SARAH 21",
+      "number": 21,
+      "artist": "The Wake",
+      "title": "Crush The Flowers",
+      "type": "single",
+      "year": 1989,
+      "date": "1989",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Crush The Flowers"
+        },
+        {
+          "position": "B",
+          "title": "Carbrain"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/_Uuy5ZuUFl4JzKKzRuncrxPFP8wf5ceOcOTMgh7Y7wo/rs:fit/g:sm/q:90/h:533/w:539/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNTA3/NS0xMTI3NjAwNjU4/LmpwZWc.jpeg",
+      "cover_local": "covers/021.jpg",
+      "listen": {
+        "youtube_search": "The Wake Crush The Flowers Sarah Records",
+        "youtube": "o38U_fKtIzU",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://thewake.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/505075",
+        "http://home.clara.net/koogy/sarah/disco/021.htm"
+      ],
+      "producers": [
+        "Duncan Cameron (2)",
+        "The Wake"
+      ],
+      "discogs_release_id": 505075,
+      "cover_bytes": 29813
+    },
+    {
+      "catalog": "SARAH 22",
+      "number": 22,
+      "artist": "Another Sunny Day",
+      "title": "You Should All Be Murdered",
+      "type": "ep",
+      "year": 1989,
+      "date": "1989-11-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "You Should All Be Murdered"
+        },
+        {
+          "position": "B1",
+          "title": "Horseriding"
+        },
+        {
+          "position": "B2",
+          "title": "Green"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/XKpVLkn87JF364r1K6zD6M9yCgs5Wvu6vUT32NHZ-oc/rs:fit/g:sm/q:90/h:591/w:586/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTM0/NTAtMTE4ODQyMjc5/Mi5qcGVn.jpeg",
+      "cover_local": "covers/022.jpg",
+      "listen": {
+        "youtube_search": "Another Sunny Day You Should All Be Murdered Sarah Records",
+        "youtube": "5AkXC5m8ueA",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://anothersunnyday.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1053450",
+        "http://home.clara.net/koogy/sarah/disco/022.htm"
+      ],
+      "discogs_release_id": 1053450,
+      "cover_bytes": 54120
+    },
+    {
+      "catalog": "SARAH 23",
+      "number": 23,
+      "artist": "The Orchids",
+      "title": "What Will We Do Next",
+      "type": "single",
+      "year": 1989,
+      "date": "1989-09-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "What Will We Do Next?"
+        },
+        {
+          "position": "A2",
+          "title": "As Time Goes By"
+        },
+        {
+          "position": "B",
+          "title": "Yawn"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/1T87oXjq9oE5xDYoMYB1SDIteB_QV79QrJ74FUsexlA/rs:fit/g:sm/q:90/h:540/w:540/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzM2/My0xMTI1MTMyMjkw/LmpwZw.jpeg",
+      "cover_local": "covers/023.jpg",
+      "listen": {
+        "youtube_search": "The Orchids What Will We Do Next Sarah Records",
+        "youtube": "D6p-wemkOtY",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://theorchids.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/507363",
+        "http://home.clara.net/koogy/sarah/disco/023.htm"
+      ],
+      "discogs_release_id": 507363,
+      "cover_bytes": 35908
+    },
+    {
+      "catalog": "SARAH 24",
+      "number": 24,
+      "artist": "The Field Mice",
+      "title": "The Autumn Store Part 1",
+      "type": "single",
+      "year": 1990,
+      "date": "1990-01-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "If You Need Someone"
+        },
+        {
+          "position": "B",
+          "title": "The World To Me"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/X1awLWNQT0ra1aSTOcddmsiIMmcMXGCkOM65dWpNbRo/rs:fit/g:sm/q:90/h:541/w:543/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwOTgz/NS0xMTIyODEyNDUw/LmpwZw.jpeg",
+      "cover_local": "covers/024.jpg",
+      "listen": {
+        "youtube_search": "The Field Mice The Autumn Store Part 1 Sarah Records",
+        "youtube": "ex_SvG_kdwE",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://thefieldmice.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/409835",
+        "http://home.clara.net/koogy/sarah/disco/024.htm"
+      ],
+      "discogs_release_id": 409835,
+      "cover_bytes": 21290
+    },
+    {
+      "catalog": "SARAH 25",
+      "number": 25,
+      "artist": "The Field Mice",
+      "title": "The Autumn Store Part 2",
+      "type": "ep",
+      "year": 1990,
+      "date": "1990-01-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Song Six"
+        },
+        {
+          "position": "B1",
+          "title": "Anyone Else Isn't You"
+        },
+        {
+          "position": "B2",
+          "title": "Bleak"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/8uO0XckwIpybgz3casj0IwqyVYURUbKIdyB32KB5RHI/rs:fit/g:sm/q:90/h:545/w:542/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwOTgz/Ni0xMTIyODEyOTA1/LmpwZw.jpeg",
+      "cover_local": "covers/025.jpg",
+      "listen": {
+        "youtube_search": "The Field Mice The Autumn Store Part 2 Sarah Records",
+        "youtube": "bkwFWi0murM",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://thefieldmice.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/409836",
+        "http://home.clara.net/koogy/sarah/disco/025.htm"
+      ],
+      "discogs_release_id": 409836,
+      "cover_bytes": 18935
+    },
+    {
+      "catalog": "SARAH 26",
+      "number": 26,
+      "artist": "Gentle Despite",
+      "title": "The Darkest Blue EP",
+      "type": "ep",
+      "year": 1990,
+      "date": "1990-05-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Darkest Blue"
+        },
+        {
+          "position": "B1",
+          "title": "Summer In Me"
+        },
+        {
+          "position": "B2",
+          "title": "If I Touch"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/-ltomNvRO8dJ5J-LtldigPBhbZD2Q56PbIEvQ78ZECI/rs:fit/g:sm/q:90/h:533/w:537/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDY3/NC0xMTI4NzU1NTIw/LmpwZWc.jpeg",
+      "cover_local": "covers/026.jpg",
+      "listen": {
+        "youtube_search": "Gentle Despite The Darkest Blue EP Sarah Records",
+        "youtube": "Xikqk5f3foc",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/534674",
+        "http://home.clara.net/koogy/sarah/disco/026.htm"
+      ],
+      "discogs_release_id": 534674,
+      "cover_bytes": 38608
+    },
+    {
+      "catalog": "SARAH 27",
+      "number": 27,
+      "artist": "Brighter",
+      "title": "Noah's Ark",
+      "type": "single",
+      "year": 1990,
+      "date": "1990-02-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Noah's Ark",
+          "duration": "5:10"
+        },
+        {
+          "position": "B1",
+          "title": "I Don't Think It Matters",
+          "duration": "3:03"
+        },
+        {
+          "position": "B2",
+          "title": "Does Love Last Forever?",
+          "duration": "2:33"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/FdxHcUxq-NnMGfUeFAFEC-R_zsJs05rPXVgr8umWSl0/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzMz/Mi0xNzAyOTA4NDY2/LTQwMTcuanBlZw.jpeg",
+      "cover_local": "covers/027.jpg",
+      "listen": {
+        "youtube_search": "Brighter Noah's Ark Sarah Records",
+        "youtube": "HY6IZsxuAUA",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/507332",
+        "http://home.clara.net/koogy/sarah/disco/027.htm"
+      ],
+      "discogs_release_id": 507332,
+      "cover_bytes": 80417
+    },
+    {
+      "catalog": "SARAH 28",
+      "number": 28,
+      "artist": "Action Painting!",
+      "title": "These Things Happen",
+      "type": "single",
+      "year": 1990,
+      "date": "1990-02-08",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "These Things Happen"
+        },
+        {
+          "position": "B",
+          "title": "Boy Meets World"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/pIlL-H9PYZYS3y6NUJ-0N-_Em2dt2xcsu_2dvmpBmFk/rs:fit/g:sm/q:90/h:538/w:541/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMzkw/MC0xMTI0NjQzNDc2/LmpwZw.jpeg",
+      "cover_local": "covers/028.jpg",
+      "listen": {
+        "youtube_search": "Action Painting! These Things Happen Sarah Records",
+        "youtube": "Fsm-OcDuxFU",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/503900",
+        "http://home.clara.net/koogy/sarah/disco/028.htm"
+      ],
+      "engineers": [
+        "Steve Hoffs"
+      ],
+      "discogs_release_id": 503900,
+      "cover_bytes": 41132
+    },
+    {
+      "catalog": "SARAH 29",
+      "number": 29,
+      "artist": "The Orchids",
+      "title": "Something For The Longing",
+      "type": "single",
+      "year": 1990,
+      "date": "1990-02-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Something For The Longing",
+          "duration": "5:22"
+        },
+        {
+          "position": "B1",
+          "title": "Farewell, Dear Bonnie",
+          "duration": "3:34"
+        },
+        {
+          "position": "B2",
+          "title": "On A Sunday",
+          "duration": "3:17"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/Wqvca65RhbClVjnmqxdMR6QulPvsBFopLbfzxLGwxVI/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzQy/NC0xNzAyOTIxMzg2/LTE4NTcuanBlZw.jpeg",
+      "cover_local": "covers/029.jpg",
+      "listen": {
+        "youtube_search": "The Orchids Something For The Longing Sarah Records",
+        "youtube": "xWSYw6wwTRs",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://theorchids.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/507424",
+        "http://home.clara.net/koogy/sarah/disco/029.htm"
+      ],
+      "discogs_release_id": 507424,
+      "cover_bytes": 58198
+    },
+    {
+      "catalog": "SARAH 30",
+      "number": 30,
+      "artist": "Heavenly",
+      "title": "I Fell In Love Last Night",
+      "type": "single",
+      "year": 1990,
+      "date": "1990-03-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "I Fell In Love Last Night"
+        },
+        {
+          "position": "B",
+          "title": "Over And Over"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/fJIAnKwOfHKY-yP36FBUOzXlptq7MB7DouBa6GGwXN0/rs:fit/g:sm/q:90/h:538/w:541/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzQy/Ny0xMTI1MTQxMTY2/LmpwZw.jpeg",
+      "cover_local": "covers/030.jpg",
+      "listen": {
+        "youtube_search": "Heavenly I Fell In Love Last Night Sarah Records",
+        "youtube": "09D1wweWDQ4",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://heavenly.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/507427",
+        "http://home.clara.net/koogy/sarah/disco/030.htm"
+      ],
+      "producers": [
+        "Heavenly"
+      ],
+      "discogs_release_id": 507427,
+      "cover_bytes": 68952
+    },
+    {
+      "catalog": "SARAH 31",
+      "number": 31,
+      "artist": "Eternal",
+      "title": "Breathe",
+      "type": "single",
+      "year": 1990,
+      "date": "1990-06-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Sleep",
+          "duration": "3:58"
+        },
+        {
+          "position": "B1",
+          "title": "Breathe",
+          "duration": "3:18"
+        },
+        {
+          "position": "B2",
+          "title": "Take Me Down",
+          "duration": "2:54"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/zx4uCbPZppW5gOLyR_UJ9IElq3rxCVzZwZzM-SWk8cg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDYy/Mi0xNjg0NzY4Mjk5/LTYyNjUuanBlZw.jpeg",
+      "cover_local": "covers/031.jpg",
+      "listen": {
+        "youtube_search": "Eternal Breathe Sarah Records"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/534622",
+        "http://home.clara.net/koogy/sarah/disco/031.htm"
+      ],
+      "engineers": [
+        "Jim Warren"
+      ],
+      "discogs_release_id": 534622,
+      "cover_bytes": 204841
+    },
+    {
+      "catalog": "SARAH 32",
+      "number": 32,
+      "artist": "N/A",
+      "title": "Sunstroke",
+      "type": "other",
+      "year": 1990,
+      "date": "1990",
+      "format": "fanzine",
+      "tracks": [],
+      "notes": "Mini tenpenny fanzine (non-music). Official site lists 1988; Wikipedia lists 1990.",
+      "cover_url": "http://home.clara.net/koogy/sarah/covers/032.gif",
+      "cover_local": "covers/032.jpg",
+      "listen": {
+        "youtube_search": "Sarah Records Sunstroke"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "http://home.clara.net/koogy/sarah/disco/032.htm"
+      ],
+      "cover_bytes": 4218
+    },
+    {
+      "catalog": "SARAH 33",
+      "number": 33,
+      "artist": "The Sea Urchins",
+      "title": "A Morning Odyssey",
+      "type": "single",
+      "year": 1990,
+      "date": "1990-08-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "A Morning Odyssey"
+        },
+        {
+          "position": "B",
+          "title": "Wild Grass Pictures"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/Ba3A68VAtXMChRTvlyyAwyeNEK1oPlteA4mDWSQFuvQ/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5NDA5/Ny0xMTg2MjE1NjM1/LmpwZWc.jpeg",
+      "cover_local": "covers/033.jpg",
+      "listen": {
+        "youtube_search": "The Sea Urchins A Morning Odyssey Sarah Records",
+        "youtube": "i2XGy5Y7lys",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://theseaurchins.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/994097",
+        "http://home.clara.net/koogy/sarah/disco/033.htm"
+      ],
+      "studio": "Walker Memorial Hall",
+      "discogs_release_id": 994097,
+      "cover_bytes": 202765
+    },
+    {
+      "catalog": "SARAH 34",
+      "number": 34,
+      "artist": "St. Christopher",
+      "title": "Antoinette",
+      "type": "single",
+      "year": 1990,
+      "date": "1990-07-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Antoinette",
+          "duration": "3:44"
+        },
+        {
+          "position": "B",
+          "title": "Salvation",
+          "duration": "2:35"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/IXHdNvSk0cs9_DTbGP438DhpVlQ5W6fpNVD-5-vhMHw/rs:fit/g:sm/q:90/h:529/w:538/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMDI0/MC0xMTI1NTg4Nzg3/LmpwZWc.jpeg",
+      "cover_local": "covers/034.jpg",
+      "listen": {
+        "youtube_search": "St. Christopher Antoinette Sarah Records",
+        "youtube": "cGvvuvU9unU",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/510240",
+        "http://home.clara.net/koogy/sarah/disco/034.htm"
+      ],
+      "discogs_release_id": 510240,
+      "cover_bytes": 23357
+    },
+    {
+      "catalog": "SARAH 35",
+      "number": 35,
+      "artist": "Another Sunny Day",
+      "title": "Rio",
+      "type": "single",
+      "year": 1990,
+      "date": "1990-06",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Rio",
+          "duration": "2:53"
+        },
+        {
+          "position": "B",
+          "title": "The Very Beginning",
+          "duration": "4:35"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/ZBuiUyFz54dLgVNcls6g-FMMRkXsNkvO6ukaHDgPcJ8/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4MDcx/MC0xNDQwMTA2OTYx/LTQxMTEuanBlZw.jpeg",
+      "cover_local": "covers/035.jpg",
+      "listen": {
+        "youtube_search": "Another Sunny Day Rio Sarah Records",
+        "youtube": "9i_fKP1mLpw",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://anothersunnyday.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/980710",
+        "http://home.clara.net/koogy/sarah/disco/035.htm"
+      ],
+      "discogs_release_id": 980710,
+      "cover_bytes": 104578
+    },
+    {
+      "catalog": "SARAH 36",
+      "number": 36,
+      "artist": "The Sweetest Ache",
+      "title": "If I Could Shine",
+      "type": "single",
+      "year": 1990,
+      "date": "1990-11-05",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "If I Could Shine"
+        },
+        {
+          "position": "B",
+          "title": "Here Comes The Ocean"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/JDRjLclw6EQjn3dPuC6upYW6EKulOmOJg5XjtjCD1DE/rs:fit/g:sm/q:90/h:591/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5NDEw/NS0xMTkwNDA4NDI2/LmpwZWc.jpeg",
+      "cover_local": "covers/036.jpg",
+      "listen": {
+        "youtube_search": "The Sweetest Ache If I Could Shine Sarah Records",
+        "youtube": "jpb76nl8ueg",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/994105",
+        "http://home.clara.net/koogy/sarah/disco/036.htm"
+      ],
+      "producers": [
+        "The Sweetest Ache"
+      ],
+      "discogs_release_id": 994105,
+      "cover_bytes": 105003
+    },
+    {
+      "catalog": "SARAH 37",
+      "number": 37,
+      "artist": "Even As We Speak",
+      "title": "Nothing Ever Happens",
+      "type": "ep",
+      "year": 1990,
+      "date": "1990-10-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Goes So Slow"
+        },
+        {
+          "position": "A2",
+          "title": "Blue Suburban Skies"
+        },
+        {
+          "position": "AA1",
+          "title": "Bizarre Love Triangle"
+        },
+        {
+          "position": "AA2",
+          "title": "Nothing Ever Happens"
+        },
+        {
+          "position": "AA3",
+          "title": "A Stranger Calls"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/xlWeqY62g5clFv3v2S-gX-LKQf1sYiHUW_MZ2JSf5bs/rs:fit/g:sm/q:90/h:585/w:590/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTM0/NTEtMTE4ODk0NjI5/OC5qcGVn.jpeg",
+      "cover_local": "covers/037.jpg",
+      "listen": {
+        "youtube_search": "Even As We Speak Nothing Ever Happens Sarah Records",
+        "youtube": "KwHgGrkEwnY",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://evenaswespeak.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1053451",
+        "http://home.clara.net/koogy/sarah/disco/037.htm"
+      ],
+      "discogs_release_id": 1053451,
+      "cover_bytes": 68451
+    },
+    {
+      "catalog": "SARAH 38",
+      "number": 38,
+      "artist": "The Field Mice",
+      "title": "So Said Kay",
+      "type": "ep",
+      "year": 1990,
+      "date": "1990-09-00",
+      "format": "10\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Landmark"
+        },
+        {
+          "position": "A2",
+          "title": "Quicksilver"
+        },
+        {
+          "position": "AA1",
+          "title": "Holland Street"
+        },
+        {
+          "position": "AA2",
+          "title": "Indian Ocean"
+        },
+        {
+          "position": "AA3",
+          "title": "So Said Kay"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/Ici8aAFDYksrUWwd3yx-ljD354O27WhtnhSvjZCxcM8/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwMTgy/NC0xNjE0ODc2OTE5/LTc1MzQuanBlZw.jpeg",
+      "cover_local": "covers/038.jpg",
+      "listen": {
+        "youtube_search": "The Field Mice So Said Kay Sarah Records",
+        "youtube": "zSf2Bwzcs3Y",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://thefieldmice.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/401824",
+        "http://home.clara.net/koogy/sarah/disco/038.htm"
+      ],
+      "studio": "Cat Mitcham",
+      "discogs_release_id": 401824,
+      "cover_bytes": 58673
+    },
+    {
+      "catalog": "SARAH 39",
+      "number": 39,
+      "artist": "The Sweetest Ache",
+      "title": "Tell Me How It Feels",
+      "type": "single",
+      "year": 1990,
+      "date": "1990-11-05",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Tell Me How It Feels"
+        },
+        {
+          "position": "B",
+          "title": "Heaven-Scented World"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/nUrTH7UoyUXDlnvEb2hLDaMuiCVaY2PeUxkTGpFocGg/rs:fit/g:sm/q:90/h:535/w:545/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzM0/MC0xMTI1MTI4NTk2/LmpwZw.jpeg",
+      "cover_local": "covers/039.jpg",
+      "listen": {
+        "youtube_search": "The Sweetest Ache Tell Me How It Feels Sarah Records",
+        "youtube": "-CBfau9-Ktw",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/507340",
+        "http://home.clara.net/koogy/sarah/disco/039.htm"
+      ],
+      "producers": [
+        "The Sweetest Ache"
+      ],
+      "discogs_release_id": 507340,
+      "cover_bytes": 31608
+    },
+    {
+      "catalog": "SARAH 40",
+      "number": 40,
+      "artist": "The Springfields",
+      "title": "Wonder",
+      "type": "single",
+      "year": 1991,
+      "date": "1991-01-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Wonder"
+        },
+        {
+          "position": "B",
+          "title": "Tomorrow Ends Today"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/-Huj17bbx-lUrDNo4-QmaW6qdlikm2oEly_BgOP4MHU/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDY1/NS0xNjAyMjk0ODY5/LTYzMDcuanBlZw.jpeg",
+      "cover_local": "covers/040.jpg",
+      "listen": {
+        "youtube_search": "The Springfields Wonder Sarah Records",
+        "youtube": "lJ2Z19sFDOc",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/534655",
+        "http://home.clara.net/koogy/sarah/disco/040.htm"
+      ],
+      "engineers": [
+        "Michael Hausman"
+      ],
+      "discogs_release_id": 534655,
+      "cover_bytes": 90336
+    },
+    {
+      "catalog": "SARAH 41",
+      "number": 41,
+      "artist": "Heavenly",
+      "title": "Our Love Is Heavenly",
+      "type": "single",
+      "year": 1991,
+      "date": "1991-01-07",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Our Love Is Heavenly"
+        },
+        {
+          "position": "B",
+          "title": "Wrap My Arms Around Him"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/FAP7nAtRitiPonHh2_qakFVOWkM6yoX4nO4ecYZcHzI/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwMDQ0/NC0xMjUzMDUzMjg0/LmpwZWc.jpeg",
+      "cover_local": "covers/041.jpg",
+      "listen": {
+        "youtube_search": "Heavenly Our Love Is Heavenly Sarah Records",
+        "youtube": "_fHwVMjZJro",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://heavenly.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/400444",
+        "http://home.clara.net/koogy/sarah/disco/041.htm"
+      ],
+      "producers": [
+        "Heavenly"
+      ],
+      "engineers": [
+        "Richard Haines"
+      ],
+      "discogs_release_id": 400444,
+      "cover_bytes": 171329
+    },
+    {
+      "catalog": "SARAH 42",
+      "number": 42,
+      "artist": "The Orchids",
+      "title": "Penetration EP",
+      "type": "ep",
+      "year": 1991,
+      "date": "1991-02-11",
+      "format": "12\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "How Does That Feel"
+        },
+        {
+          "position": "A2",
+          "title": "Sigh"
+        },
+        {
+          "position": "B1",
+          "title": "Bemused Confused & Bedraggled"
+        },
+        {
+          "position": "B2",
+          "title": "Pelican Blonde"
+        },
+        {
+          "position": "B3",
+          "title": "Tropical Fishbowl"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/wDjjlD51pNpSrAaxQyIIKXdZgYSxog4p6kBTI1UrgfE/rs:fit/g:sm/q:90/h:200/w:193/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NzE2/MjItMTI3MjcwNTY4/MS5qcGVn.jpeg",
+      "cover_local": "covers/042.jpg",
+      "listen": {
+        "youtube_search": "The Orchids Penetration EP Sarah Records",
+        "youtube": "BabgN0Dv8cg",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://theorchids.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1471622",
+        "http://home.clara.net/koogy/sarah/disco/042.htm"
+      ],
+      "studio": "Park Lane Studios",
+      "producers": [
+        "Ian Carmichael"
+      ],
+      "discogs_release_id": 1471622,
+      "cover_bytes": 79840
+    },
+    {
+      "catalog": "SARAH 43",
+      "number": 43,
+      "artist": "Tramway",
+      "title": "Maritime City",
+      "type": "single",
+      "year": 1991,
+      "date": "1991-03-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Maritime City"
+        },
+        {
+          "position": "B1",
+          "title": "Boathouse"
+        },
+        {
+          "position": "B2",
+          "title": "Star"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/gTvwab-3rCmboRKC9I4OXEG5c7C-IuL6N_ta_E92FUk/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5NDEx/Mi0xMTg2MjEyODEx/LmpwZWc.jpeg",
+      "cover_local": "covers/043.jpg",
+      "listen": {
+        "youtube_search": "Tramway Maritime City Sarah Records",
+        "youtube": "wchUUNgarJw",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/994112",
+        "http://home.clara.net/koogy/sarah/disco/043.htm"
+      ],
+      "discogs_release_id": 994112,
+      "cover_bytes": 66326
+    },
+    {
+      "catalog": "SARAH 44",
+      "number": 44,
+      "artist": "The Field Mice",
+      "title": "September's Not So Far Away",
+      "type": "single",
+      "year": 1991,
+      "date": "1991-03-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "September's Not So Far Away"
+        },
+        {
+          "position": "B",
+          "title": "Between Hello And Goodbye"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/PW4ShK8rpMqJfKQCNFwl63Piv-FZEg9vkF-dJiwUmqw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwOTg0/Mi0xMjU2MjAwNzQ4/LmpwZWc.jpeg",
+      "cover_local": "covers/044.jpg",
+      "listen": {
+        "youtube_search": "The Field Mice September's Not So Far Away Sarah Records",
+        "youtube": "JdIF0DpTGNE",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://thefieldmice.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/409842",
+        "http://home.clara.net/koogy/sarah/disco/044.htm"
+      ],
+      "discogs_release_id": 409842,
+      "cover_bytes": 68330
+    },
+    {
+      "catalog": "SARAH 45",
+      "number": 45,
+      "artist": "Gentle Despite",
+      "title": "Torment To Me",
+      "type": "single",
+      "year": 1991,
+      "date": "1991-05-07",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Torment To Me"
+        },
+        {
+          "position": "A2",
+          "title": "Bittersweet Kiss"
+        },
+        {
+          "position": "B",
+          "title": "Shadow Of A Girl"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/hoFssR6VRmIco5aXDf4UaD78E_GoEm9AWA4eQwgsSKs/rs:fit/g:sm/q:90/h:530/w:541/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDY3/NS0xMTI4NzI3NzIx/LmpwZWc.jpeg",
+      "cover_local": "covers/045.jpg",
+      "listen": {
+        "youtube_search": "Gentle Despite Torment To Me Sarah Records",
+        "youtube": "gsh1o73yQ9w",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/534675",
+        "http://home.clara.net/koogy/sarah/disco/045.htm"
+      ],
+      "studio": "Woodhouse Studios, Leeds",
+      "engineers": [
+        "Alric (2)"
+      ],
+      "discogs_release_id": 534675,
+      "cover_bytes": 101162
+    },
+    {
+      "catalog": "SARAH 46",
+      "number": 46,
+      "artist": "St. Christopher",
+      "title": "Say Yes To Everything",
+      "type": "single",
+      "year": 1991,
+      "date": "1991-05-07",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Say Yes To Everything",
+          "duration": "4:26"
+        },
+        {
+          "position": "B",
+          "title": "It's Snowing On The Moon",
+          "duration": "2:59"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/HH44Erv1sX4f4TwQZKJSkrZMhNAMKklKPLd9qTSZe1g/rs:fit/g:sm/q:90/h:529/w:539/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMDMw/Ny0xMTI1NTk3NzA0/LmpwZWc.jpeg",
+      "cover_local": "covers/046.jpg",
+      "listen": {
+        "youtube_search": "St. Christopher Say Yes To Everything Sarah Records",
+        "youtube": "k61Fm953YYA",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/510307",
+        "http://home.clara.net/koogy/sarah/disco/046.htm"
+      ],
+      "discogs_release_id": 510307,
+      "cover_bytes": 30158
+    },
+    {
+      "catalog": "SARAH 47",
+      "number": 47,
+      "artist": "The Sweetest Ache",
+      "title": "Sickening",
+      "type": "single",
+      "year": 1991,
+      "date": "1991-05-28",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Everlasting"
+        },
+        {
+          "position": "B",
+          "title": "Sickening"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/s7oohiM2KOPQWN_qEraa_yszp7GaOQx3U3PTBWVuDVo/rs:fit/g:sm/q:90/h:529/w:538/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzM1/Ni0xMTI1MTMxMDY2/LmpwZw.jpeg",
+      "cover_local": "covers/047.jpg",
+      "listen": {
+        "youtube_search": "The Sweetest Ache Sickening Sarah Records",
+        "youtube": "pS6F_Izdtlo",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/507356",
+        "http://home.clara.net/koogy/sarah/disco/047.htm"
+      ],
+      "discogs_release_id": 507356,
+      "cover_bytes": 18891
+    },
+    {
+      "catalog": "SARAH 48",
+      "number": 48,
+      "artist": "The Wake",
+      "title": "Major John",
+      "type": "single",
+      "year": 1991,
+      "date": "1991-07-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Major John"
+        },
+        {
+          "position": "B",
+          "title": "Lousy Pop Group"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/X0YXnRP1OioiZXZLSN2AHTuDxcxcry9cYVDlRhG2PFc/rs:fit/g:sm/q:90/h:532/w:539/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzQ0/NC0xMTI1MTQyNTQz/LmpwZw.jpeg",
+      "cover_local": "covers/048.jpg",
+      "listen": {
+        "youtube_search": "The Wake Major John Sarah Records",
+        "youtube": "ckxP-qNLyBE",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://thewake.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/507444",
+        "http://home.clara.net/koogy/sarah/disco/048.htm"
+      ],
+      "producers": [
+        "Duncan Cameron (2)",
+        "The Wake"
+      ],
+      "discogs_release_id": 507444,
+      "cover_bytes": 60752
+    },
+    {
+      "catalog": "SARAH 49",
+      "number": 49,
+      "artist": "Even As We Speak",
+      "title": "One Step Forward EP",
+      "type": "ep",
+      "year": 1991,
+      "date": "1991-07-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "One Step Forward"
+        },
+        {
+          "position": "B1",
+          "title": "Must Be Something Else"
+        },
+        {
+          "position": "B2",
+          "title": "Best Kept Secret"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/gHLj_cPlYOSXwYwiC5F7SuyWJvu9Z2t9LqjOxhhmgVw/rs:fit/g:sm/q:90/h:598/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTM0/NTItMTE4ODk0NTE1/OS5qcGVn.jpeg",
+      "cover_local": "covers/049.jpg",
+      "listen": {
+        "youtube_search": "Even As We Speak One Step Forward EP Sarah Records",
+        "youtube": "iQTieOXr7Bk",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://evenaswespeak.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1053452",
+        "http://home.clara.net/koogy/sarah/disco/049.htm"
+      ],
+      "studio": "Powerhouse Studios",
+      "producers": [
+        "Julian Knowles"
+      ],
+      "discogs_release_id": 1053452,
+      "cover_bytes": 48479
+    },
+    {
+      "catalog": "SARAH 50",
+      "number": 50,
+      "artist": "N/A",
+      "title": "Saropoly",
+      "type": "other",
+      "year": 1991,
+      "date": "1991",
+      "format": "board game",
+      "tracks": [],
+      "notes": "Board game about running an indie label, packaged as a 7\" (non-music catalog item). Sarah's 50th release.",
+      "cover_url": "http://home.clara.net/koogy/sarah/covers/050.gif",
+      "cover_local": "covers/050.jpg",
+      "listen": {
+        "youtube_search": "Sarah Records Saropoly"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "http://home.clara.net/koogy/sarah/disco/050.htm"
+      ],
+      "cover_bytes": 2547
+    },
+    {
+      "catalog": "SARAH 51",
+      "number": 51,
+      "artist": "Heavenly",
+      "title": "So Little Deserve",
+      "type": "single",
+      "year": 1991,
+      "date": "1991-07-29",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "So Little Deserve"
+        },
+        {
+          "position": "B",
+          "title": "I'm Not Scared Of You"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/TO31GtjzyYdGDZAaRcjdHjj9aVeDczWR3ICWtZ8tvI8/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwNTk3/Ni0xMjU2NTk1MTc1/LmpwZWc.jpeg",
+      "cover_local": "covers/051.jpg",
+      "listen": {
+        "youtube_search": "Heavenly So Little Deserve Sarah Records",
+        "youtube": "2Z759X3QerE",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://heavenly.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/405976",
+        "http://home.clara.net/koogy/sarah/disco/051.htm"
+      ],
+      "studio": "Dungeon Studios",
+      "engineers": [
+        "Richard Haines"
+      ],
+      "discogs_release_id": 405976,
+      "cover_bytes": 118177
+    },
+    {
+      "catalog": "SARAH 52",
+      "number": 52,
+      "artist": "Tramway",
+      "title": "Sweet Chariot",
+      "type": "single",
+      "year": 1991,
+      "date": "1991-07-29",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Technical College"
+        },
+        {
+          "position": "B",
+          "title": "Balla"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/ukdvQKVQzCKlIgUTwKdTEHxPA-Or3VSuJ-_W7uluMys/rs:fit/g:sm/q:90/h:532/w:538/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzQz/Ni0xMTI1MTQxODEw/LmpwZw.jpeg",
+      "cover_local": "covers/052.jpg",
+      "listen": {
+        "youtube_search": "Tramway Sweet Chariot Sarah Records",
+        "youtube": "NQHXOZkXYXM",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/507436",
+        "http://home.clara.net/koogy/sarah/disco/052.htm"
+      ],
+      "producers": [
+        "Pete Rowley",
+        "Tramway"
+      ],
+      "discogs_release_id": 507436,
+      "cover_bytes": 12378
+    },
+    {
+      "catalog": "SARAH 53",
+      "number": 53,
+      "artist": "Secret Shine",
+      "title": "After Years",
+      "type": "single",
+      "year": 1991,
+      "date": "1991-09-30",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "After Years"
+        },
+        {
+          "position": "A2",
+          "title": "Snowfall Sorrow"
+        },
+        {
+          "position": "B",
+          "title": "Grey Skies"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/8aE1XZNvS-6bsL4iWa_JzaR5LhXqVCoQRx2rNolfvxk/rs:fit/g:sm/q:90/h:530/w:539/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDYx/MS0xMTI4NzI3NzUw/LmpwZWc.jpeg",
+      "cover_local": "covers/053.jpg",
+      "listen": {
+        "youtube_search": "Secret Shine After Years Sarah Records",
+        "youtube": "C3hrm6Xn8gc",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://secretshine.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/534611",
+        "http://home.clara.net/koogy/sarah/disco/053.htm"
+      ],
+      "studio": "Whitehouse Recording Studio",
+      "discogs_release_id": 534611,
+      "cover_bytes": 25621
+    },
+    {
+      "catalog": "SARAH 54",
+      "number": 54,
+      "artist": "The Forever People",
+      "title": "Invisible",
+      "type": "single",
+      "year": 1992,
+      "date": "1992-01-06",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Invisible"
+        },
+        {
+          "position": "B",
+          "title": "Sometimes"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/-S6VjTBVN9fsuH08B8amh14UCK-RxSWqgxs9tiMduDw/rs:fit/g:sm/q:90/h:535/w:536/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNTUw/OS0xMTI4NzU2MjMx/LmpwZWc.jpeg",
+      "cover_local": "covers/054.jpg",
+      "listen": {
+        "youtube_search": "The Forever People Invisible Sarah Records",
+        "youtube": "7Ka6gHwhrY8",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/535509",
+        "http://home.clara.net/koogy/sarah/disco/054.htm"
+      ],
+      "discogs_release_id": 535509,
+      "cover_bytes": 79854
+    },
+    {
+      "catalog": "SARAH 55",
+      "number": 55,
+      "artist": "Blueboy",
+      "title": "Clearer",
+      "type": "single",
+      "year": 1991,
+      "date": "1991-09-30",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Clearer",
+          "duration": "3:51"
+        },
+        {
+          "position": "B",
+          "title": "Alison",
+          "duration": "4:07"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/Z1SvQ55TM_nJVA9mU-V4ljQy3W3JzSvzty2evx_tDL4/rs:fit/g:sm/q:90/h:532/w:541/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzMy/NS0xMTI1MTI2MzU0/LmpwZw.jpeg",
+      "cover_local": "covers/055.jpg",
+      "listen": {
+        "youtube_search": "Blueboy Clearer Sarah Records",
+        "youtube": "XF3e5wFA27o",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://blueboy.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/507325",
+        "http://home.clara.net/koogy/sarah/disco/055.htm"
+      ],
+      "studio": "The White House, Weston-Super-Mare and at La-Di-Da Studios, Brighton",
+      "discogs_release_id": 507325,
+      "cover_bytes": 102256
+    },
+    {
+      "catalog": "SARAH 56",
+      "number": 56,
+      "artist": "Brighter",
+      "title": "Half-Hearted",
+      "type": "single",
+      "year": 1991,
+      "date": "1991-09-30",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Poppy Day"
+        },
+        {
+          "position": "A2",
+          "title": "Half-Hearted"
+        },
+        {
+          "position": "B",
+          "title": "So You Said"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/pzVtEjVO1BJeZxGKoUuXdeBFIMMhLPEpbB_6Qdj16D0/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5NDA4/NS0xMTg2MjEzOTM3/LmpwZWc.jpeg",
+      "cover_local": "covers/056.jpg",
+      "listen": {
+        "youtube_search": "Brighter Half-Hearted Sarah Records",
+        "youtube": "lrdrOTcxy64",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/994085",
+        "http://home.clara.net/koogy/sarah/disco/056.htm"
+      ],
+      "studio": "The White House, Weston-Super-Mare",
+      "discogs_release_id": 994085,
+      "cover_bytes": 52767
+    },
+    {
+      "catalog": "SARAH 57",
+      "number": 57,
+      "artist": "The Field Mice",
+      "title": "Missing The Moon",
+      "type": "ep",
+      "year": 1991,
+      "date": "1991-09-16",
+      "format": "12\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Missing The Moon"
+        },
+        {
+          "position": "B1",
+          "title": "A Wrong Turn And Raindrops"
+        },
+        {
+          "position": "B2",
+          "title": "An Earlier Autumn"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/AKLiBAibdfYfd6NC0gqUoJ9GF96kFimLScbpknC_rtQ/rs:fit/g:sm/q:90/h:600/w:588/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2OTIz/Mi0xNDIwMjMwODkw/LTM2OTMuanBlZw.jpeg",
+      "cover_local": "covers/057.jpg",
+      "listen": {
+        "youtube_search": "The Field Mice Missing The Moon Sarah Records",
+        "youtube": "0HgffFOL32s",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://thefieldmice.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/169232",
+        "http://home.clara.net/koogy/sarah/disco/057.htm"
+      ],
+      "engineers": [
+        "Ian Catt"
+      ],
+      "discogs_release_id": 169232,
+      "cover_bytes": 91080
+    },
+    {
+      "catalog": "SARAH 58",
+      "number": 58,
+      "artist": "The Hit Parade",
+      "title": "In Gunnersbury Park",
+      "type": "single",
+      "year": 1991,
+      "date": "1992-01-06",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "In Gunnersbury Park"
+        },
+        {
+          "position": "B",
+          "title": "Harvey"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/OMi7yRbVaaX_LOpVUXJ1KswjKM-OuQ3Clvh4v5IzPH4/rs:fit/g:sm/q:90/h:530/w:538/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDY1/NC0xMTI4NzU1Mjgx/LmpwZWc.jpeg",
+      "cover_local": "covers/058.jpg",
+      "listen": {
+        "youtube_search": "The Hit Parade In Gunnersbury Park Sarah Records",
+        "youtube": "R9ItmzUOPUU",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/534654",
+        "http://home.clara.net/koogy/sarah/disco/058.htm"
+      ],
+      "producers": [
+        "Raymond Watts"
+      ],
+      "discogs_release_id": 534654,
+      "cover_bytes": 64566
+    },
+    {
+      "catalog": "SARAH 59",
+      "number": 59,
+      "artist": "Even As We Speak",
+      "title": "Beautiful Day",
+      "type": "single",
+      "year": 1992,
+      "date": "1992-01-06",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Beautiful Day"
+        },
+        {
+          "position": "B",
+          "title": "Nothing Much At All"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/vVSfBJSxT2PUlfoxeW_Zhk0ayULLp_-5Ac0d8l3X_fY/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyNzA1/MC0xMTczNjg5Nzg2/LmpwZWc.jpeg",
+      "cover_local": "covers/059.jpg",
+      "listen": {
+        "youtube_search": "Even As We Speak Beautiful Day Sarah Records",
+        "youtube": "X925p8s8Rqo",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://evenaswespeak.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/927050",
+        "http://home.clara.net/koogy/sarah/disco/059.htm"
+      ],
+      "studio": "Powerhouse Studios",
+      "producers": [
+        "Julian Knowles"
+      ],
+      "engineers": [
+        "Julian Knowles"
+      ],
+      "discogs_release_id": 927050,
+      "cover_bytes": 139277
+    },
+    {
+      "catalog": "SARAH 60",
+      "number": 60,
+      "artist": "Another Sunny Day",
+      "title": "New Year's Honours",
+      "type": "single",
+      "year": 1992,
+      "date": "1992-03-16",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "New Year's Honours"
+        },
+        {
+          "position": "B",
+          "title": "I Don't Suppose I'll Get A Second Chance"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/cvyqh_0QudGKQ6ilmR0vUfLgUGFSI_Hvfig3chTSEro/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTkw/NDEtMTQ2NzY1NDk5/Mi0zNzE0LmpwZWc.jpeg",
+      "cover_local": "covers/060.jpg",
+      "listen": {
+        "youtube_search": "Another Sunny Day New Year's Honours Sarah Records",
+        "youtube": "C_5q8i-DHes",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://anothersunnyday.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1559041",
+        "http://home.clara.net/koogy/sarah/disco/060.htm"
+      ],
+      "engineers": [
+        "Ian Catt"
+      ],
+      "discogs_release_id": 1559041,
+      "cover_bytes": 55987
+    },
+    {
+      "catalog": "SARAH 61",
+      "number": 61,
+      "artist": "Secret Shine",
+      "title": "Ephemeral",
+      "type": "single",
+      "year": 1992,
+      "date": "1992-04-06",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Honey Sweet",
+          "duration": "4:04"
+        },
+        {
+          "position": "B",
+          "title": "Secret Shine",
+          "duration": "4:09"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/S-NmUv1Mll9qxLCHErED3cU-fbtvmxNuva-E5qu-0D4/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDYz/My0xNzAzMjg0MDE2/LTk3OTQuanBlZw.jpeg",
+      "cover_local": "covers/061.jpg",
+      "listen": {
+        "youtube_search": "Secret Shine Ephemeral Sarah Records",
+        "youtube": "9VIsgueP6JI",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://secretshine.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/534633",
+        "http://home.clara.net/koogy/sarah/disco/061.htm"
+      ],
+      "discogs_release_id": 534633,
+      "cover_bytes": 49118
+    },
+    {
+      "catalog": "SARAH 62",
+      "number": 62,
+      "artist": "The Rosaries",
+      "title": "Forever EP",
+      "type": "ep",
+      "year": 1992,
+      "date": "1992-05-11",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Leaving",
+          "duration": "4:04"
+        },
+        {
+          "position": "B1",
+          "title": "Anything",
+          "duration": "4:49"
+        },
+        {
+          "position": "B2",
+          "title": "Ivory Tower",
+          "duration": "2:36"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/qFkXHXqNKYudAjmM0lZlqX2oyn3WJBPr0_sat6qijxA/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzQ5/NDYtMTcwNDI5MjIz/NS00MTk1LmpwZWc.jpeg",
+      "cover_local": "covers/062.jpg",
+      "listen": {
+        "youtube_search": "The Rosaries Forever EP Sarah Records",
+        "youtube": "EyBWGV4ILzM",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1374946",
+        "http://home.clara.net/koogy/sarah/disco/062.htm"
+      ],
+      "studio": "The White House, Weston-Super-Mare",
+      "discogs_release_id": 1374946,
+      "cover_bytes": 80309
+    },
+    {
+      "catalog": "SARAH 63",
+      "number": 63,
+      "artist": "The Sugargliders",
+      "title": "Letter From A Lifeboat",
+      "type": "single",
+      "year": 1992,
+      "date": "1992-05-11",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Letter From A Lifeboat"
+        },
+        {
+          "position": "B1",
+          "title": "Strong"
+        },
+        {
+          "position": "B2",
+          "title": "What We Had Hoped"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/njisudDMqVFUrprBeaiu6_ua6X_slmds42JpITvPFFc/rs:fit/g:sm/q:90/h:532/w:541/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMDMx/OS0xMTI1NTk5NTU5/LmpwZWc.jpeg",
+      "cover_local": "covers/063.jpg",
+      "listen": {
+        "youtube_search": "The Sugargliders Letter From A Lifeboat Sarah Records",
+        "youtube": "4C4n1xw8FeU",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/510319",
+        "http://home.clara.net/koogy/sarah/disco/063.htm"
+      ],
+      "studio": "C'est Ca Studios",
+      "producers": [
+        "Adam Dennis",
+        "Mark Murphy (2)",
+        "Siiri Metsar"
+      ],
+      "discogs_release_id": 510319,
+      "cover_bytes": 45695
+    },
+    {
+      "catalog": "SARAH 64",
+      "number": 64,
+      "artist": "The Harvest Ministers",
+      "title": "You Do My World The World Of Good",
+      "type": "single",
+      "year": 1992,
+      "date": "1992",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "You Do My World The World Of Good"
+        },
+        {
+          "position": "B",
+          "title": "Petticoats"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/h3v1AfONOp32zEH3gJyDAAuwthNeiiy0JGwf7Kju4B8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMzg3/NjgtMTI2MDAxMjkx/OC5qcGVn.jpeg",
+      "cover_local": "covers/064.jpg",
+      "listen": {
+        "youtube_search": "The Harvest Ministers You Do My World The World Of Good Sarah Records",
+        "youtube": "mdGn8ZNhxJw",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://theharvestministers.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1338768",
+        "http://home.clara.net/koogy/sarah/disco/064.htm"
+      ],
+      "studio": "BackBeat Studios, Maynooth, County Kildare",
+      "discogs_release_id": 1338768,
+      "cover_bytes": 124602
+    },
+    {
+      "catalog": "SARAH 65",
+      "number": 65,
+      "artist": "Blueboy",
+      "title": "Popkiss",
+      "type": "single",
+      "year": 1992,
+      "date": "1992-08-03",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Popkiss",
+          "duration": "4:17"
+        },
+        {
+          "position": "B1",
+          "title": "Chelsea Guitar",
+          "duration": "2:49"
+        },
+        {
+          "position": "B2",
+          "title": "Fearon",
+          "duration": "4:23"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/LPgsOdpstfHJDH72aJHka5MGn4Hhhv7p8WrqOLpklwQ/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTk5/NTItMTcwMjkzMTM3/OS05NTYzLmpwZWc.jpeg",
+      "cover_local": "covers/065.jpg",
+      "listen": {
+        "youtube_search": "Blueboy Popkiss Sarah Records",
+        "youtube": "pocvsfnRE-E",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://blueboy.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1559952",
+        "http://home.clara.net/koogy/sarah/disco/065.htm"
+      ],
+      "discogs_release_id": 1559952,
+      "cover_bytes": 105298
+    },
+    {
+      "catalog": "SARAH 66",
+      "number": 66,
+      "artist": "The Orchids",
+      "title": "Thaumaturgy",
+      "type": "single",
+      "year": 1992,
+      "date": "1992-09-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Thaumaturgy"
+        },
+        {
+          "position": "B1",
+          "title": "I Was Just Dreaming"
+        },
+        {
+          "position": "B2",
+          "title": "Between Sleeping And Waking"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/bAcXVRDKb3S_rE9vA5VUSUaCaGl2sMH4HQkWlsoyrK4/rs:fit/g:sm/q:90/h:533/w:539/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzM2/MS0xMTI1MTMxNjY5/LmpwZw.jpeg",
+      "cover_local": "covers/066.jpg",
+      "listen": {
+        "youtube_search": "The Orchids Thaumaturgy Sarah Records",
+        "youtube": "9K_UlmkaXCc",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://theorchids.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/507361",
+        "http://home.clara.net/koogy/sarah/disco/066.htm"
+      ],
+      "studio": "Toad Hall Studios",
+      "engineers": [
+        "Ian Carmichael"
+      ],
+      "discogs_release_id": 507361,
+      "cover_bytes": 29539
+    },
+    {
+      "catalog": "SARAH 67",
+      "number": 67,
+      "artist": "The Sugargliders",
+      "title": "Seventeen",
+      "type": "single",
+      "year": 1992,
+      "date": "1992-10-12",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Seventeen"
+        },
+        {
+          "position": "B1",
+          "title": "Aloha Street"
+        },
+        {
+          "position": "B2",
+          "title": "Fruitloopin'"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/_3AOdKapCTODtfElZYTU2rv_8cFLfgbG5UBU5bbR5BA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwNTk3/OS0xMjI5Mjc5Nzc1/LmpwZWc.jpeg",
+      "cover_local": "covers/067.jpg",
+      "listen": {
+        "youtube_search": "The Sugargliders Seventeen Sarah Records",
+        "youtube": "Xw_vQ34iXmQ",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/405979",
+        "http://home.clara.net/koogy/sarah/disco/067.htm"
+      ],
+      "studio": "C'est Ca Studios",
+      "producers": [
+        "Adam Dennis",
+        "Mark Murphy (2)",
+        "Siiri Metsar"
+      ],
+      "discogs_release_id": 405979,
+      "cover_bytes": 115291
+    },
+    {
+      "catalog": "SARAH 68",
+      "number": 68,
+      "artist": "The Harvest Ministers",
+      "title": "Six o'Clock Is Rosary",
+      "type": "single",
+      "year": 1992,
+      "date": "1992-10-19",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Six O'Clock Is Rosary"
+        },
+        {
+          "position": "B",
+          "title": "The First Star"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/1BBz1MNAx3tSJOUIjWzMqPtWeROJLdBdAO77nP4vsdA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMzg3/NzAtMTI2MDAxNDM4/OC5qcGVn.jpeg",
+      "cover_local": "covers/068.jpg",
+      "listen": {
+        "youtube_search": "The Harvest Ministers Six o'Clock Is Rosary Sarah Records",
+        "youtube": "owF_6zDPP7U",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://theharvestministers.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1338770",
+        "http://home.clara.net/koogy/sarah/disco/068.htm"
+      ],
+      "producers": [
+        "Pat O'Donnell",
+        "The Harvest Ministers"
+      ],
+      "engineers": [
+        "Cormac Schollard"
+      ],
+      "discogs_release_id": 1338770,
+      "cover_bytes": 168182
+    },
+    {
+      "catalog": "SARAH 69",
+      "number": 69,
+      "artist": "Brighter",
+      "title": "Disney",
+      "type": "ep",
+      "year": 1992,
+      "date": "1992-10-19",
+      "format": "10\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Killjoy",
+          "duration": "4:14"
+        },
+        {
+          "position": "A2",
+          "title": "British Summertime",
+          "duration": "2:40"
+        },
+        {
+          "position": "B1",
+          "title": "Hope Springs Eternal",
+          "duration": "4:41"
+        },
+        {
+          "position": "B2",
+          "title": "Never Ever",
+          "duration": "2:45"
+        },
+        {
+          "position": "B3",
+          "title": "End",
+          "duration": "2:30"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/U_Zfqc26a4XAWQFPag-KthDgTmulny1AXwvN3_8yw44/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0MzEz/MC0xNTY4MTI0ODgw/LTY3NTIuanBlZw.jpeg",
+      "cover_local": "covers/069.jpg",
+      "listen": {
+        "youtube_search": "Brighter Disney Sarah Records",
+        "youtube": "xbn9Lnryvxo",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/743130",
+        "http://home.clara.net/koogy/sarah/disco/069.htm"
+      ],
+      "discogs_release_id": 743130,
+      "cover_bytes": 134278
+    },
+    {
+      "catalog": "SARAH 70",
+      "number": 70,
+      "artist": "Blueboy",
+      "title": "Cloud Babies",
+      "type": "flexi",
+      "year": 1993,
+      "date": "1993",
+      "format": "6\" flexi",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Cloud Babies",
+          "duration": "2:32"
+        }
+      ],
+      "notes": "Flexidisc plus three mini-fanzines: Just As Good As I Should Be / Nice Boys Prefer Vanilla / I Am Telling You Because You Are Far Away",
+      "cover_url": "https://i.discogs.com/uYEBFfBNTXvFuBuvmgKs65mc0w88T-Ni-gHJCXGkycc/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyMDcz/MC0xMTcyOTYxNjk0/LmpwZWc.jpeg",
+      "cover_local": "covers/070.jpg",
+      "listen": {
+        "youtube_search": "Blueboy Cloud Babies Sarah Records",
+        "youtube": "GiWfNTP1xPg",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://blueboy.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/920730",
+        "http://home.clara.net/koogy/sarah/disco/070.htm"
+      ],
+      "studio": "The Mean Fiddler",
+      "engineers": [
+        "Richard Coulthard"
+      ],
+      "discogs_release_id": 920730,
+      "cover_bytes": 218951
+    },
+    {
+      "catalog": "SARAH 71",
+      "number": 71,
+      "artist": "Secret Shine",
+      "title": "Loveblind",
+      "type": "single",
+      "year": 1993,
+      "date": "1993-03-08",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Loveblind"
+        },
+        {
+          "position": "B",
+          "title": "Way Too High"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/8ItVxhbn7B2Q0ecYkaHxTIPZBzDnSOFoO5DRQPM0Zwc/rs:fit/g:sm/q:90/h:535/w:542/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDYz/NS0xMTI4NzI3NTcw/LmpwZWc.jpeg",
+      "cover_local": "covers/071.jpg",
+      "listen": {
+        "youtube_search": "Secret Shine Loveblind Sarah Records",
+        "youtube": "HsLF1P_6AZE",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://secretshine.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/534635",
+        "http://home.clara.net/koogy/sarah/disco/071.htm"
+      ],
+      "studio": "PIJ Studios",
+      "producers": [
+        "Jamie Gingell",
+        "Scott Purnell"
+      ],
+      "engineers": [
+        "Corin Dingley",
+        "Grant Lyons"
+      ],
+      "discogs_release_id": 534635,
+      "cover_bytes": 35977
+    },
+    {
+      "catalog": "SARAH 72",
+      "number": 72,
+      "artist": "The Sugargliders",
+      "title": "Ahprahran",
+      "type": "single",
+      "year": 1993,
+      "date": "1993-03-15",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Ahprahran"
+        },
+        {
+          "position": "A2",
+          "title": "Corn Circles"
+        },
+        {
+          "position": "B",
+          "title": "Theme From Boxville"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/kQwWwF6K3bjxv4MihP3Ox-pGgVH4b6bGkk1f0-6inY8/rs:fit/g:sm/q:90/h:538/w:540/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMDM2/MC0xMTI1NjAyODUw/LmpwZWc.jpeg",
+      "cover_local": "covers/072.jpg",
+      "listen": {
+        "youtube_search": "The Sugargliders Ahprahran Sarah Records",
+        "youtube": "L4AO1Nyqw0k",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/510360",
+        "http://home.clara.net/koogy/sarah/disco/072.htm"
+      ],
+      "studio": "CAT Music, Mitcham London, December 1992",
+      "producers": [
+        "Ian Catt"
+      ],
+      "discogs_release_id": 510360,
+      "cover_bytes": 29662
+    },
+    {
+      "catalog": "SARAH 73",
+      "number": 73,
+      "artist": "Action Painting!",
+      "title": "Classical Music",
+      "type": "single",
+      "year": 1993,
+      "date": "1993-03-29",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Classical Music"
+        },
+        {
+          "position": "B1",
+          "title": "Sensation No.5"
+        },
+        {
+          "position": "B2",
+          "title": "Hip To Hate"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/VrwD81Cvrk13e7rmYFEUvmaQOq9SWba0D5VJq0-lIpg/rs:fit/g:sm/q:90/h:544/w:545/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMzg5/MC0xMTI0NjQyOTUw/LmpwZw.jpeg",
+      "cover_local": "covers/073.jpg",
+      "listen": {
+        "youtube_search": "Action Painting! Classical Music Sarah Records",
+        "youtube": "oPRIwbJLN_0",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/503890",
+        "http://home.clara.net/koogy/sarah/disco/073.htm"
+      ],
+      "engineers": [
+        "Steve Hoffs"
+      ],
+      "discogs_release_id": 503890,
+      "cover_bytes": 45784
+    },
+    {
+      "catalog": "SARAH 74",
+      "number": 74,
+      "artist": "Blueboy",
+      "title": "Meet Johnny Rave",
+      "type": "single",
+      "year": 1993,
+      "date": "1993-04-26",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Meet Johnny Rave"
+        },
+        {
+          "position": "B1",
+          "title": "Elle"
+        },
+        {
+          "position": "B2",
+          "title": "Air France"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/i--Y0f5SAmUbgf2tTG5bAOupk59-nBVYFOrDty5KqYI/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwODYw/NDktMTM4NjM2Mjk2/My00MzI2LmpwZWc.jpeg",
+      "cover_local": "covers/074.jpg",
+      "listen": {
+        "youtube_search": "Blueboy Meet Johnny Rave Sarah Records",
+        "youtube": "q5pkzplx90o",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://blueboy.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1086049",
+        "http://home.clara.net/koogy/sarah/disco/074.htm"
+      ],
+      "engineers": [
+        "Richard Haines"
+      ],
+      "discogs_release_id": 1086049,
+      "cover_bytes": 95013
+    },
+    {
+      "catalog": "SARAH 75",
+      "number": 75,
+      "artist": "East River Pipe",
+      "title": "Helmet On",
+      "type": "single",
+      "year": 1993,
+      "date": "1993-05-04",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Helmet On"
+        },
+        {
+          "position": "A2",
+          "title": "Happytown"
+        },
+        {
+          "position": "B",
+          "title": "Axl Or Iggy"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/i2nlFFhG_HRpBYFdj_sn9ieEiymYjEqlaDS8DGw9wZo/rs:fit/g:sm/q:90/h:600/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyNzA2/MS0xMTczNjkxMzE2/LmpwZWc.jpeg",
+      "cover_local": "covers/075.jpg",
+      "listen": {
+        "youtube_search": "East River Pipe Helmet On Sarah Records",
+        "youtube": "MyPRH4LdIJ8",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://eastriverpipe.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/927061",
+        "http://home.clara.net/koogy/sarah/disco/075.htm"
+      ],
+      "discogs_release_id": 927061,
+      "cover_bytes": 128425
+    },
+    {
+      "catalog": "SARAH 76",
+      "number": 76,
+      "artist": "Boyracer",
+      "title": "I've Got It And It's Not Worth Having",
+      "type": "ep",
+      "year": 1993,
+      "date": "1993-05-10",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "I've Got It And It's Not Worth Having"
+        },
+        {
+          "position": "A2",
+          "title": "Jesus Suzanne Christ"
+        },
+        {
+          "position": "B1",
+          "title": "Black Fantastic Splitting"
+        },
+        {
+          "position": "B2",
+          "title": "Beautiful Lines"
+        }
+      ],
+      "notes": "Also known as B Is for Boyracer",
+      "cover_url": "https://i.discogs.com/g5Bk1PtO-3BqX7o0qcmQv4znmcTSp0KyiFOuHTlvqT4/rs:fit/g:sm/q:90/h:448/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgwMjEx/NC0xMTYwMjQ3OTA2/LmpwZWc.jpeg",
+      "cover_local": "covers/076.jpg",
+      "listen": {
+        "youtube_search": "Boyracer I've Got It And It's Not Worth Having Sarah Records",
+        "youtube": "J2b7MyTfg7g",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://boyracer.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/802114",
+        "http://home.clara.net/koogy/sarah/disco/076.htm"
+      ],
+      "studio": "Southside Studios (2)",
+      "producers": [
+        "Tim Rippington"
+      ],
+      "engineers": [
+        "Eric M. Superstar",
+        "Tim Rippington"
+      ],
+      "discogs_release_id": 802114,
+      "cover_bytes": 71193
+    },
+    {
+      "catalog": "SARAH 77",
+      "number": 77,
+      "artist": "The Sugargliders",
+      "title": "Trumpet Play",
+      "type": "single",
+      "year": 1993,
+      "date": "1993-05-24",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Trumpet Play"
+        },
+        {
+          "position": "B1",
+          "title": "Unkind"
+        },
+        {
+          "position": "B2",
+          "title": "Beloved"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/zAlkc06wE-bcy8rZWG6y0PmMzF7gEr2bkfC1DPI_cak/rs:fit/g:sm/q:90/h:555/w:546/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4ODYx/NzctMTI5MzQ1NzMy/OS5qcGVn.jpeg",
+      "cover_local": "covers/077.jpg",
+      "listen": {
+        "youtube_search": "The Sugargliders Trumpet Play Sarah Records",
+        "youtube": "KdSm7eTSuv8",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1886177",
+        "http://home.clara.net/koogy/sarah/disco/077.htm"
+      ],
+      "studio": "Satya",
+      "producers": [
+        "Adam Dennis",
+        "Jyoti Mishra",
+        "Siiri Metsar"
+      ],
+      "discogs_release_id": 1886177,
+      "cover_bytes": 69332
+    },
+    {
+      "catalog": "SARAH 78",
+      "number": 78,
+      "artist": "East River Pipe",
+      "title": "She's A Real Good Time",
+      "type": "single",
+      "year": 1993,
+      "date": "1993-06-07",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "She's A Real Good Time"
+        },
+        {
+          "position": "B1",
+          "title": "My Life Is Wrong"
+        },
+        {
+          "position": "B2",
+          "title": "Times Square Go-Go Boy"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/nUUhnm7k6qtIJ5OF4-BBiZ5JigcRCyEWkx2AKdSRJIw/rs:fit/g:sm/q:90/h:341/w:336/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NjU0/ODMtMTIyODgzNzY2/NC5qcGVn.jpeg",
+      "cover_local": "covers/078.jpg",
+      "listen": {
+        "youtube_search": "East River Pipe She's A Real Good Time Sarah Records",
+        "youtube": "-R4wvET7W10",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://eastriverpipe.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1565483",
+        "http://home.clara.net/koogy/sarah/disco/078.htm"
+      ],
+      "discogs_release_id": 1565483,
+      "cover_bytes": 24189
+    },
+    {
+      "catalog": "SARAH 79",
+      "number": 79,
+      "artist": "Even As We Speak",
+      "title": "Blue Eyes Deceiving Me",
+      "type": "ep",
+      "year": 1993,
+      "date": "1993-07-26",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "(All You Find Is) Air"
+        },
+        {
+          "position": "B1",
+          "title": "Getting Faster"
+        },
+        {
+          "position": "B2",
+          "title": "Blue Eyes Deceiving Me"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/icx1MUAjuKUrklfEqYMKYskQa4N5APTXKcJod7t9eR4/rs:fit/g:sm/q:90/h:341/w:336/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NjU2/NDYtMTIyODg0NzMw/OS5qcGVn.jpeg",
+      "cover_local": "covers/079.jpg",
+      "listen": {
+        "youtube_search": "Even As We Speak Blue Eyes Deceiving Me Sarah Records",
+        "youtube": "3UGm5pvLq1Q",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://evenaswespeak.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1565646",
+        "http://home.clara.net/koogy/sarah/disco/079.htm"
+      ],
+      "studio": "Hollybush Farm",
+      "producers": [
+        "Julian Knowles"
+      ],
+      "engineers": [
+        "Chris Howlett",
+        "Darren Warner"
+      ],
+      "discogs_release_id": 1565646,
+      "cover_bytes": 27841
+    },
+    {
+      "catalog": "SARAH 80",
+      "number": 80,
+      "artist": "Blueboy",
+      "title": "Some Gorgeous Accident EP",
+      "type": "ep",
+      "year": 1993,
+      "date": "1993-07-19",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Try Happiness"
+        },
+        {
+          "position": "B1",
+          "title": "A Gentle Sigh"
+        },
+        {
+          "position": "B2",
+          "title": "Stephanie"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/6DoYvBCmnBeviPj6fYyY0UqjRpW0d4BpLyxqXiav4DQ/rs:fit/g:sm/q:90/h:341/w:336/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTk5/NjQtMTIyODQxMTkw/Ny5qcGVn.jpeg",
+      "cover_local": "covers/080.jpg",
+      "listen": {
+        "youtube_search": "Blueboy Some Gorgeous Accident EP Sarah Records",
+        "youtube": "Q7lQ8GziE58",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://blueboy.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1559964",
+        "http://home.clara.net/koogy/sarah/disco/080.htm"
+      ],
+      "engineers": [
+        "Richard Haines"
+      ],
+      "discogs_release_id": 1559964,
+      "cover_bytes": 27090
+    },
+    {
+      "catalog": "SARAH 81",
+      "number": 81,
+      "artist": "Heavenly",
+      "title": "P.U.N.K. Girl",
+      "type": "single",
+      "year": 1993,
+      "date": "1993-07-26",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "P.U.N.K. Girl"
+        },
+        {
+          "position": "B",
+          "title": "Hearts And Crosses"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/4jdq0CyDtc1pczzuiVdZlLgFmoCJzNCgp6jqzvoDwf8/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwMDQ0/NS0xNDkxMDIwNjM4/LTk0MTMuanBlZw.jpeg",
+      "cover_local": "covers/081.jpg",
+      "listen": {
+        "youtube_search": "Heavenly P.U.N.K. Girl Sarah Records",
+        "youtube": "FIyEwA7G8qY",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://heavenly.bandcamp.com/album/atta-girl-digital-only"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/400445",
+        "http://home.clara.net/koogy/sarah/disco/081.htm"
+      ],
+      "studio": "Granny's Studios",
+      "engineers": [
+        "Ian Shaw"
+      ],
+      "discogs_release_id": 400445,
+      "cover_bytes": 98166
+    },
+    {
+      "catalog": "SARAH 82",
+      "number": 82,
+      "artist": "Heavenly",
+      "title": "Atta Girl",
+      "type": "single",
+      "year": 1993,
+      "date": "1993-08-16",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Atta Girl"
+        },
+        {
+          "position": "B1",
+          "title": "Dig Your Own Grave"
+        },
+        {
+          "position": "B2",
+          "title": "So?"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/T6Fpk7uSBeO6BdBWDTiohbtokH74BzK7rLnIyUcyOTA/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwMTYx/My0xNDk1NDM3MDkw/LTYxMTQuanBlZw.jpeg",
+      "cover_local": "covers/082.jpg",
+      "listen": {
+        "youtube_search": "Heavenly Atta Girl Sarah Records",
+        "bandcamp": "https://heavenly.bandcamp.com/album/atta-girl-digital-only",
+        "youtube": "FVpiQkrTPCA",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/401613",
+        "http://home.clara.net/koogy/sarah/disco/082.htm"
+      ],
+      "studio": "Granny's Studios",
+      "engineers": [
+        "Ian Shaw"
+      ],
+      "discogs_release_id": 401613,
+      "cover_bytes": 85748
+    },
+    {
+      "catalog": "SARAH 83",
+      "number": 83,
+      "artist": "The Sugargliders",
+      "title": "Will We Ever Learn?",
+      "type": "single",
+      "year": 1993,
+      "date": "1993-09-07",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Will We Ever Learn?"
+        },
+        {
+          "position": "B1",
+          "title": "Dolly"
+        },
+        {
+          "position": "B2",
+          "title": "Reinventing Penicillin"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/cwzDxE93SkGEJ6e4JJ1W5mXizleW_hF1zuimyHhUwh0/rs:fit/g:sm/q:90/h:360/w:358/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg5Nzcw/My0xMTcwNTMyNDg3/LmpwZWc.jpeg",
+      "cover_local": "covers/083.jpg",
+      "listen": {
+        "youtube_search": "The Sugargliders Will We Ever Learn? Sarah Records",
+        "youtube": "PvymLvUopXM",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/897703",
+        "http://home.clara.net/koogy/sarah/disco/083.htm"
+      ],
+      "studio": "C'est Ca Studios",
+      "producers": [
+        "Adam Dennis",
+        "Mark Murphy (2)",
+        "Siiri Metsar"
+      ],
+      "discogs_release_id": 897703,
+      "cover_bytes": 66124
+    },
+    {
+      "catalog": "SARAH 84",
+      "number": 84,
+      "artist": "The Harvest Ministers",
+      "title": "If It Kills Me And It Will",
+      "type": "single",
+      "year": 1993,
+      "date": "1993-08-23",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "If It Kills Me And It Will"
+        },
+        {
+          "position": "B",
+          "title": "Can't Go It Alone"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/XddmlImfFlqFsdHOX_IG7esWaEsGED2F8VHoKNlHz0s/rs:fit/g:sm/q:90/h:298/w:310/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NjMy/My0xMTY1ODgzNDMw/LmpwZWc.jpeg",
+      "cover_local": "covers/084.jpg",
+      "listen": {
+        "youtube_search": "The Harvest Ministers If It Kills Me And It Will Sarah Records",
+        "youtube": "5Cn78de-qek",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://theharvestministers.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/856323",
+        "http://home.clara.net/koogy/sarah/disco/084.htm"
+      ],
+      "studio": "Lansdowne Road Studios, Dublin",
+      "producers": [
+        "Pat O'Donnell"
+      ],
+      "engineers": [
+        "Tom O'Donoghue"
+      ],
+      "discogs_release_id": 856323,
+      "cover_bytes": 17908
+    },
+    {
+      "catalog": "SARAH 85",
+      "number": 85,
+      "artist": "Boyracer",
+      "title": "From Purity To Purgatory EP",
+      "type": "ep",
+      "year": 1993,
+      "date": "1993-10-04",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Cog"
+        },
+        {
+          "position": "A2",
+          "title": "Untitled"
+        },
+        {
+          "position": "A3",
+          "title": "David Byrne"
+        },
+        {
+          "position": "B1",
+          "title": "Distraction"
+        },
+        {
+          "position": "B2",
+          "title": "Doorframe"
+        },
+        {
+          "position": "B3",
+          "title": "Close"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/aBLU_QSgaXTVi_sGnblQrYIilCIAiRDAJouj78aK0Lg/rs:fit/g:sm/q:90/h:450/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgwMjEz/NC0xMTYwMjQ5MTUy/LmpwZWc.jpeg",
+      "cover_local": "covers/085.jpg",
+      "listen": {
+        "youtube_search": "Boyracer From Purity To Purgatory EP Sarah Records",
+        "youtube": "h0-DoN4ea-0",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://boyracer.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/802134",
+        "http://home.clara.net/koogy/sarah/disco/085.htm"
+      ],
+      "studio": "Southside Studios (2)",
+      "producers": [
+        "Tim Nik"
+      ],
+      "engineers": [
+        "Tim Nik"
+      ],
+      "discogs_release_id": 802134,
+      "cover_bytes": 57774
+    },
+    {
+      "catalog": "SARAH 86",
+      "number": 86,
+      "artist": "The Sugargliders",
+      "title": "Top 40 Sculpture",
+      "type": "single",
+      "year": 1993,
+      "date": "1994-01-17",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Top 40 Sculpture"
+        },
+        {
+          "position": "B1",
+          "title": "90 Days Of Moths & Rust"
+        },
+        {
+          "position": "B2",
+          "title": "Yr. Jacket"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/zdPtUGLTaTn1VdDxXCGIouS_D879aXXZ8cmG2DmgAs4/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzOTgx/Ny0xMTc1NDM4MjI1/LmpwZWc.jpeg",
+      "cover_local": "covers/086.jpg",
+      "listen": {
+        "youtube_search": "The Sugargliders Top 40 Sculpture Sarah Records",
+        "youtube": "G7qocj9yrGI",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/939817",
+        "http://home.clara.net/koogy/sarah/disco/086.htm"
+      ],
+      "studio": "Sing Sing, Melbourne, Australia, July 1993",
+      "producers": [
+        "Adam Dennis",
+        "Kaj Dahlstrom",
+        "Mark Murphy (2)"
+      ],
+      "discogs_release_id": 939817,
+      "cover_bytes": 214462
+    },
+    {
+      "catalog": "SARAH 87",
+      "number": 87,
+      "artist": "Action Painting!",
+      "title": "Mustard Gas",
+      "type": "single",
+      "year": 1993,
+      "date": "1993-11-01",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Mustard Gas"
+        },
+        {
+          "position": "B1",
+          "title": "Art Student"
+        },
+        {
+          "position": "B2",
+          "title": "Collapsing Cloud"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/2GHK3mlDZaFBXx64qrHiD6wglOeOP5ByVLo7lzu7qEc/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NjMy/MC0xNDgyNTI5NzE0/LTc5NzkuanBlZw.jpeg",
+      "cover_local": "covers/087.jpg",
+      "listen": {
+        "youtube_search": "Action Painting! Mustard Gas Sarah Records",
+        "youtube": "hibQoCAGzgk",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/856320",
+        "http://home.clara.net/koogy/sarah/disco/087.htm"
+      ],
+      "producers": [
+        "Finn Steele"
+      ],
+      "discogs_release_id": 856320,
+      "cover_bytes": 82895
+    },
+    {
+      "catalog": "SARAH 88",
+      "number": 88,
+      "artist": "Blueboy",
+      "title": "River",
+      "type": "single",
+      "year": 1994,
+      "date": "1994-04-11",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "River",
+          "duration": "5:08"
+        },
+        {
+          "position": "B1",
+          "title": "Nimbus",
+          "duration": "4:21"
+        },
+        {
+          "position": "B2",
+          "title": "Hit",
+          "duration": "5:08"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/FUA7FPnrJliWvDPJOOKHy3rEfw3RZaIhHaiohEN0hEo/rs:fit/g:sm/q:90/h:403/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDUy/NDYtMTIyMDMzMDI0/MS5qcGVn.jpeg",
+      "cover_local": "covers/088.jpg",
+      "listen": {
+        "youtube_search": "Blueboy River Sarah Records",
+        "youtube": "eihZCS0EGk0",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://blueboy.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1445246",
+        "http://home.clara.net/koogy/sarah/disco/088.htm"
+      ],
+      "engineers": [
+        "Richard Haines"
+      ],
+      "discogs_release_id": 1445246,
+      "cover_bytes": 43015
+    },
+    {
+      "catalog": "SARAH 89",
+      "number": 89,
+      "artist": "Secret Shine",
+      "title": "Greater Than God EP",
+      "type": "ep",
+      "year": 1994,
+      "date": "1994-05-03",
+      "format": "10\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Liquid Indigo"
+        },
+        {
+          "position": "A2",
+          "title": "Ignite The Air"
+        },
+        {
+          "position": "B1",
+          "title": "Deep Thinker"
+        },
+        {
+          "position": "B2",
+          "title": "Elizabeth's April"
+        },
+        {
+          "position": "B3",
+          "title": "Last Words"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/oytdKdUgqf4mYziYSM9vHSRwrmKzwW0C4DzaO1WtLbM/rs:fit/g:sm/q:90/h:599/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjk0/NjUtMTI1OTUzNDg3/OS5qcGVn.jpeg",
+      "cover_local": "covers/089.jpg",
+      "listen": {
+        "youtube_search": "Secret Shine Greater Than God EP Sarah Records",
+        "youtube": "zm2P6deIdqc",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://secretshine.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/2029465",
+        "http://home.clara.net/koogy/sarah/disco/089.htm"
+      ],
+      "producers": [
+        "Corin Dingley",
+        "Jamie Gingell",
+        "Scott Purnell"
+      ],
+      "engineers": [
+        "Corin Dingley"
+      ],
+      "discogs_release_id": 2029465,
+      "cover_bytes": 79998
+    },
+    {
+      "catalog": "SARAH 90",
+      "number": 90,
+      "artist": "The Hit Parade",
+      "title": "Autobiography",
+      "type": "single",
+      "year": 1994,
+      "date": "1994-05-00",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Autobiography",
+          "duration": "3:22"
+        },
+        {
+          "position": "B1",
+          "title": "The Dispossessed",
+          "duration": "3:04"
+        },
+        {
+          "position": "B2",
+          "title": "Now The Holiday's Over",
+          "duration": "3:15"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/r7E_DD-TfSd_EqcaPRz5N5a3rBGHFaj7EaqWrT76KKg/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDA1/MjMtMTU5ODAzNTA1/NS0xMzIyLmpwZWc.jpeg",
+      "cover_local": "covers/090.jpg",
+      "listen": {
+        "youtube_search": "The Hit Parade Autobiography Sarah Records",
+        "youtube": "4QtLa9nrHtY",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/2000523",
+        "http://home.clara.net/koogy/sarah/disco/090.htm"
+      ],
+      "engineers": [
+        "Raymond Watts"
+      ],
+      "discogs_release_id": 2000523,
+      "cover_bytes": 99603
+    },
+    {
+      "catalog": "SARAH 91",
+      "number": 91,
+      "artist": "Ivy",
+      "title": "Wish You Would",
+      "type": "single",
+      "year": 1994,
+      "date": "1994-06-27",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Wish You Would"
+        },
+        {
+          "position": "B",
+          "title": "Nowhere To Mourn"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/pCmkoayiXOO2hBI2K4wl1FSW6L6F-GxW_tez4ikBVa8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwODM2/MTItMTM0MzE5MzI3/MS0yOTYzLmpwZWc.jpeg",
+      "cover_local": "covers/091.jpg",
+      "listen": {
+        "youtube_search": "Ivy Wish You Would Sarah Records",
+        "youtube": "sW45GVUb2cc",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/2083612",
+        "http://home.clara.net/koogy/sarah/disco/091.htm"
+      ],
+      "studio": "Purple Rain Studios",
+      "discogs_release_id": 2083612,
+      "cover_bytes": 100904
+    },
+    {
+      "catalog": "SARAH 92",
+      "number": 92,
+      "artist": "Ivy",
+      "title": "Avenge",
+      "type": "single",
+      "year": 1994,
+      "date": "1994-07-25",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Avenge"
+        },
+        {
+          "position": "B",
+          "title": "Sound The Deep Waters"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/0od_HO2mF7IHuGukqYkAVIsj-qJXOLtcANAeIpicsXs/rs:fit/g:sm/q:90/h:584/w:590/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NjMz/MC0xMjA2NzIwMDA2/LmpwZWc.jpeg",
+      "cover_local": "covers/092.jpg",
+      "listen": {
+        "youtube_search": "Ivy Avenge Sarah Records",
+        "youtube": "LFvJtHDN2X8",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/856330",
+        "http://home.clara.net/koogy/sarah/disco/092.htm"
+      ],
+      "studio": "Purple Rain Studios",
+      "discogs_release_id": 856330,
+      "cover_bytes": 94080
+    },
+    {
+      "catalog": "SARAH 93",
+      "number": 93,
+      "artist": "Aberdeen",
+      "title": "Byron",
+      "type": "single",
+      "year": 1994,
+      "date": "1994-10-03",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Byron"
+        },
+        {
+          "position": "B1",
+          "title": "Toy Tambourine"
+        },
+        {
+          "position": "B2",
+          "title": "Fran"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/2TNZxqyD-7BYA3Yc3vxEdzVjMNNM_SiKh37FN0DLCdw/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxOTk0/OS0xMzMxNzUzNjI3/LmpwZWc.jpeg",
+      "cover_local": "covers/093.jpg",
+      "listen": {
+        "youtube_search": "Aberdeen Byron Sarah Records",
+        "youtube": "zb6NsYK2hII",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://aberdeen.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/419949",
+        "http://home.clara.net/koogy/sarah/disco/093.htm"
+      ],
+      "producers": [
+        "Aberdeen",
+        "Jamie Seyberth"
+      ],
+      "engineers": [
+        "Jamie Seyberth"
+      ],
+      "discogs_release_id": 419949,
+      "cover_bytes": 180819
+    },
+    {
+      "catalog": "SARAH 94",
+      "number": 94,
+      "artist": "Northern Picture Library",
+      "title": "Paris",
+      "type": "single",
+      "year": 1994,
+      "date": "1994-09-19",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Paris"
+        },
+        {
+          "position": "B",
+          "title": "Norfolk Windmills"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/dbXCApwEJZbmKZVDU_-MENwX78OZGzXDl4EOVjLp3gg/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4ODMy/MDctMTI2OTA0MTMz/OS5qcGVn.jpeg",
+      "cover_local": "covers/094.jpg",
+      "listen": {
+        "youtube_search": "Northern Picture Library Paris Sarah Records",
+        "youtube": "lNmDpUDmj8Q",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://northernpicturelibrary.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1883207",
+        "http://home.clara.net/koogy/sarah/disco/094.htm"
+      ],
+      "discogs_release_id": 1883207,
+      "cover_bytes": 86589
+    },
+    {
+      "catalog": "SARAH 95",
+      "number": 95,
+      "artist": "Northern Picture Library",
+      "title": "Last September's Farewell Kiss",
+      "type": "single",
+      "year": 1994,
+      "date": "1994-10-17",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Last September's Farewell Kiss"
+        },
+        {
+          "position": "B",
+          "title": "Signs"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/29mrca_UPFmJHQjO-FtMvZdO6x7eeE_K-CB6IyPLUY8/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4ODMy/MDgtMTI2OTA0MDky/NC5qcGVn.jpeg",
+      "cover_local": "covers/095.jpg",
+      "listen": {
+        "youtube_search": "Northern Picture Library Last September's Farewell Kiss Sarah Records",
+        "youtube": "x-zKglNh3cw",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://northernpicturelibrary.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1883208",
+        "http://home.clara.net/koogy/sarah/disco/095.htm"
+      ],
+      "discogs_release_id": 1883208,
+      "cover_bytes": 92692
+    },
+    {
+      "catalog": "SARAH 96",
+      "number": 96,
+      "artist": "Boyracer",
+      "title": "Pure Hatred 96",
+      "type": "ep",
+      "year": 1994,
+      "date": "1994-09-21",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "He Gets Me So Hard"
+        },
+        {
+          "position": "A2",
+          "title": "Wanting For All The Wrong Reasons"
+        },
+        {
+          "position": "A3",
+          "title": "Denatured"
+        },
+        {
+          "position": "B1",
+          "title": "E.J.K."
+        },
+        {
+          "position": "B2",
+          "title": "Don't Just Don't"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/SFy1_qCFK_8wslBjXVuKkLD1HkGXAETdhTPwA7d8Xfg/rs:fit/g:sm/q:90/h:600/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2MzI1/OS0xNTk4Mjk2NjIw/LTQ5MzUuanBlZw.jpeg",
+      "cover_local": "covers/096.jpg",
+      "listen": {
+        "youtube_search": "Boyracer Pure Hatred 96 Sarah Records",
+        "youtube": "lNll1z0VdJk",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://boyracer.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/563259",
+        "http://home.clara.net/koogy/sarah/disco/096.htm"
+      ],
+      "studio": "Southside Studios (2)",
+      "engineers": [
+        "Tim Rippington"
+      ],
+      "discogs_release_id": 563259,
+      "cover_bytes": 92608
+    },
+    {
+      "catalog": "SARAH 97",
+      "number": 97,
+      "artist": "Aberdeen",
+      "title": "Fireworks",
+      "type": "single",
+      "year": 1994,
+      "date": "1995-03-20",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Fireworks"
+        },
+        {
+          "position": "B1",
+          "title": "When It Doesn't Matter"
+        },
+        {
+          "position": "B2",
+          "title": "Super Sunny Summer"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/AGXeeBJnAKtxZOUW0OT-T4wXvjNZkuz_pvtBm9ItMCU/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxOTk1/MS0xMzMxNzU0MzU4/LmpwZWc.jpeg",
+      "cover_local": "covers/097.jpg",
+      "listen": {
+        "youtube_search": "Aberdeen Fireworks Sarah Records",
+        "youtube": "6BZmXWbUGxM",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://aberdeen.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/419951",
+        "http://home.clara.net/koogy/sarah/disco/097.htm"
+      ],
+      "producers": [
+        "Aberdeen",
+        "Steve McClintic"
+      ],
+      "engineers": [
+        "Steve McClintic"
+      ],
+      "discogs_release_id": 419951,
+      "cover_bytes": 92295
+    },
+    {
+      "catalog": "SARAH 98",
+      "number": 98,
+      "artist": "Shelley",
+      "title": "Reproduction Is Pollution",
+      "type": "single",
+      "year": 1995,
+      "date": "1995-04-03",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A1",
+          "title": "Reproduction Is Pollution"
+        },
+        {
+          "position": "A2",
+          "title": "Prejudice"
+        },
+        {
+          "position": "B",
+          "title": "Hero"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/CNlNfHa14dJLo92ottjaQV4uX2z5HlyPdy5PvRGsWsk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5ODMx/My0xMTQ0NTczMzEx/LmpwZWc.jpeg",
+      "cover_local": "covers/098.jpg",
+      "listen": {
+        "youtube_search": "Shelley Reproduction Is Pollution Sarah Records",
+        "youtube": "4sFAKsAIgCc",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/198313",
+        "http://home.clara.net/koogy/sarah/disco/098.htm"
+      ],
+      "discogs_release_id": 198313,
+      "cover_bytes": 39655
+    },
+    {
+      "catalog": "SARAH 99",
+      "number": 99,
+      "artist": "Blueboy",
+      "title": "Dirty Mags",
+      "type": "single",
+      "year": 1995,
+      "date": "1995-06-26",
+      "format": "7\"",
+      "tracks": [
+        {
+          "position": "A",
+          "title": "Dirty Mags"
+        },
+        {
+          "position": "B1",
+          "title": "Loony Tunes"
+        },
+        {
+          "position": "B2",
+          "title": "Toulouse"
+        }
+      ],
+      "cover_url": "https://i.discogs.com/P_rNbPLLr6uQGASOpMhroiMtHiDUFYbz4WTfEUan4E8/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTk5/NzMtMTM4NjM0OTc3/Ni04NDgyLmpwZWc.jpeg",
+      "cover_local": "covers/099.jpg",
+      "listen": {
+        "youtube_search": "Blueboy Dirty Mags Sarah Records",
+        "youtube": "Oo9G06xwPLM",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp": "https://blueboy.bandcamp.com/"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/1559973",
+        "http://home.clara.net/koogy/sarah/disco/099.htm"
+      ],
+      "studio": "Dungeon Studios",
+      "engineers": [
+        "Richard Haines"
+      ],
+      "discogs_release_id": 1559973,
+      "cover_bytes": 81930
+    },
+    {
+      "catalog": "SARAH 100",
+      "number": 100,
+      "artist": "Various Artists",
+      "title": "There And Back Again Lane",
+      "type": "compilation",
+      "year": 1995,
+      "date": "1995-08-28",
+      "format": "CD",
+      "tracks": [
+        {
+          "position": "1",
+          "title": "The Field Mice – Sensitive",
+          "duration": "5:04"
+        },
+        {
+          "position": "2",
+          "title": "Heavenly – Atta Girl",
+          "duration": "3:56"
+        },
+        {
+          "position": "3",
+          "title": "The Sugargliders – Ahprahran",
+          "duration": "2:36"
+        },
+        {
+          "position": "4",
+          "title": "The Springfields – Sunflower",
+          "duration": "3:53"
+        },
+        {
+          "position": "5",
+          "title": "The Orchids – Peaches",
+          "duration": "4:31"
+        },
+        {
+          "position": "6",
+          "title": "Blueboy – The Joy Of Living",
+          "duration": "4:29"
+        },
+        {
+          "position": "7",
+          "title": "The Harvest Ministers – Six o'Clock Is Rosary",
+          "duration": "4:04"
+        },
+        {
+          "position": "8",
+          "title": "Brighter – Inside Out",
+          "duration": "4:04"
+        },
+        {
+          "position": "9",
+          "title": "East River Pipe – Make A Deal With The City",
+          "duration": "2:55"
+        },
+        {
+          "position": "10",
+          "title": "The Wake – English Rain",
+          "duration": "4:17"
+        },
+        {
+          "position": "11",
+          "title": "Secret Shine – Temporal",
+          "duration": "3:46"
+        },
+        {
+          "position": "12",
+          "title": "Northern Picture Library – Paris",
+          "duration": "5:04"
+        },
+        {
+          "position": "13",
+          "title": "Harvey Williams – She Sleeps Around",
+          "duration": "2:59"
+        },
+        {
+          "position": "14",
+          "title": "St. Christopher – All Of A Tremble",
+          "duration": "2:32"
+        },
+        {
+          "position": "15",
+          "title": "The Sea Urchins – Pristine Christine",
+          "duration": "2:46"
+        },
+        {
+          "position": "16",
+          "title": "Boyracer – He Gets Me So Hard",
+          "duration": "2:33"
+        },
+        {
+          "position": "17",
+          "title": "Action Painting! – Mustard Gas",
+          "duration": "2:09"
+        },
+        {
+          "position": "18",
+          "title": "The Sweetest Ache – Tell Me How It Feels",
+          "duration": "4:55"
+        },
+        {
+          "position": "19",
+          "title": "Another Sunny Day – Rio",
+          "duration": "2:53"
+        },
+        {
+          "position": "20",
+          "title": "The Hit Parade – In Gunnersbury Park",
+          "duration": "2:56"
+        },
+        {
+          "position": "21",
+          "title": "Even As We Speak – Drown",
+          "duration": "2:56"
+        }
+      ],
+      "notes": "Final Sarah release: CD compilation with 38-page booklet telling the label's story. Released 1995-08-28; label closed with 'we don't do encores'.",
+      "cover_url": "https://i.discogs.com/TceABGJfju_ITNW8PS37cFFAvSsjNglFQ4I_YZ9KrVI/rs:fit/g:sm/q:90/h:540/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczMjU1/My0xMjUwOTc2NTA5/LmpwZWc.jpeg",
+      "cover_local": "covers/100.jpg",
+      "listen": {
+        "youtube_search": "Various Artists There And Back Again Lane Sarah Records",
+        "bandcamp": "https://sarahrecordscompilations.bandcamp.com/album/there-and-back-again-lane",
+        "youtube": "hV6w5X3xUuU",
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+      },
+      "sources": [
+        "http://sarahrecords.org.uk/music/discography/discography-1-100/",
+        "https://en.wikipedia.org/wiki/Sarah_Records_discography",
+        "https://www.discogs.com/release/732553",
+        "http://home.clara.net/koogy/sarah/disco/100.htm"
+      ],
+      "discogs_release_id": 732553,
+      "cover_bytes": 124465
+    }
+  ],
+  "stats": {
+    "total_releases": 100,
+    "by_type": {
+      "single": 72,
+      "flexi": 3,
+      "other": 4,
+      "ep": 20,
+      "compilation": 1
+    },
+    "with_tracks": 96,
+    "with_youtube": 95,
+    "with_bandcamp": 57,
+    "with_cover_local": 100,
+    "with_producers": 33,
+    "with_studio": 35,
+    "non_music": [
+      "SARAH 4",
+      "SARAH 14",
+      "SARAH 32",
+      "SARAH 50"
+    ],
+    "flexis": [
+      "SARAH 3",
+      "SARAH 13",
+      "SARAH 70"
+    ]
+  }
+}
