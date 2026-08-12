@@ -9,12 +9,29 @@
     other: "Otro",
   };
 
+  const LAYOUT_KEY = "sarah-layout-mode";
+
+  function loadLayoutMode() {
+    try {
+      const v = localStorage.getItem(LAYOUT_KEY);
+      if (v === "list" || v === "grid") return v;
+    } catch (_) {}
+    return "grid";
+  }
+
+  function saveLayoutMode(mode) {
+    try {
+      localStorage.setItem(LAYOUT_KEY, mode);
+    } catch (_) {}
+  }
+
   const state = {
     releases: [],
     byNumber: new Map(),
     query: "",
     type: "all",
     sort: "number",
+    layoutMode: loadLayoutMode(), // grid | list
     view: "catalog", // catalog | detail | about
     current: null,
   };
@@ -31,13 +48,27 @@
       .replace(/'/g, "&#39;");
   }
 
-  function typeLabel(type) {
-    return TYPE_LABELS[type] || type || "—";
+  /** Prefer specific labels for non-music items from format/notes. */
+  function typeLabel(releaseOrType) {
+    if (typeof releaseOrType === "string") {
+      return TYPE_LABELS[releaseOrType] || releaseOrType || "—";
+    }
+    const r = releaseOrType || {};
+    if (r.type === "other") {
+      const fmt = String(r.format || "").toLowerCase();
+      const notes = String(r.notes || "").toLowerCase();
+      if (fmt.includes("board game") || notes.includes("board game")) return "board game";
+      if (fmt.includes("fanzine") || notes.includes("fanzine")) {
+        if (fmt.includes("two") || notes.includes("two fanzines")) return "fanzine";
+        return "fanzine";
+      }
+      return "Otro";
+    }
+    return TYPE_LABELS[r.type] || r.type || "—";
   }
 
   function formatDate(release) {
     if (release.date) {
-      // YYYY-MM or YYYY-MM-DD
       const parts = String(release.date).split("-");
       if (parts.length === 2) return `${parts[1]}/${parts[0]}`;
       if (parts.length === 3) return `${parts[2]}/${parts[1]}/${parts[0]}`;
@@ -47,8 +78,11 @@
   }
 
   function coverSrc(release) {
-    // cover_local is like "covers/001.jpg"
     return release.cover_local || `covers/${String(release.number).padStart(3, "0")}.jpg`;
+  }
+
+  function displayArtist(release) {
+    return release.artist === "N/A" ? "Sarah Records" : release.artist;
   }
 
   function parseRoute() {
@@ -57,7 +91,6 @@
     if (hash === "about") return { view: "about" };
     const m = hash.match(/^sarah\/(\d+)$/i);
     if (m) return { view: "detail", number: Number(m[1]) };
-    // also support ?n= via hash leftovers
     return { view: "catalog" };
   }
 
@@ -93,8 +126,10 @@
           r.title,
           String(r.year),
           r.format,
-          typeLabel(r.type),
+          typeLabel(r),
+          TYPE_LABELS[r.type] || "",
           r.type,
+          r.notes,
         ]
           .join(" ")
           .toLowerCase();
@@ -114,13 +149,15 @@
     return list;
   }
 
-  function renderCatalog() {
-    const list = filteredReleases();
-    const cards = list.length
-      ? list
-          .map((r) => {
-            const artist = r.artist === "N/A" ? "Sarah Records" : r.artist;
-            return `
+  function renderGridCards(list) {
+    if (!list.length) {
+      return `<div class="empty-grid"><p>No hay resultados para esa búsqueda.</p><p>Prueba con un artista, título, año o número de catálogo.</p></div>`;
+    }
+    return list
+      .map((r) => {
+        const artist = displayArtist(r);
+        const label = typeLabel(r);
+        return `
             <a class="card" href="#/sarah/${r.number}" data-number="${r.number}">
               <div class="card-cover">
                 <img src="${escapeHtml(coverSrc(r))}" alt="Portada de ${escapeHtml(r.catalog)}" loading="lazy" width="300" height="300" />
@@ -131,13 +168,64 @@
                 <div class="card-title">${escapeHtml(r.title)}</div>
                 <div class="card-meta">
                   <span>${escapeHtml(String(r.year || "—"))}</span>
-                  <span class="type-pill ${escapeHtml(r.type)}">${escapeHtml(typeLabel(r.type))}</span>
+                  <span class="type-pill ${escapeHtml(r.type)}">${escapeHtml(label)}</span>
                 </div>
               </div>
             </a>`;
-          })
-          .join("")
-      : `<div class="empty-grid"><p>No hay resultados para esa búsqueda.</p><p>Prueba con un artista, título, año o número de catálogo.</p></div>`;
+      })
+      .join("");
+  }
+
+  function renderListRows(list) {
+    if (!list.length) {
+      return `<div class="empty-grid"><p>No hay resultados para esa búsqueda.</p><p>Prueba con un artista, título, año o número de catálogo.</p></div>`;
+    }
+    return list
+      .map((r) => {
+        const artist = displayArtist(r);
+        const label = typeLabel(r);
+        const formatBit = r.format ? escapeHtml(r.format) : escapeHtml(label);
+        return `
+            <a class="list-row" href="#/sarah/${r.number}" data-number="${r.number}">
+              <div class="list-thumb">
+                <img src="${escapeHtml(coverSrc(r))}" alt="" loading="lazy" width="112" height="112" />
+              </div>
+              <div class="list-main">
+                <div class="list-cat">${escapeHtml(r.catalog)}</div>
+                <div class="list-artist">${escapeHtml(artist)}</div>
+                <div class="list-title">${escapeHtml(r.title)}</div>
+              </div>
+              <div class="list-side">
+                <span>${escapeHtml(String(r.year || "—"))}</span>
+                <span class="type-pill ${escapeHtml(r.type)}">${formatBit}</span>
+              </div>
+            </a>`;
+      })
+      .join("");
+  }
+
+  function viewToggleHtml() {
+    const gridActive = state.layoutMode === "grid" ? "active" : "";
+    const listActive = state.layoutMode === "list" ? "active" : "";
+    return `
+      <div class="view-toggle" role="group" aria-label="Vista del catálogo">
+        <button type="button" data-layout="grid" class="${gridActive}" aria-pressed="${state.layoutMode === "grid"}" title="Vista en cuadrícula">
+          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect x="1" y="1" width="6" height="6"/><rect x="9" y="1" width="6" height="6"/><rect x="1" y="9" width="6" height="6"/><rect x="9" y="9" width="6" height="6"/></svg>
+          Cuadrícula
+        </button>
+        <button type="button" data-layout="list" class="${listActive}" aria-pressed="${state.layoutMode === "list"}" title="Vista en lista">
+          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect x="1" y="2" width="14" height="2"/><rect x="1" y="7" width="14" height="2"/><rect x="1" y="12" width="14" height="2"/></svg>
+          Lista
+        </button>
+      </div>`;
+  }
+
+  function renderCatalog() {
+    const list = filteredReleases();
+    const isList = state.layoutMode === "list";
+    const body = isList
+      ? `<div class="catalog-list">${renderListRows(list)}</div>`
+      : `<div class="catalog-grid">${renderGridCards(list)}</div>`;
 
     app.innerHTML = `
       <section class="catalog-hero">
@@ -180,6 +268,7 @@
           <option value="year">Orden: año</option>
           <option value="artist">Orden: artista</option>
         </select>
+        ${viewToggleHtml()}
       </div>
 
       <div class="results-meta">
@@ -187,9 +276,7 @@
         <span class="kbd-hint">Atajos: <span class="kbd">←</span> <span class="kbd">→</span> en ficha</span>
       </div>
 
-      <div class="catalog-grid">
-        ${cards}
-      </div>
+      ${body}
     `;
 
     const search = document.getElementById("search");
@@ -200,7 +287,6 @@
 
     search.addEventListener("input", (e) => {
       state.query = e.target.value;
-      // re-render grid only — keep focus
       const caret = e.target.selectionStart;
       renderCatalog();
       const again = document.getElementById("search");
@@ -216,6 +302,17 @@
     sortBy.addEventListener("change", (e) => {
       state.sort = e.target.value;
       renderCatalog();
+    });
+
+    document.querySelectorAll(".view-toggle [data-layout]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const mode = btn.getAttribute("data-layout");
+        if (mode !== "grid" && mode !== "list") return;
+        if (state.layoutMode === mode) return;
+        state.layoutMode = mode;
+        saveLayoutMode(mode);
+        renderCatalog();
+      });
     });
   }
 
@@ -243,9 +340,10 @@
     state.current = number;
     const prev = state.byNumber.get(number - 1);
     const next = state.byNumber.get(number + 1);
-    const artist = release.artist === "N/A" ? "Sarah Records" : release.artist;
+    const artist = displayArtist(release);
     const listen = release.listen || {};
     const isOther = release.type === "other";
+    const label = typeLabel(release);
 
     const producers = listOrNull(release.producers);
     const engineers = listOrNull(release.engineers);
@@ -272,7 +370,7 @@
       listenHtml = `
         <div class="other-empty">
           <div class="emoji" aria-hidden="true">✦</div>
-          <h3>Ítem no musical</h3>
+          <h3>Ítem no musical · ${escapeHtml(label)}</h3>
           <p>${escapeHtml(release.notes || "Fanzine, juego u otro objeto del catálogo Sarah — sin audio.")}</p>
         </div>`;
     } else {
@@ -282,12 +380,7 @@
           `<a class="btn btn-bandcamp" href="${escapeHtml(listen.bandcamp)}" target="_blank" rel="noopener">Bandcamp</a>`
         );
       }
-      if (!listen.youtube && listen.youtube_search) {
-        const q = encodeURIComponent(listen.youtube_search);
-        actions.push(
-          `<a class="btn" href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">Buscar en YouTube</a>`
-        );
-      } else if (listen.youtube_search) {
+      if (listen.youtube_search) {
         const q = encodeURIComponent(listen.youtube_search);
         actions.push(
           `<a class="btn" href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">Buscar en YouTube</a>`
@@ -333,7 +426,9 @@
 
         <div class="detail-layout">
           <aside class="cover-panel">
-            <img src="${escapeHtml(coverSrc(release))}" alt="Portada de ${escapeHtml(release.catalog)} — ${escapeHtml(release.title)}" width="600" height="600" />
+            <div class="cover-frame">
+              <img src="${escapeHtml(coverSrc(release))}" alt="Portada de ${escapeHtml(release.catalog)} — ${escapeHtml(release.title)}" width="600" height="600" />
+            </div>
           </aside>
 
           <div class="detail-main">
@@ -342,7 +437,7 @@
             <p class="detail-artist">${escapeHtml(artist)}</p>
 
             <dl class="meta-grid">
-              <div class="meta-item"><dt>Tipo</dt><dd>${escapeHtml(typeLabel(release.type))}</dd></div>
+              <div class="meta-item"><dt>Tipo</dt><dd>${escapeHtml(label)}</dd></div>
               <div class="meta-item"><dt>Formato</dt><dd>${escapeHtml(release.format || "—")}</dd></div>
               <div class="meta-item"><dt>Año</dt><dd>${escapeHtml(String(release.year || "—"))}</dd></div>
               <div class="meta-item"><dt>Fecha</dt><dd>${escapeHtml(formatDate(release))}</dd></div>
@@ -360,13 +455,7 @@
             }
 
             ${
-              release.notes && !isOther
-                ? `<section class="section"><h2>Notas</h2><div class="notes-box">${escapeHtml(release.notes)}</div></section>`
-                : ""
-            }
-
-            ${
-              isOther && release.notes
+              release.notes
                 ? `<section class="section"><h2>Notas</h2><div class="notes-box">${escapeHtml(release.notes)}</div></section>`
                 : ""
             }
@@ -378,9 +467,9 @@
                     <div class="credits">
                       ${creditsRows
                         .map(
-                          ([label, val]) => `
+                          ([lab, val]) => `
                         <div class="credit-row">
-                          <span class="credit-label">${escapeHtml(label)}</span>
+                          <span class="credit-label">${escapeHtml(lab)}</span>
                           <span>${escapeHtml(val)}</span>
                         </div>`
                         )
@@ -418,9 +507,9 @@
           </p>
           <div class="nonmusic-list">
             <a href="#/sarah/4">SARAH 4 · fanzine</a>
-            <a href="#/sarah/14">SARAH 14 · Lemonade / Cold</a>
-            <a href="#/sarah/32">SARAH 32 · Sunstroke</a>
-            <a href="#/sarah/50">SARAH 50 · Saropoly</a>
+            <a href="#/sarah/14">SARAH 14 · fanzine</a>
+            <a href="#/sarah/32">SARAH 32 · fanzine</a>
+            <a href="#/sarah/50">SARAH 50 · board game</a>
           </div>
           <p>
             Este sitio es un catálogo visual estático de esas cien referencias: portadas,
@@ -479,7 +568,6 @@
     window.addEventListener("hashchange", render);
     window.addEventListener("keydown", onKeydown);
 
-    // Support ?n=1 deep link on first load
     const params = new URLSearchParams(location.search);
     const n = params.get("n");
     if (n && !location.hash) {
