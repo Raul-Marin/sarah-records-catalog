@@ -295,12 +295,8 @@
     app.innerHTML = `
       <section class="catalog-hero">
         <div class="hero-paste">
-          <img class="xerox-circle xc-a" src="covers/001.jpg" alt="" width="200" height="200" />
-          <img class="xerox-circle xc-b" src="covers/018.jpg" alt="" width="220" height="220" />
-          <img class="xerox-circle xc-c" src="covers/030.jpg" alt="" width="180" height="180" />
-          <h1 class="hero-sarah">sarah</h1>
+          <img class="hero-logo" src="logo.svg" alt="sarah records" width="460" height="210" />
           <p class="hero-strip">we don’t do encores</p>
-          <span class="spot-caption">the centre labels</span>
         </div>
         <p class="hero-typed">100 referencias · bristol 1987–1995 · clare wadd &amp; matt haynes</p>
         <p class="hero-lede">cien números. singles, flexis, fanzines, un juego. luego se acaba.</p>

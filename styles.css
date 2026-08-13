@@ -1,8 +1,9 @@
 :root {
   --paper: #ffffff;
   --ink: #111111;
-  --kvatch: #1c3a2a;
-  --spot: #b01812;
+  --kvatch: #d70000;
+  --accent: #d70000;
+  --spot: #d70000;
   --strip: #111;
   --strip-ink: #ffffff;
   --ink-soft: #1a1a1a;
@@ -133,6 +134,13 @@ a:hover {
   line-height: 0.85;
 }
 
+.brand-logo {
+  display: block;
+  height: 52px;
+  width: auto;
+  max-width: 220px;
+}
+
 .brand-sub {
   font-family: var(--font-body);
   font-size: 0.72rem;
@@ -166,7 +174,7 @@ a:hover {
   display: inline-block;
 }
 
-.nav-link-green {
+.nav-link-accent {
   background: var(--kvatch);
   color: var(--strip-ink);
   transform: rotate(3.1deg);
@@ -229,7 +237,7 @@ a:hover {
 
 .hero-paste {
   position: relative;
-  min-height: 210px;
+  min-height: 0;
   margin: 0 0 0.85rem;
 }
 
@@ -275,6 +283,15 @@ a:hover {
   z-index: 1;
 }
 
+.hero-logo {
+  display: block;
+  position: relative;
+  z-index: 3;
+  width: min(420px, 86vw);
+  height: auto;
+  margin: 0.2rem 0 0.6rem;
+}
+
 .hero-sarah {
   position: relative;
   z-index: 3;
@@ -296,14 +313,14 @@ a:hover {
   position: relative;
   z-index: 4;
   display: inline-block;
-  margin: 0.15rem 0 0 14%;
+  margin: 0.35rem 0 0 0;
   padding: 0.18rem 0.55rem 0.12rem;
   background: var(--strip);
   color: var(--strip-ink);
   font-family: var(--font-body);
   font-size: clamp(0.95rem, 2.4vw, 1.2rem);
   font-style: normal;
-  transform: rotate(1.8deg);
+  transform: rotate(-1.2deg);
 }
 
 .spot-caption {
@@ -1596,7 +1613,16 @@ a:hover {
     height: 92px;
     top: 10px;
   }
-  .hero-sarah {
+  .hero-logo {
+  display: block;
+  position: relative;
+  z-index: 3;
+  width: min(420px, 86vw);
+  height: auto;
+  margin: 0.2rem 0 0.6rem;
+}
+
+.hero-sarah {
     margin-left: 4%;
   }
   .hero-strip {
