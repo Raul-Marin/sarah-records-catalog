@@ -420,32 +420,15 @@
 
   function listenPanelHtml(release) {
     const listen = release.listen || {};
-    const actions = [];
-    actions.push(
-      `<button type="button" class="btn btn-play-web" data-play="${release.number}">▶ escuchar en la web</button>`
-    );
-    if (listen.bandcamp) {
-      actions.push(
-        `<a class="btn btn-primary btn-bandcamp" href="${escapeHtml(listen.bandcamp)}" target="_blank" rel="noopener">Bandcamp</a>`
-      );
-    }
-    if (listen.youtube_search) {
-      const q = encodeURIComponent(listen.youtube_search);
-      actions.push(
-        `<a class="btn" href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">Buscar en YouTube</a>`
-      );
-    }
-
-    let embed = "";
-    if (listen.bandcamp_embed) {
-      embed = `<iframe class="bc-embed" src="${escapeHtml(listen.bandcamp_embed)}" loading="lazy" title="Bandcamp" seamless></iframe>`;
-    }
-
+    const play = hasPlayableYoutube(release)
+      ? `<button type="button" class="btn btn-play-web" data-play="${release.number}">▶ escuchar</button>`
+      : `<p class="yt-note">sin archivo de audio en esta ficha</p>`;
+    const buy = listen.bandcamp
+      ? `<a class="btn btn-bandcamp" href="${escapeHtml(listen.bandcamp)}" target="_blank" rel="noopener">comprar en Bandcamp</a>`
+      : "";
     return `
       <div class="listen-box">
-        <div class="listen-actions">${actions.join("")}</div>
-        ${embed}
-        <p class="yt-note">archivo de fans · si puedes, compra el 7″ / Bandcamp</p>
+        <div class="listen-actions">${play}${buy}</div>
       </div>`;
   }
 
@@ -521,7 +504,7 @@
 
         <div class="detail-layout">
           <aside class="cover-panel">
-            <div class="cover-frame xerox-disc${lofi}">
+            <div class="cover-frame${lofi}">
               <img src="${escapeHtml(coverSrc(release))}" alt="Portada de ${escapeHtml(release.catalog)} — ${escapeHtml(release.title)}" width="600" height="600" />
             </div>
           </aside>
