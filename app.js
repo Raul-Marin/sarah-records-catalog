@@ -222,12 +222,16 @@
       .map((r) => {
         const artist = displayArtist(r);
         const label = typeLabel(r);
-        const lofi = r.type === "other" ? " cover-lofi" : "";
+        const isObject = r.type === "other";
+        const lofi = isObject ? " cover-lofi" : "";
+        const imgSize = isObject
+          ? 'width="300"'
+          : 'width="300" height="300"';
         return `
-            <article class="card" data-number="${r.number}">
+            <article class="card${isObject ? " card-object" : ""}" data-number="${r.number}">
               <a class="card-link" href="#/sarah/${r.number}">
                 <div class="card-cover${lofi}">
-                  <img src="${escapeHtml(coverSrc(r))}" alt="Portada de ${escapeHtml(r.catalog)}" loading="lazy" width="300" height="300" />
+                  <img src="${escapeHtml(coverSrc(r))}" alt="Portada de ${escapeHtml(r.catalog)}" loading="lazy" ${imgSize} />
                 </div>
                 <div class="card-strips">
                   <div class="card-cat">${escapeHtml(r.catalog)}</div>
@@ -251,9 +255,10 @@
         const artist = displayArtist(r);
         const label = typeLabel(r);
         const formatBit = r.format ? escapeHtml(r.format) : escapeHtml(label);
-        const lofi = r.type === "other" ? " cover-lofi" : "";
+        const isObject = r.type === "other";
+        const lofi = isObject ? " cover-lofi" : "";
         return `
-            <div class="list-row" data-number="${r.number}">
+            <div class="list-row${isObject ? " card-object" : ""}" data-number="${r.number}">
               <a class="list-hit" href="#/sarah/${r.number}">
                 <div class="list-thumb${lofi}">
                   <img src="${escapeHtml(coverSrc(r))}" alt="" loading="lazy" width="112" height="112" />
