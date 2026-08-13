@@ -112,8 +112,9 @@ a:hover {
 .brand {
   cursor: pointer;
   display: flex;
-  flex-direction: column;
-  gap: 0.18rem;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.65rem;
   position: relative;
   z-index: 1;
 }
@@ -134,13 +135,17 @@ a:hover {
   line-height: 0.85;
 }
 
-.brand-logo {
+.brand-word {
   display: block;
-  height: 38px;
+  height: 54px;
   width: auto;
-  max-width: 168px;
   object-fit: contain;
-  object-position: left center;
+}
+.brand-cherries {
+  display: block;
+  height: 62px;
+  width: auto;
+  object-fit: contain;
 }
 
 .brand-sub {
