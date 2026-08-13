@@ -57,7 +57,8 @@
         "Shel Gomelsky"
       ],
       "discogs_release_id": 939546,
-      "cover_bytes": 77779
+      "cover_bytes": 77779,
+      "notes": "El primer 7″. Noviembre 1987, The Sea Urchins. El número 1 existe para que el 100 pueda existir: Sarah empieza ya pensando en el cierre."
     },
     {
       "catalog": "SARAH 2",
@@ -130,19 +131,20 @@
         "http://home.clara.net/koogy/sarah/disco/003.htm"
       ],
       "discogs_release_id": 397287,
-      "cover_bytes": 70502
+      "cover_bytes": 70502,
+      "notes": "Flexi de 5″. Harvey Williams. El título es un chiste y un manifiesto: anorak como insignia, no como insulto. Todavía se oye Sha-la-la."
     },
     {
       "catalog": "SARAH 4",
       "number": 4,
-      "artist": "N/A",
+      "artist": "Sarah Records",
       "title": "Sarah 4",
       "type": "other",
       "year": 1988,
       "date": null,
       "format": "fanzine",
       "tracks": [],
-      "notes": "Fanzine (non-music catalog item)",
+      "notes": "No es un disco que falta. Es el sello diciendo que un fanzine ocupa el mismo número que un 7″. Clare y Matt venían de Kvatch y Are You Scared To Get Happy?.",
       "cover_url": "http://home.clara.net/koogy/sarah/covers/004.gif",
       "cover_local": "covers/004.jpg",
       "listen": {
@@ -510,7 +512,8 @@
         "http://home.clara.net/koogy/sarah/disco/012.htm"
       ],
       "discogs_release_id": 409838,
-      "cover_bytes": 14402
+      "cover_bytes": 14402,
+      "notes": "Bobby Wratten entra en casa. A partir de aquí Sarah tiene banda residente, aunque ellos odiarían esa frase. El twee se va a poner serio."
     },
     {
       "catalog": "SARAH 13",
@@ -546,14 +549,14 @@
     {
       "catalog": "SARAH 14",
       "number": 14,
-      "artist": "N/A",
+      "artist": "Sarah Records",
       "title": "Lemonade / Cold",
       "type": "other",
       "year": 1988,
       "date": null,
       "format": "two fanzines",
       "tracks": [],
-      "notes": "Two fanzines: Lemonade and Cold (SARAH 14A / 14AA)",
+      "notes": "Dos fanzines, Lemonade y Cold (a veces 14A / 14AA). El catálogo se parte en papel a propósito.",
       "cover_url": "http://home.clara.net/koogy/sarah/covers/014.gif",
       "cover_local": "covers/014.jpg",
       "listen": {
@@ -722,7 +725,8 @@
         "http://home.clara.net/koogy/sarah/disco/018.htm"
       ],
       "discogs_release_id": 409841,
-      "cover_bytes": 91398
+      "cover_bytes": 91398,
+      "notes": "El single que todo el mundo conoce y que Sarah nunca trató como himno. Lo es igual."
     },
     {
       "catalog": "SARAH 19",
@@ -964,7 +968,8 @@
         "http://home.clara.net/koogy/sarah/disco/024.htm"
       ],
       "discogs_release_id": 409835,
-      "cover_bytes": 21290
+      "cover_bytes": 21290,
+      "notes": "The Autumn Store, parte 1. No es un single suelto: es un almacén cortado en dos 7″. Sigue en SARAH 25."
     },
     {
       "catalog": "SARAH 25",
@@ -1004,7 +1009,8 @@
         "http://home.clara.net/koogy/sarah/disco/025.htm"
       ],
       "discogs_release_id": 409836,
-      "cover_bytes": 18935
+      "cover_bytes": 18935,
+      "notes": "The Autumn Store, parte 2 (Song Six / Anyone Else Isn't You / Bleak). Se lee con SARAH 24."
     },
     {
       "catalog": "SARAH 26",
@@ -1253,14 +1259,14 @@
     {
       "catalog": "SARAH 32",
       "number": 32,
-      "artist": "N/A",
+      "artist": "Sarah Records",
       "title": "Sunstroke",
       "type": "other",
       "year": 1990,
       "date": "1990",
       "format": "fanzine",
       "tracks": [],
-      "notes": "Mini tenpenny fanzine (non-music). Official site lists 1988; Wikipedia lists 1990.",
+      "notes": "Mini fanzine de diez peniques. El sitio oficial pone 1988; Wikipedia, 1990. El objeto importa más que la fecha.",
       "cover_url": "http://home.clara.net/koogy/sarah/covers/032.gif",
       "cover_local": "covers/032.jpg",
       "listen": {
@@ -1967,14 +1973,14 @@
     {
       "catalog": "SARAH 50",
       "number": 50,
-      "artist": "N/A",
+      "artist": "Sarah Records",
       "title": "Saropoly",
       "type": "other",
       "year": 1991,
       "date": "1991",
       "format": "board game",
       "tracks": [],
-      "notes": "Board game about running an indie label, packaged as a 7\" (non-music catalog item). Sarah's 50th release.",
+      "notes": "Saropoly: juego de mesa sobre llevar un sello indie, empaquetado como 7″. El tablero es Bristol (las calles, no Park Lane). El 50 no es un single conmemorativo, es una broma seria.",
       "cover_url": "http://home.clara.net/koogy/sarah/covers/050.gif",
       "cover_local": "covers/050.jpg",
       "listen": {
@@ -2262,7 +2268,8 @@
         "Ian Catt"
       ],
       "discogs_release_id": 169232,
-      "cover_bytes": 91080
+      "cover_bytes": 91080,
+      "notes": "12″, Ian Catt a la mesa. El pop de Sarah se estira hacia el house y el dub sin pedir permiso al NME. Último gran gesto de Field Mice en la serie 1–100; los álbumes (Snowball, Skywriting, For Keeps) viven en 401+."
     },
     {
       "catalog": "SARAH 58",
@@ -2790,7 +2797,7 @@
           "duration": "2:32"
         }
       ],
-      "notes": "Flexidisc plus three mini-fanzines: Just As Good As I Should Be / Nice Boys Prefer Vanilla / I Am Telling You Because You Are Far Away",
+      "notes": "Flexi más tres mini-fanzines: Just As Good As I Should Be / Nice Boys Prefer Vanilla / I Am Telling You Because You Are Far Away. El objeto es el paquete (flexi + tres minis), no solo la canción en directo.",
       "cover_url": "https://i.discogs.com/uYEBFfBNTXvFuBuvmgKs65mc0w88T-Ni-gHJCXGkycc/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyMDcz/MC0xMTcyOTYxNjk0/LmpwZWc.jpeg",
       "cover_local": "covers/070.jpg",
       "listen": {
@@ -3292,7 +3299,8 @@
         "Ian Shaw"
       ],
       "discogs_release_id": 400445,
-      "cover_bytes": 98166
+      "cover_bytes": 98166,
+      "notes": "Verano de 1993. Amelia Fletcher (ex Talulah Gosh) gira el sello hacia riot grrrl sin dejar el pop. No va suelto: se lee con SARAH 82 Atta Girl."
     },
     {
       "catalog": "SARAH 82",
@@ -3336,7 +3344,8 @@
         "Ian Shaw"
       ],
       "discogs_release_id": 401613,
-      "cover_bytes": 85748
+      "cover_bytes": 85748,
+      "notes": "La otra mitad de la frase. P.U.N.K. Girl / Atta Girl son un mismo gesto en dos números."
     },
     {
       "catalog": "SARAH 83",
@@ -4090,7 +4099,8 @@
         "Richard Haines"
       ],
       "discogs_release_id": 1559973,
-      "cover_bytes": 81930
+      "cover_bytes": 81930,
+      "notes": "El último single de banda del catálogo. Blueboy apaga la casa. Luego solo queda SARAH 100."
     },
     {
       "catalog": "SARAH 100",
@@ -4208,7 +4218,7 @@
           "duration": "2:56"
         }
       ],
-      "notes": "Final Sarah release: CD compilation with 38-page booklet telling the label's story. Released 1995-08-28; label closed with 'we don't do encores'.",
+      "notes": "28 agosto 1995. CD + libreto de 38 páginas. Fiesta en un barco, Bristol harbour. Anuncios a media página: the label no longer exists. We don’t do encores. Los álbumes 401+ y las compilaciones-bus quedan fuera de estas cien fichas, no de la historia.",
       "cover_url": "https://i.discogs.com/TceABGJfju_ITNW8PS37cFFAvSsjNglFQ4I_YZ9KrVI/rs:fit/g:sm/q:90/h:540/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczMjU1/My0xMjUwOTc2NTA5/LmpwZWc.jpeg",
       "cover_local": "covers/100.jpg",
       "listen": {

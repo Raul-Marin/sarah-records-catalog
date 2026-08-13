@@ -6,7 +6,24 @@
     ep: "EP",
     flexi: "Flexi",
     compilation: "Compilación",
-    other: "Otro",
+    other: "fanzine",
+  };
+
+  const RELATED = {
+    24: 25,
+    25: 24,
+    81: 82,
+    82: 81,
+    99: 100,
+    100: 99,
+  };
+
+  const MINI_FANZINES = {
+    70: [
+      "Just As Good As I Should Be",
+      "Nice Boys Prefer Vanilla",
+      "I Am Telling You Because You Are Far Away",
+    ],
   };
 
   const LAYOUT_KEY = "sarah-layout-mode";
@@ -48,23 +65,35 @@
       .replace(/'/g, "&#39;");
   }
 
-  /** Prefer specific labels for non-music items from format/notes. */
+  function isBoardGame(release) {
+    const fmt = String((release && release.format) || "").toLowerCase();
+    const notes = String((release && release.notes) || "").toLowerCase();
+    return fmt.includes("board game") || notes.includes("board game") || notes.includes("juego de mesa") || notes.includes("saropoly");
+  }
+
+  /** Prefer specific labels for non-music items from format/notes. Never "Otro". */
   function typeLabel(releaseOrType) {
     if (typeof releaseOrType === "string") {
+      if (releaseOrType === "other") return "fanzine";
       return TYPE_LABELS[releaseOrType] || releaseOrType || "—";
     }
     const r = releaseOrType || {};
     if (r.type === "other") {
+      if (isBoardGame(r)) return "board game";
       const fmt = String(r.format || "").toLowerCase();
       const notes = String(r.notes || "").toLowerCase();
-      if (fmt.includes("board game") || notes.includes("board game")) return "board game";
-      if (fmt.includes("fanzine") || notes.includes("fanzine")) {
-        if (fmt.includes("two") || notes.includes("two fanzines")) return "fanzine";
-        return "fanzine";
-      }
-      return "Otro";
+      if (fmt.includes("fanzine") || notes.includes("fanzine")) return "fanzine";
+      return "fanzine";
     }
     return TYPE_LABELS[r.type] || r.type || "—";
+  }
+
+  function typePillClass(release, label) {
+    const bits = [release.type || ""];
+    const lab = String(label || "").toLowerCase();
+    if (lab === "fanzine") bits.push("fanzine");
+    if (lab === "board game") bits.push("boardgame");
+    return bits.join(" ");
   }
 
   function formatDate(release) {
@@ -83,6 +112,14 @@
 
   function displayArtist(release) {
     return release.artist === "N/A" ? "Sarah Records" : release.artist;
+  }
+
+  function matchesTypeFilter(release, type) {
+    if (type === "all") return true;
+    if (type === "fanzine") return release.type === "other" && !isBoardGame(release);
+    if (type === "boardgame") return release.type === "other" && isBoardGame(release);
+    if (type === "object") return release.type === "other";
+    return release.type === type;
   }
 
   function parseRoute() {
@@ -113,7 +150,7 @@
     let list = state.releases.slice();
 
     if (state.type !== "all") {
-      list = list.filter((r) => r.type === state.type);
+      list = list.filter((r) => matchesTypeFilter(r, state.type));
     }
 
     if (q) {
@@ -123,6 +160,7 @@
           String(r.number),
           `sarah ${r.number}`,
           r.artist,
+          displayArtist(r),
           r.title,
           String(r.year),
           r.format,
@@ -141,7 +179,7 @@
       number: (a, b) => a.number - b.number,
       year: (a, b) => (a.year || 0) - (b.year || 0) || a.number - b.number,
       artist: (a, b) =>
-        String(a.artist || "").localeCompare(String(b.artist || ""), "en", {
+        String(displayArtist(a) || "").localeCompare(String(displayArtist(b) || ""), "en", {
           sensitivity: "base",
         }) || a.number - b.number,
     };
@@ -157,9 +195,10 @@
       .map((r) => {
         const artist = displayArtist(r);
         const label = typeLabel(r);
+        const lofi = r.type === "other" ? " cover-lofi" : "";
         return `
             <a class="card" href="#/sarah/${r.number}" data-number="${r.number}">
-              <div class="card-cover">
+              <div class="card-cover${lofi}">
                 <img src="${escapeHtml(coverSrc(r))}" alt="Portada de ${escapeHtml(r.catalog)}" loading="lazy" width="300" height="300" />
               </div>
               <div class="card-body">
@@ -168,7 +207,7 @@
                 <div class="card-title">${escapeHtml(r.title)}</div>
                 <div class="card-meta">
                   <span>${escapeHtml(String(r.year || "—"))}</span>
-                  <span class="type-pill ${escapeHtml(r.type)}">${escapeHtml(label)}</span>
+                  <span class="type-pill ${escapeHtml(typePillClass(r, label))}">${escapeHtml(label)}</span>
                 </div>
               </div>
             </a>`;
@@ -185,9 +224,10 @@
         const artist = displayArtist(r);
         const label = typeLabel(r);
         const formatBit = r.format ? escapeHtml(r.format) : escapeHtml(label);
+        const lofi = r.type === "other" ? " cover-lofi" : "";
         return `
             <a class="list-row" href="#/sarah/${r.number}" data-number="${r.number}">
-              <div class="list-thumb">
+              <div class="list-thumb${lofi}">
                 <img src="${escapeHtml(coverSrc(r))}" alt="" loading="lazy" width="112" height="112" />
               </div>
               <div class="list-main">
@@ -197,7 +237,7 @@
               </div>
               <div class="list-side">
                 <span>${escapeHtml(String(r.year || "—"))}</span>
-                <span class="type-pill ${escapeHtml(r.type)}">${formatBit}</span>
+                <span class="type-pill ${escapeHtml(typePillClass(r, label))}">${formatBit}</span>
               </div>
             </a>`;
       })
@@ -231,8 +271,8 @@
       <section class="catalog-hero">
         <h1>Catálogo SARAH 1–100</h1>
         <p>
-          El trayecto completo del sello indie de Bristol: singles, EPs, flexis,
-          fanzines y el cierre con <em>There And Back Again Lane</em>.
+          Cien números. Singles, flexis, fanzines, un juego. Luego se acaba.
+          <em>We don’t do encores.</em>
         </p>
         <div class="hero-stats">
           <span class="chip"><strong>100</strong> referencias</span>
@@ -261,7 +301,8 @@
           <option value="ep">EP</option>
           <option value="flexi">Flexi</option>
           <option value="compilation">Compilación</option>
-          <option value="other">Otro</option>
+          <option value="fanzine">Fanzine</option>
+          <option value="boardgame">Objeto / juego</option>
         </select>
         <select class="select" id="sort-by" aria-label="Ordenar">
           <option value="number">Orden: nº catálogo</option>
@@ -272,7 +313,7 @@
       </div>
 
       <div class="results-meta">
-        <span>${list.length} de ${state.releases.length} lanzamientos</span>
+        <span>${list.length} de ${state.releases.length} referencias</span>
         <span class="kbd-hint">Atajos: <span class="kbd">←</span> <span class="kbd">→</span> en ficha</span>
       </div>
 
@@ -325,6 +366,41 @@
     return String(value);
   }
 
+  function relatedPairHtml(number) {
+    const otherNum = RELATED[number];
+    if (!otherNum) return "";
+    const other = state.byNumber.get(otherNum);
+    if (!other) return "";
+    return `<p class="related-pair">Se lee con <a href="#/sarah/${other.number}">SARAH ${other.number} — ${escapeHtml(other.title)}</a></p>`;
+  }
+
+  function miniFanzineHtml(release) {
+    if (!/mini-?fanzines?/i.test(String(release.notes || ""))) return "";
+    const titles = MINI_FANZINES[release.number] || [];
+    if (!titles.length) return "";
+    return `
+      <aside class="related-minis">
+        <p class="related-kicker">Tres mini-fanzines en el paquete</p>
+        <ul>
+          ${titles.map((t) => `<li>${escapeHtml(t)}</li>`).join("")}
+        </ul>
+      </aside>`;
+  }
+
+  function youtubeRevealHtml(release, listen) {
+    if (!listen.youtube) return "";
+    return `
+      <div class="yt-reveal">
+        <button
+          type="button"
+          class="btn btn-yt-reveal"
+          data-youtube-id="${escapeHtml(listen.youtube)}"
+          data-youtube-title="${escapeHtml(release.title)}"
+        >Archivo no oficial (YouTube)</button>
+        <p class="yt-note">Subida de fans, best-effort. Si hay edición, Bandcamp.</p>
+      </div>`;
+  }
+
   function renderDetail(number) {
     const release = state.byNumber.get(number);
     if (!release) {
@@ -344,6 +420,7 @@
     const listen = release.listen || {};
     const isOther = release.type === "other";
     const label = typeLabel(release);
+    const lofi = isOther ? " cover-lofi" : "";
 
     const producers = listOrNull(release.producers);
     const engineers = listOrNull(release.engineers);
@@ -368,16 +445,16 @@
     let listenHtml = "";
     if (isOther) {
       listenHtml = `
-        <div class="other-empty">
-          <div class="emoji" aria-hidden="true">✦</div>
-          <h3>Ítem no musical · ${escapeHtml(label)}</h3>
-          <p>${escapeHtml(release.notes || "Fanzine, juego u otro objeto del catálogo Sarah — sin audio.")}</p>
+        <div class="object-panel">
+          <p class="object-kicker">${escapeHtml(label)}</p>
+          <p class="object-lede">Este número es un objeto del catálogo — papel, no vinilo. No hay pista que reproducir.</p>
+          <div class="notes-box object-notes">${escapeHtml(release.notes || "Fanzine, juego u otro objeto del catálogo Sarah — sin audio.")}</div>
         </div>`;
     } else {
       const actions = [];
       if (listen.bandcamp) {
         actions.push(
-          `<a class="btn btn-bandcamp" href="${escapeHtml(listen.bandcamp)}" target="_blank" rel="noopener">Bandcamp</a>`
+          `<a class="btn btn-primary btn-bandcamp" href="${escapeHtml(listen.bandcamp)}" target="_blank" rel="noopener">Bandcamp</a>`
         );
       }
       if (listen.youtube_search) {
@@ -387,23 +464,10 @@
         );
       }
 
-      const embed = listen.youtube
-        ? `<div class="video-wrap">
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/${escapeHtml(listen.youtube)}"
-              title="Escuchar ${escapeHtml(release.title)}"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-              loading="lazy"
-              referrerpolicy="strict-origin-when-cross-origin"
-            ></iframe>
-          </div>`
-        : `<p style="margin:0;color:var(--ink-soft)">No hay embed de YouTube para esta referencia. Usa el enlace de búsqueda o Bandcamp.</p>`;
-
       listenHtml = `
         <div class="listen-box">
           <div class="listen-actions">${actions.join("") || ""}</div>
-          ${embed}
+          ${youtubeRevealHtml(release, listen)}
         </div>`;
     }
 
@@ -423,10 +487,11 @@
             <a class="btn" href="${next ? `#/sarah/${next.number}` : "#"}" ${next ? "" : "aria-disabled=\"true\" tabindex=\"-1\" style=\"pointer-events:none;opacity:.4\""}>Siguiente</a>
           </div>
         </div>
+        ${relatedPairHtml(number)}
 
         <div class="detail-layout">
           <aside class="cover-panel">
-            <div class="cover-frame">
+            <div class="cover-frame${lofi}">
               <img src="${escapeHtml(coverSrc(release))}" alt="Portada de ${escapeHtml(release.catalog)} — ${escapeHtml(release.title)}" width="600" height="600" />
             </div>
           </aside>
@@ -444,9 +509,11 @@
             </dl>
 
             <section class="section">
-              <h2>Escuchar</h2>
+              <h2>${isOther ? "Objeto" : "Escuchar"}</h2>
               ${listenHtml}
             </section>
+
+            ${miniFanzineHtml(release)}
 
             ${
               !isOther && tracks.length
@@ -455,7 +522,7 @@
             }
 
             ${
-              release.notes
+              !isOther && release.notes
                 ? `<section class="section"><h2>Notas</h2><div class="notes-box">${escapeHtml(release.notes)}</div></section>`
                 : ""
             }
@@ -492,18 +559,13 @@
         <div class="about-card">
           <h1>Acerca de Sarah Records</h1>
           <p>
-            <span class="highlight">Sarah Records</span> fue un sello independiente de Bristol
-            (1987–1995), fundado por <span class="highlight">Clare Wadd</span> y
-            <span class="highlight">Matt Haynes</span>. Su catálogo numerado — de
-            <strong>SARAH 1</strong> a <strong>SARAH 100</strong> — es una de las
-            declaraciones más coherentes del pop indie británico: singles de siete pulgadas,
-            EPs, flexidiscos y una estética gráfica inconfundible.
+            <span class="highlight">Sarah Records</span> no nació como sello. Nació de un sótano en Upper Belgrave Road, Clifton, y de dos fanzines: <em>Are You Scared To Get Happy?</em> (Matt Haynes, también Sha-la-la) y <em>Kvatch</em> (Clare Wadd). Bristol, no Londres: el punto era político. No hacía falta mudarse a la capital para sacar pop. Cada 7″ llevaba una foto de la ciudad en la label.
           </p>
           <p>
-            El viaje termina con <em>There And Back Again Lane</em> (SARAH 100), la
-            compilación de despedida. Entre medias, el catálogo también incluye objetos
-            no musicales — fanzines y hasta un juego de mesa — que forman parte de la
-            historia del sello:
+            De 1987 a 1995 numeraron hasta cien. No cien discos: cien cosas. Flexis, fanzines, un juego de mesa. El 100 no es un greatest hits, es un cierre. <em>There And Back Again Lane</em>, fiesta en un barco en el puerto, anuncio a media página en el NME y Melody Maker, y la frase: <strong>we don’t do encores</strong>.
+          </p>
+          <p>
+            Les llamaron twee, girly, C86 de segunda. Ellos publicaron anuncios pidiendo revolución socialista y feminista y denunciando a las bandas «políticas» de postureo. Indie era ideología, no un género. Cuando el indie se volvió sonido y los majors montaron sellos falsos, Sarah se apagó a propósito.
           </p>
           <div class="nonmusic-list">
             <a href="#/sarah/4">SARAH 4 · fanzine</a>
@@ -511,10 +573,13 @@
             <a href="#/sarah/32">SARAH 32 · fanzine</a>
             <a href="#/sarah/50">SARAH 50 · board game</a>
           </div>
+          <div class="series-note">
+            <p>
+              Este catálogo es solo la serie 1–100, el argumento numerado. Los álbumes iban por otra vía (SARAH 401–407, 601–623: <em>Snowball</em>, <em>Skywriting</em>, <em>Heavenly vs Satan</em>…) para no gastar números de single. Las compilaciones se llamaban como paradas de bus de Bristol (359, 376, 501…) porque la ciudad era el mapa. Eso queda fuera de estas cien fichas a propósito. No es que no existiera.
+            </p>
+          </div>
           <p>
-            Este sitio es un catálogo visual estático de esas cien referencias: portadas,
-            fichas, listas de temas y enlaces de escucha (YouTube / Bandcamp) reunidos
-            como ayuda de consulta. No es un sitio oficial del sello.
+            Este sitio es un catálogo visual estático, no un sitio oficial del sello.
           </p>
           <p>
             <a class="btn btn-primary" href="#/">Ver el catálogo</a>
@@ -557,6 +622,26 @@
     }
   }
 
+  function onYoutubeReveal(e) {
+    const btn = e.target.closest("[data-youtube-id]");
+    if (!btn || !app.contains(btn)) return;
+    e.preventDefault();
+    const id = btn.getAttribute("data-youtube-id");
+    if (!id) return;
+    const title = btn.getAttribute("data-youtube-title") || "";
+    const wrap = document.createElement("div");
+    wrap.className = "video-wrap";
+    const iframe = document.createElement("iframe");
+    iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}`;
+    iframe.title = `Archivo: ${title}`;
+    iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
+    iframe.allowFullscreen = true;
+    iframe.loading = "lazy";
+    iframe.referrerPolicy = "strict-origin-when-cross-origin";
+    wrap.appendChild(iframe);
+    btn.replaceWith(wrap);
+  }
+
   async function init() {
     brand.addEventListener("click", () => navigate("/"));
     brand.addEventListener("keydown", (e) => {
@@ -567,6 +652,7 @@
     });
     window.addEventListener("hashchange", render);
     window.addEventListener("keydown", onKeydown);
+    app.addEventListener("click", onYoutubeReveal);
 
     const params = new URLSearchParams(location.search);
     const n = params.get("n");
