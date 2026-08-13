@@ -295,7 +295,7 @@
     app.innerHTML = `
       <section class="catalog-hero">
         <div class="hero-paste">
-          <img class="hero-logo" src="logo.svg" alt="sarah records" width="460" height="210" />
+          <img class="hero-logo" src="logo.png" alt="sarah records" width="460" height="210" />
           <p class="hero-strip">we don’t do encores</p>
         </div>
         <p class="hero-typed">100 referencias · bristol 1987–1995 · clare wadd &amp; matt haynes</p>
