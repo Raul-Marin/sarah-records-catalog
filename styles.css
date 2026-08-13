@@ -100,12 +100,12 @@ a:hover {
 /* ---------- header / nav as cut-out strips ---------- */
 .site-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.2rem 0 0.35rem;
+  padding: 0.15rem 0 0.25rem;
   border: 0;
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.1rem;
   position: relative;
 }
 
@@ -136,9 +136,11 @@ a:hover {
 
 .brand-logo {
   display: block;
-  height: 58px;
+  height: 38px;
   width: auto;
-  max-width: 240px;
+  max-width: 168px;
+  object-fit: contain;
+  object-position: left center;
 }
 
 .brand-sub {
@@ -232,13 +234,11 @@ a:hover {
 /* ---------- hero: top of a zine page ---------- */
 .catalog-hero {
   display: block;
-  margin-bottom: 1.4rem;
+  margin-bottom: 0.85rem;
 }
 
 .hero-paste {
-  position: relative;
-  min-height: 0;
-  margin: 0 0 0.85rem;
+  display: none;
 }
 
 .xerox-circle {
@@ -283,14 +283,7 @@ a:hover {
   z-index: 1;
 }
 
-.hero-logo {
-  display: block;
-  position: relative;
-  z-index: 3;
-  width: min(480px, 90vw);
-  height: auto;
-  margin: 0.2rem 0 0.6rem;
-}
+.hero-logo { display: none; }
 
 .hero-sarah {
   position: relative;
@@ -313,14 +306,14 @@ a:hover {
   position: relative;
   z-index: 4;
   display: inline-block;
-  margin: 0.35rem 0 0 0;
-  padding: 0.18rem 0.55rem 0.12rem;
+  margin: 0 0 0.45rem;
+  padding: 0.12rem 0.45rem 0.08rem;
   background: var(--strip);
   color: var(--strip-ink);
   font-family: var(--font-body);
-  font-size: clamp(0.95rem, 2.4vw, 1.2rem);
+  font-size: 0.85rem;
   font-style: normal;
-  transform: rotate(-1.2deg);
+  transform: rotate(-0.8deg);
 }
 
 .spot-caption {
@@ -1613,14 +1606,7 @@ a:hover {
     height: 92px;
     top: 10px;
   }
-  .hero-logo {
-  display: block;
-  position: relative;
-  z-index: 3;
-  width: min(480px, 90vw);
-  height: auto;
-  margin: 0.2rem 0 0.6rem;
-}
+  .hero-logo { display: none; }
 
 .hero-sarah {
     margin-left: 4%;
