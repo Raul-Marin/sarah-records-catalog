@@ -470,28 +470,28 @@ a:hover {
 
 /* ---------- catalog: messy paste-up, not a shop grid ---------- */
 .catalog-grid {
-  column-count: 2;
-  column-gap: 0.35rem;
-  padding: 1rem 0.85rem 1.8rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.1rem 0.7rem;
+  padding: 0.6rem 0.2rem 1.8rem;
   overflow: visible;
 }
 
 @media (min-width: 720px) {
   .catalog-grid {
-    column-count: 3;
-    column-gap: 0.2rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.15rem 0.85rem;
   }
 }
 
 @media (min-width: 1040px) {
   .catalog-grid {
-    column-count: 4;
-    column-gap: 0;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
 .card {
-  display: inline-block;
+  display: block;
   width: 100%;
   background: transparent;
   border: 0;
@@ -500,8 +500,7 @@ a:hover {
   color: inherit;
   cursor: pointer;
   position: relative;
-  break-inside: avoid;
-  margin: 0 0 0.55rem;
+  margin: 0;
   padding: 0;
 }
 
@@ -512,18 +511,14 @@ a:hover {
   min-width: 0;
 }
 
-/* rotations / overlap — scissors and glue */
-.catalog-grid .card:nth-child(2n) { margin-top: -0.55rem; }
-.catalog-grid .card:nth-child(3n) { transform: rotate(-4.2deg); margin-left: -0.35rem; z-index: 1; }
-.catalog-grid .card:nth-child(4n) { transform: rotate(3.6deg); margin-right: -0.25rem; }
-.catalog-grid .card:nth-child(5n) { transform: rotate(-6.4deg); margin-top: -0.85rem; }
-.catalog-grid .card:nth-child(6n) { transform: rotate(2.2deg); margin-left: 0.4rem; }
-.catalog-grid .card:nth-child(7n) { transform: rotate(5.5deg); margin-top: -1.05rem; z-index: 2; }
-.catalog-grid .card:nth-child(8n) { transform: rotate(-2.8deg); margin-left: -0.55rem; }
-.catalog-grid .card:nth-child(9n) { transform: rotate(4.8deg); }
-.catalog-grid .card:nth-child(10n) { transform: rotate(-5.1deg); margin-top: -0.4rem; }
-.catalog-grid .card:nth-child(11n) { transform: rotate(6deg); margin-top: -1.2rem; z-index: 2; }
-.catalog-grid .card:nth-child(12n) { transform: rotate(-7deg); }
+/* light xerox tilt, no overlap that breaks left-to-right reading */
+.catalog-grid .card:nth-child(3n) { transform: rotate(-2.4deg); }
+.catalog-grid .card:nth-child(4n) { transform: rotate(2.1deg); }
+.catalog-grid .card:nth-child(5n) { transform: rotate(-1.8deg); }
+.catalog-grid .card:nth-child(7n) { transform: rotate(2.6deg); }
+.catalog-grid .card:nth-child(8n) { transform: rotate(-2.2deg); }
+.catalog-grid .card:nth-child(11n) { transform: rotate(1.9deg); }
+.catalog-grid .card:nth-child(12n) { transform: rotate(-2.8deg); }
 
 .card:hover,
 .card:focus-within {
@@ -1624,17 +1619,9 @@ a:hover {
   }
 
   .catalog-grid {
-    column-count: 2;
-    column-gap: 0.7rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem 0.55rem;
     padding: 0.2rem 0.1rem 0.8rem;
-  }
-  .catalog-grid .card {
-    margin: 0 0 0.85rem;
-  }
-  .catalog-grid .card:nth-child(n) {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
   }
   .catalog-grid .card:nth-child(3n) { transform: rotate(-2.1deg); }
   .catalog-grid .card:nth-child(4n) { transform: rotate(1.8deg); }
