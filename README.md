@@ -1,23 +1,53 @@
 # Sarah Records · Catálogo SARAH 1–100
 
-Catálogo visual de [Sarah Records](http://sarahrecords.org.uk/) (Bristol, 1987–1995): las 100 referencias de la serie principal. Solo 1–100; álbumes y compilaciones-bus se señalan en Acerca de. Discogs label [887](https://www.discogs.com/label/887-Sarah-Records).
+Sitio estático (HTML/CSS/JS) con las 100 referencias de la serie principal de Sarah Records (Bristol, 1987–1995). Solo 1–100: álbumes (401+) y compilaciones-bus se señalan en Acerca de, fuera de estas fichas. Discogs label 887.
 
-## Ver online
+Look: fanzine xerox (papel de copistería, Anton + Special Elite). Reproductor fijo al pie con YouTube IFrame API.
 
-Si GitHub Pages está activo: `https://raul-marin.github.io/sarah-records-catalog/`
+## Cómo abrirlo
 
-## Local
+Necesitas un servidor HTTP local: el navegador no puede hacer `fetch` de `data.json` con `file://`.
 
 ```bash
+cd /workspace/sarah-records/site
 python3 -m http.server 8765
 ```
 
-Abre http://localhost:8765
+Luego abre: [http://localhost:8765](http://localhost:8765)
 
-## Fuentes
+Alternativas:
 
-- [Discografía oficial 1–100](http://sarahrecords.org.uk/music/discography/discography-1-100/)
-- [Discogs](https://www.discogs.com/label/887-Sarah-Records)
-- [Wikipedia](https://en.wikipedia.org/wiki/Sarah_Records_discography)
+```bash
+npx --yes serve -l 8765
+# o
+php -S localhost:8765
+```
 
-YouTube es archivo opcional con click-to-reveal (no se embebe hasta pulsar). Si hay edición, compra en Bandcamp o en las fuentes oficiales del sello.
+## Estructura
+
+```
+site/
+  index.html      # shell + deck xerox
+  styles.css      # papel de copistería / fanzine
+  app.js          # catálogo, filtros, rutas hash, detalle, YouTube deck
+  data.json       # copia de discography.json (releases[])
+  covers/001.jpg … 100.jpg
+  README.md
+```
+
+## Rutas
+
+- `#/` — rejilla del catálogo (buscar, filtrar, ordenar; vista lista o cuadrícula)
+- `#/sarah/1` … `#/sarah/100` — ficha de cada referencia
+- `#/about` — texto sobre el sello
+- `?n=42` también redirige a `#/sarah/42` al cargar
+
+Atajos en la ficha: `←` / `→` anterior/siguiente, `Esc` vuelve al catálogo. Espacio pausa/reanuda si el deck está visible y el foco no está en un campo.
+
+## Datos
+
+`data.json` es una copia de `../discography.json`. No se regenera automáticamente; si actualizas la discografía, vuelve a copiar el JSON y las portadas a `site/`.
+
+## Nota legal / escucha
+
+La escucha es en la página: archivo de YouTube en el reproductor xerox (IFrame API), y embed de Bandcamp en la ficha cuando existe `/album/` o `/track/`. Bandcamp se ofrece siempre como enlace de compra. Si puedes, compra el disco.

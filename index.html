@@ -7,12 +7,14 @@
   <meta name="description" content="Catálogo visual de Sarah Records: las 100 referencias (1987–1995) de Clare Wadd y Matt Haynes en Bristol." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500&family=Special+Elite&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="zine">
   <div class="page">
     <header class="site-header">
+      <span class="tape tape-a" aria-hidden="true"></span>
+      <span class="tape tape-b" aria-hidden="true"></span>
       <div class="brand" id="brand-home" role="button" tabindex="0" title="Volver al catálogo">
         <span class="brand-mark">Sarah</span>
         <span class="brand-sub">Records · Bristol 1987–1995</span>
@@ -32,8 +34,8 @@
 
     <footer class="site-footer">
       <p class="disclaimer">
-        Los embeds de YouTube son archivo opcional (se abren al pulsar), no la forma de escuchar.
-        Si hay edición, compra en Bandcamp o en las fuentes oficiales del sello.
+        La escucha es en la página: archivo de YouTube en el reproductor, y Bandcamp cuando el disco está ahí.
+        Si puedes, compra el 7″ o la edición en Bandcamp.
       </p>
       <p class="sources">
         Fuentes:
@@ -45,6 +47,22 @@
       </p>
     </footer>
   </div>
+
+  <div id="deck" class="deck" hidden>
+    <div class="deck-tv" aria-hidden="true">
+      <div id="yt-box"></div>
+    </div>
+    <button type="button" id="deck-prev" aria-label="Anterior">◀</button>
+    <button type="button" id="deck-play" aria-label="Play/Pausa">▶</button>
+    <button type="button" id="deck-next" aria-label="Siguiente">▶▶</button>
+    <div class="deck-now">
+      <div id="deck-cat" class="deck-cat"></div>
+      <div id="deck-title" class="deck-title"></div>
+      <div id="deck-artist" class="deck-artist"></div>
+    </div>
+    <a id="deck-open" class="deck-open" href="#/">ficha</a>
+  </div>
+  <script src="https://www.youtube.com/iframe_api"></script>
   <script src="app.js"></script>
 </body>
 </html>

@@ -45,7 +45,8 @@
         "youtube_search": "The Sea Urchins Pristine Christine Sarah Records",
         "youtube": "DbGjLFpsuKU",
         "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
-        "bandcamp": "https://theseaurchins.bandcamp.com/track/pristine-christine"
+        "bandcamp": "https://theseaurchins.bandcamp.com/track/pristine-christine",
+        "bandcamp_embed": "https://bandcamp.com/EmbeddedPlayer/size=small/bgcol=111111/linkcol=c41212/artwork=none/transparent=true/track=177322295"
       },
       "sources": [
         "http://sarahrecords.org.uk/music/discography/discography-1-100/",
@@ -716,7 +717,8 @@
         "youtube_search": "The Field Mice Sensitive Sarah Records",
         "bandcamp": "https://thefieldmice.bandcamp.com/track/sensitive-2",
         "youtube": "E4D6v71_nx0",
-        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp_embed": "https://bandcamp.com/EmbeddedPlayer/size=small/bgcol=111111/linkcol=c41212/artwork=none/transparent=true/track=3232716"
       },
       "sources": [
         "http://sarahrecords.org.uk/music/discography/discography-1-100/",
@@ -3286,7 +3288,8 @@
         "youtube_search": "Heavenly P.U.N.K. Girl Sarah Records",
         "youtube": "FIyEwA7G8qY",
         "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
-        "bandcamp": "https://heavenly.bandcamp.com/album/atta-girl-digital-only"
+        "bandcamp": "https://heavenly.bandcamp.com/album/atta-girl-digital-only",
+        "bandcamp_embed": "https://bandcamp.com/EmbeddedPlayer/size=small/bgcol=111111/linkcol=c41212/artwork=none/transparent=true/album=1216917825"
       },
       "sources": [
         "http://sarahrecords.org.uk/music/discography/discography-1-100/",
@@ -3331,7 +3334,8 @@
         "youtube_search": "Heavenly Atta Girl Sarah Records",
         "bandcamp": "https://heavenly.bandcamp.com/album/atta-girl-digital-only",
         "youtube": "FVpiQkrTPCA",
-        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp_embed": "https://bandcamp.com/EmbeddedPlayer/size=small/bgcol=111111/linkcol=c41212/artwork=none/transparent=true/album=1216917825"
       },
       "sources": [
         "http://sarahrecords.org.uk/music/discography/discography-1-100/",
@@ -4225,7 +4229,8 @@
         "youtube_search": "Various Artists There And Back Again Lane Sarah Records",
         "bandcamp": "https://sarahrecordscompilations.bandcamp.com/album/there-and-back-again-lane",
         "youtube": "hV6w5X3xUuU",
-        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding"
+        "youtube_note": "Best-effort YouTube search match; often fan upload, verify before embedding",
+        "bandcamp_embed": "https://bandcamp.com/EmbeddedPlayer/size=small/bgcol=111111/linkcol=c41212/artwork=none/transparent=true/album=1997938421"
       },
       "sources": [
         "http://sarahrecords.org.uk/music/discography/discography-1-100/",

@@ -48,13 +48,28 @@
     query: "",
     type: "all",
     sort: "number",
-    layoutMode: loadLayoutMode(), // grid | list
-    view: "catalog", // catalog | detail | about
+    layoutMode: loadLayoutMode(),
+    view: "catalog",
     current: null,
+    playingNumber: null,
+    isPlaying: false,
   };
 
   const app = document.getElementById("app");
   const brand = document.getElementById("brand-home");
+  const deck = document.getElementById("deck");
+  const deckPlayBtn = document.getElementById("deck-play");
+  const deckPrevBtn = document.getElementById("deck-prev");
+  const deckNextBtn = document.getElementById("deck-next");
+  const deckCat = document.getElementById("deck-cat");
+  const deckTitle = document.getElementById("deck-title");
+  const deckArtist = document.getElementById("deck-artist");
+  const deckOpen = document.getElementById("deck-open");
+
+  let ytPlayer = null;
+  let ytReady = false;
+  let pendingVideoId = null;
+  let playerBooted = false;
 
   function escapeHtml(str) {
     return String(str ?? "")
@@ -71,7 +86,6 @@
     return fmt.includes("board game") || notes.includes("board game") || notes.includes("juego de mesa") || notes.includes("saropoly");
   }
 
-  /** Prefer specific labels for non-music items from format/notes. Never "Otro". */
   function typeLabel(releaseOrType) {
     if (typeof releaseOrType === "string") {
       if (releaseOrType === "other") return "fanzine";
@@ -112,6 +126,14 @@
 
   function displayArtist(release) {
     return release.artist === "N/A" ? "Sarah Records" : release.artist;
+  }
+
+  function youtubeId(release) {
+    return (release && release.listen && release.listen.youtube) || "";
+  }
+
+  function hasPlayableYoutube(release) {
+    return !!(release && release.type !== "other" && youtubeId(release));
   }
 
   function matchesTypeFilter(release, type) {
@@ -187,6 +209,11 @@
     return list;
   }
 
+  function playButtonHtml(release, className) {
+    if (!hasPlayableYoutube(release)) return "";
+    return `<button type="button" class="${className}" data-play="${release.number}" aria-label="Reproducir ${escapeHtml(release.catalog)}">▶</button>`;
+  }
+
   function renderGridCards(list) {
     if (!list.length) {
       return `<div class="empty-grid"><p>No hay resultados para esa búsqueda.</p><p>Prueba con un artista, título, año o número de catálogo.</p></div>`;
@@ -197,20 +224,23 @@
         const label = typeLabel(r);
         const lofi = r.type === "other" ? " cover-lofi" : "";
         return `
-            <a class="card" href="#/sarah/${r.number}" data-number="${r.number}">
-              <div class="card-cover${lofi}">
-                <img src="${escapeHtml(coverSrc(r))}" alt="Portada de ${escapeHtml(r.catalog)}" loading="lazy" width="300" height="300" />
-              </div>
-              <div class="card-body">
-                <div class="card-cat">${escapeHtml(r.catalog)}</div>
-                <div class="card-artist">${escapeHtml(artist)}</div>
-                <div class="card-title">${escapeHtml(r.title)}</div>
-                <div class="card-meta">
-                  <span>${escapeHtml(String(r.year || "—"))}</span>
-                  <span class="type-pill ${escapeHtml(typePillClass(r, label))}">${escapeHtml(label)}</span>
+            <article class="card" data-number="${r.number}">
+              <a class="card-link" href="#/sarah/${r.number}">
+                <div class="card-cover${lofi}">
+                  <img src="${escapeHtml(coverSrc(r))}" alt="Portada de ${escapeHtml(r.catalog)}" loading="lazy" width="300" height="300" />
                 </div>
-              </div>
-            </a>`;
+                <div class="card-body">
+                  <div class="card-cat">${escapeHtml(r.catalog)}</div>
+                  <div class="card-artist">${escapeHtml(artist)}</div>
+                  <div class="card-title">${escapeHtml(r.title)}</div>
+                  <div class="card-meta">
+                    <span>${escapeHtml(String(r.year || "—"))}</span>
+                    <span class="type-pill ${escapeHtml(typePillClass(r, label))}">${escapeHtml(label)}</span>
+                  </div>
+                </div>
+              </a>
+              ${playButtonHtml(r, "card-play")}
+            </article>`;
       })
       .join("");
   }
@@ -226,20 +256,23 @@
         const formatBit = r.format ? escapeHtml(r.format) : escapeHtml(label);
         const lofi = r.type === "other" ? " cover-lofi" : "";
         return `
-            <a class="list-row" href="#/sarah/${r.number}" data-number="${r.number}">
-              <div class="list-thumb${lofi}">
-                <img src="${escapeHtml(coverSrc(r))}" alt="" loading="lazy" width="112" height="112" />
-              </div>
-              <div class="list-main">
-                <div class="list-cat">${escapeHtml(r.catalog)}</div>
-                <div class="list-artist">${escapeHtml(artist)}</div>
-                <div class="list-title">${escapeHtml(r.title)}</div>
-              </div>
-              <div class="list-side">
-                <span>${escapeHtml(String(r.year || "—"))}</span>
-                <span class="type-pill ${escapeHtml(typePillClass(r, label))}">${formatBit}</span>
-              </div>
-            </a>`;
+            <div class="list-row" data-number="${r.number}">
+              <a class="list-hit" href="#/sarah/${r.number}">
+                <div class="list-thumb${lofi}">
+                  <img src="${escapeHtml(coverSrc(r))}" alt="" loading="lazy" width="112" height="112" />
+                </div>
+                <div class="list-main">
+                  <div class="list-cat">${escapeHtml(r.catalog)}</div>
+                  <div class="list-artist">${escapeHtml(artist)}</div>
+                  <div class="list-title">${escapeHtml(r.title)}</div>
+                </div>
+                <div class="list-side">
+                  <span>${escapeHtml(String(r.year || "—"))}</span>
+                  <span class="type-pill ${escapeHtml(typePillClass(r, label))}">${formatBit}</span>
+                </div>
+              </a>
+              ${playButtonHtml(r, "list-play")}
+            </div>`;
       })
       .join("");
   }
@@ -355,6 +388,8 @@
         renderCatalog();
       });
     });
+
+    syncPlayingUi();
   }
 
   function listOrNull(value) {
@@ -387,17 +422,34 @@
       </aside>`;
   }
 
-  function youtubeRevealHtml(release, listen) {
-    if (!listen.youtube) return "";
+  function listenPanelHtml(release) {
+    const listen = release.listen || {};
+    const actions = [];
+    actions.push(
+      `<button type="button" class="btn btn-play-web" data-play="${release.number}">▶ Escuchar en la web</button>`
+    );
+    if (listen.bandcamp) {
+      actions.push(
+        `<a class="btn btn-primary btn-bandcamp" href="${escapeHtml(listen.bandcamp)}" target="_blank" rel="noopener">Bandcamp</a>`
+      );
+    }
+    if (listen.youtube_search) {
+      const q = encodeURIComponent(listen.youtube_search);
+      actions.push(
+        `<a class="btn" href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">Buscar en YouTube</a>`
+      );
+    }
+
+    let embed = "";
+    if (listen.bandcamp_embed) {
+      embed = `<iframe class="bc-embed" src="${escapeHtml(listen.bandcamp_embed)}" loading="lazy" title="Bandcamp" seamless></iframe>`;
+    }
+
     return `
-      <div class="yt-reveal">
-        <button
-          type="button"
-          class="btn btn-yt-reveal"
-          data-youtube-id="${escapeHtml(listen.youtube)}"
-          data-youtube-title="${escapeHtml(release.title)}"
-        >Archivo no oficial (YouTube)</button>
-        <p class="yt-note">Subida de fans, best-effort. Si hay edición, Bandcamp.</p>
+      <div class="listen-box">
+        <div class="listen-actions">${actions.join("")}</div>
+        ${embed}
+        <p class="yt-note">archivo de fans · si puedes, compra el 7″ / Bandcamp</p>
       </div>`;
   }
 
@@ -417,7 +469,6 @@
     const prev = state.byNumber.get(number - 1);
     const next = state.byNumber.get(number + 1);
     const artist = displayArtist(release);
-    const listen = release.listen || {};
     const isOther = release.type === "other";
     const label = typeLabel(release);
     const lofi = isOther ? " cover-lofi" : "";
@@ -451,24 +502,7 @@
           <div class="notes-box object-notes">${escapeHtml(release.notes || "Fanzine, juego u otro objeto del catálogo Sarah — sin audio.")}</div>
         </div>`;
     } else {
-      const actions = [];
-      if (listen.bandcamp) {
-        actions.push(
-          `<a class="btn btn-primary btn-bandcamp" href="${escapeHtml(listen.bandcamp)}" target="_blank" rel="noopener">Bandcamp</a>`
-        );
-      }
-      if (listen.youtube_search) {
-        const q = encodeURIComponent(listen.youtube_search);
-        actions.push(
-          `<a class="btn" href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">Buscar en YouTube</a>`
-        );
-      }
-
-      listenHtml = `
-        <div class="listen-box">
-          <div class="listen-actions">${actions.join("") || ""}</div>
-          ${youtubeRevealHtml(release, listen)}
-        </div>`;
+      listenHtml = listenPanelHtml(release);
     }
 
     const creditsRows = [];
@@ -550,7 +584,8 @@
       </article>
     `;
 
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo(0, 0);
+    syncPlayingUi();
   }
 
   function renderAbout() {
@@ -607,10 +642,27 @@
     renderCatalog();
   }
 
+  function isTypingTarget(el) {
+    const tag = (el && el.tagName) || "";
+    return tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT";
+  }
+
+  function deckIsVisible() {
+    return !!(deck && !deck.hidden);
+  }
+
   function onKeydown(e) {
+    if (isTypingTarget(e.target)) return;
+
+    if (e.key === " " && deckIsVisible()) {
+      const tag = (e.target && e.target.tagName) || "";
+      if (tag === "BUTTON" || tag === "A") return;
+      e.preventDefault();
+      togglePlayPause();
+      return;
+    }
+
     if (state.view !== "detail" || state.current == null) return;
-    const tag = (e.target && e.target.tagName) || "";
-    if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
     if (e.key === "ArrowLeft") {
       const prev = state.byNumber.get(state.current - 1);
       if (prev) navigate(`/sarah/${prev.number}`);
@@ -622,25 +674,164 @@
     }
   }
 
-  function onYoutubeReveal(e) {
-    const btn = e.target.closest("[data-youtube-id]");
+  function nextPlayable(fromNumber, dir) {
+    const list = state.releases;
+    const idx = list.findIndex((r) => r.number === fromNumber);
+    if (idx < 0) return null;
+    for (let i = idx + dir; i >= 0 && i < list.length; i += dir) {
+      if (hasPlayableYoutube(list[i])) return list[i];
+    }
+    return null;
+  }
+
+  function showDeck() {
+    if (!deck) return;
+    deck.hidden = false;
+  }
+
+  function setPlayIcon(playing) {
+    if (deckPlayBtn) deckPlayBtn.textContent = playing ? "❚❚" : "▶";
+    state.isPlaying = playing;
+  }
+
+  function syncPlayingUi() {
+    const n = state.playingNumber;
+    document.querySelectorAll(".card[data-number], .list-row[data-number]").forEach((el) => {
+      el.classList.toggle("is-playing", Number(el.getAttribute("data-number")) === n);
+    });
+    document.querySelectorAll(".btn-play-web").forEach((el) => {
+      const on = Number(el.getAttribute("data-play")) === n && state.isPlaying;
+      el.classList.toggle("is-playing", on);
+    });
+  }
+
+  function updateDeckLabels(release, videoId) {
+    if (!release) return;
+    if (deckCat) deckCat.textContent = release.catalog || `SARAH ${release.number}`;
+    if (deckTitle) deckTitle.textContent = videoId ? release.title : "sin archivo";
+    if (deckArtist) {
+      const name = displayArtist(release);
+      deckArtist.textContent = videoId ? name : `${name} · sin archivo`;
+    }
+    if (deckOpen) deckOpen.href = `#/sarah/${release.number}`;
+  }
+
+  function loadAndPlay(videoId) {
+    if (!videoId || !ytPlayer || !ytReady) return;
+    try {
+      ytPlayer.loadVideoById(videoId);
+      ytPlayer.playVideo();
+    } catch (_) {}
+  }
+
+  function ensurePlayer() {
+    if (playerBooted) return;
+    if (!(window.YT && YT.Player)) return;
+    const box = document.getElementById("yt-box");
+    if (!box) return;
+    playerBooted = true;
+    ytPlayer = new YT.Player("yt-box", {
+      width: "120",
+      height: "68",
+      playerVars: {
+        modestbranding: 1,
+        rel: 0,
+        playsinline: 1,
+        origin: location.origin,
+        enablejsapi: 1,
+        controls: 0,
+        disablekb: 1,
+      },
+      events: {
+        onReady() {
+          ytReady = true;
+          if (pendingVideoId) {
+            const id = pendingVideoId;
+            pendingVideoId = null;
+            loadAndPlay(id);
+          }
+        },
+        onStateChange(ev) {
+          const YTS = window.YT && YT.PlayerState;
+          if (!YTS) return;
+          if (ev.data === YTS.PLAYING) {
+            setPlayIcon(true);
+            syncPlayingUi();
+          } else if (ev.data === YTS.PAUSED) {
+            setPlayIcon(false);
+            syncPlayingUi();
+          } else if (ev.data === YTS.ENDED) {
+            setPlayIcon(false);
+            const nxt = nextPlayable(state.playingNumber, 1);
+            if (nxt) playRelease(nxt.number, { fromEnded: true });
+            else syncPlayingUi();
+          }
+        },
+      },
+    });
+  }
+
+  function playRelease(number, opts) {
+    const release = state.byNumber.get(Number(number));
+    if (!release) return;
+    const id = youtubeId(release);
+    state.playingNumber = release.number;
+    showDeck();
+    updateDeckLabels(release, id);
+    syncPlayingUi();
+
+    if (!id) {
+      setPlayIcon(false);
+      try {
+        if (ytPlayer && ytReady && ytPlayer.stopVideo) ytPlayer.stopVideo();
+      } catch (_) {}
+      return;
+    }
+
+    ensurePlayer();
+    pendingVideoId = id;
+    if (ytPlayer && ytReady) {
+      loadAndPlay(id);
+      pendingVideoId = null;
+    } else if (ytPlayer && typeof ytPlayer.playVideo === "function") {
+      try {
+        if (typeof ytPlayer.loadVideoById === "function") ytPlayer.loadVideoById(id);
+        ytPlayer.playVideo();
+      } catch (_) {}
+    }
+  }
+
+  function togglePlayPause() {
+    if (!deckIsVisible()) return;
+    const release = state.byNumber.get(state.playingNumber);
+    if (!release || !youtubeId(release)) return;
+    ensurePlayer();
+    if (!ytPlayer || !ytReady) return;
+    try {
+      const st = ytPlayer.getPlayerState();
+      const YTS = window.YT && YT.PlayerState;
+      if (YTS && st === YTS.PLAYING) ytPlayer.pauseVideo();
+      else ytPlayer.playVideo();
+    } catch (_) {}
+  }
+
+  function skipDeck(dir) {
+    const from = state.playingNumber != null ? state.playingNumber : 0;
+    const nxt = nextPlayable(from, dir);
+    if (nxt) playRelease(nxt.number);
+  }
+
+  function onAppClick(e) {
+    const btn = e.target.closest("[data-play]");
     if (!btn || !app.contains(btn)) return;
     e.preventDefault();
-    const id = btn.getAttribute("data-youtube-id");
-    if (!id) return;
-    const title = btn.getAttribute("data-youtube-title") || "";
-    const wrap = document.createElement("div");
-    wrap.className = "video-wrap";
-    const iframe = document.createElement("iframe");
-    iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}`;
-    iframe.title = `Archivo: ${title}`;
-    iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
-    iframe.allowFullscreen = true;
-    iframe.loading = "lazy";
-    iframe.referrerPolicy = "strict-origin-when-cross-origin";
-    wrap.appendChild(iframe);
-    btn.replaceWith(wrap);
+    e.stopPropagation();
+    playRelease(Number(btn.getAttribute("data-play")));
   }
+
+  window.onYouTubeIframeAPIReady = function () {
+    ensurePlayer();
+  };
 
   async function init() {
     brand.addEventListener("click", () => navigate("/"));
@@ -652,7 +843,38 @@
     });
     window.addEventListener("hashchange", render);
     window.addEventListener("keydown", onKeydown);
-    app.addEventListener("click", onYoutubeReveal);
+    app.addEventListener("click", onAppClick);
+
+    if (deckPlayBtn) {
+      deckPlayBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        togglePlayPause();
+      });
+    }
+    if (deckPrevBtn) {
+      deckPrevBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        skipDeck(-1);
+      });
+    }
+    if (deckNextBtn) {
+      deckNextBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        skipDeck(1);
+      });
+    }
+    if (deck) {
+      deck.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "Escape") {
+          /* let document handler manage detail nav; don't also skip tracks */
+        }
+      });
+    }
+
+    if (window.YT && YT.Player) ensurePlayer();
 
     const params = new URLSearchParams(location.search);
     const n = params.get("n");
