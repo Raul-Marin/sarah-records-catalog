@@ -1,8 +1,8 @@
-# Sarah Records · Catálogo SARAH 1–100
+# sarah records · catálogo sarah 1–100
 
 Sitio estático (HTML/CSS/JS) con las 100 referencias de la serie principal de Sarah Records (Bristol, 1987–1995). Solo 1–100: álbumes (401+) y compilaciones-bus se señalan en Acerca de, fuera de estas fichas. Discogs label 887.
 
-Look: fanzine xerox (papel de copistería, Anton + Special Elite). Reproductor fijo al pie con YouTube IFrame API.
+Look: fanzine xerox de finales de los 80 (papel rosa Kvatch, tinta forest-green, tiras invertidas a máquina, círculos tipo centre labels). Special Elite + IBM Plex Mono. Reproductor fijo al pie con YouTube IFrame API.
 
 ## Cómo abrirlo
 
@@ -28,7 +28,7 @@ php -S localhost:8765
 ```
 site/
   index.html      # shell + deck xerox
-  styles.css      # papel de copistería / fanzine
+  styles.css      # papel Kvatch / collage de fotocopia
   app.js          # catálogo, filtros, rutas hash, detalle, YouTube deck
   data.json       # copia de discography.json (releases[])
   covers/001.jpg … 100.jpg
@@ -37,7 +37,7 @@ site/
 
 ## Rutas
 
-- `#/` — rejilla del catálogo (buscar, filtrar, ordenar; vista lista o cuadrícula)
+- `#/` — paste-up del catálogo (buscar, filtrar, ordenar; vista lista o rejilla)
 - `#/sarah/1` … `#/sarah/100` — ficha de cada referencia
 - `#/about` — texto sobre el sello
 - `?n=42` también redirige a `#/sarah/42` al cargar

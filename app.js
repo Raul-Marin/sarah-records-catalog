@@ -229,14 +229,11 @@
                 <div class="card-cover${lofi}">
                   <img src="${escapeHtml(coverSrc(r))}" alt="Portada de ${escapeHtml(r.catalog)}" loading="lazy" width="300" height="300" />
                 </div>
-                <div class="card-body">
+                <div class="card-strips">
                   <div class="card-cat">${escapeHtml(r.catalog)}</div>
-                  <div class="card-artist">${escapeHtml(artist)}</div>
                   <div class="card-title">${escapeHtml(r.title)}</div>
-                  <div class="card-meta">
-                    <span>${escapeHtml(String(r.year || "—"))}</span>
-                    <span class="type-pill ${escapeHtml(typePillClass(r, label))}">${escapeHtml(label)}</span>
-                  </div>
+                  <div class="card-artist">${escapeHtml(artist)}</div>
+                  <div class="card-type">${escapeHtml(String(label || "").toLowerCase())}${r.year ? " · " + escapeHtml(String(r.year)) : ""}</div>
                 </div>
               </a>
               ${playButtonHtml(r, "card-play")}
@@ -268,7 +265,7 @@
                 </div>
                 <div class="list-side">
                   <span>${escapeHtml(String(r.year || "—"))}</span>
-                  <span class="type-pill ${escapeHtml(typePillClass(r, label))}">${formatBit}</span>
+                  <span class="type-pill">${escapeHtml(String(label || "").toLowerCase())}</span>
                 </div>
               </a>
               ${playButtonHtml(r, "list-play")}
@@ -282,14 +279,9 @@
     const listActive = state.layoutMode === "list" ? "active" : "";
     return `
       <div class="view-toggle" role="group" aria-label="Vista del catálogo">
-        <button type="button" data-layout="grid" class="${gridActive}" aria-pressed="${state.layoutMode === "grid"}" title="Vista en cuadrícula">
-          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect x="1" y="1" width="6" height="6"/><rect x="9" y="1" width="6" height="6"/><rect x="1" y="9" width="6" height="6"/><rect x="9" y="9" width="6" height="6"/></svg>
-          Cuadrícula
-        </button>
-        <button type="button" data-layout="list" class="${listActive}" aria-pressed="${state.layoutMode === "list"}" title="Vista en lista">
-          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect x="1" y="2" width="14" height="2"/><rect x="1" y="7" width="14" height="2"/><rect x="1" y="12" width="14" height="2"/></svg>
-          Lista
-        </button>
+        <button type="button" data-layout="grid" class="${gridActive}" aria-pressed="${state.layoutMode === "grid"}" title="Vista en rejilla">[rejilla]</button>
+        <span class="view-sep" aria-hidden="true">|</span>
+        <button type="button" data-layout="list" class="${listActive}" aria-pressed="${state.layoutMode === "list"}" title="Vista en lista">[lista]</button>
       </div>`;
   }
 
@@ -302,46 +294,50 @@
 
     app.innerHTML = `
       <section class="catalog-hero">
-        <h1>Catálogo SARAH 1–100</h1>
-        <p>
-          Cien números. Singles, flexis, fanzines, un juego. Luego se acaba.
-          <em>We don’t do encores.</em>
-        </p>
-        <div class="hero-stats">
-          <span class="chip"><strong>100</strong> referencias</span>
-          <span class="chip"><strong>1987–1995</strong></span>
-          <span class="chip">Clare Wadd &amp; Matt Haynes</span>
+        <div class="hero-paste">
+          <img class="xerox-circle xc-a" src="covers/001.jpg" alt="" width="200" height="200" />
+          <img class="xerox-circle xc-b" src="covers/018.jpg" alt="" width="220" height="220" />
+          <img class="xerox-circle xc-c" src="covers/030.jpg" alt="" width="180" height="180" />
+          <h1 class="hero-sarah">sarah</h1>
+          <p class="hero-strip">we don’t do encores</p>
+          <span class="spot-caption">the centre labels</span>
         </div>
+        <p class="hero-typed">100 referencias · bristol 1987–1995 · clare wadd &amp; matt haynes</p>
+        <p class="hero-lede">cien números. singles, flexis, fanzines, un juego. luego se acaba.</p>
       </section>
 
       <div class="controls">
         <div class="search-wrap">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-            <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>
-          </svg>
+          <label class="ctrl-label" for="search">buscar:</label>
           <input
             class="search-input"
             id="search"
             type="search"
-            placeholder="Buscar por artista, título, SARAH N, año…"
+            placeholder="artista, título, sarah n, año…"
             value="${escapeHtml(state.query)}"
             autocomplete="off"
           />
         </div>
-        <select class="select" id="filter-type" aria-label="Filtrar por tipo">
-          <option value="all">Todos los tipos</option>
-          <option value="single">Single</option>
-          <option value="ep">EP</option>
-          <option value="flexi">Flexi</option>
-          <option value="compilation">Compilación</option>
-          <option value="fanzine">Fanzine</option>
-          <option value="boardgame">Objeto / juego</option>
-        </select>
-        <select class="select" id="sort-by" aria-label="Ordenar">
-          <option value="number">Orden: nº catálogo</option>
-          <option value="year">Orden: año</option>
-          <option value="artist">Orden: artista</option>
-        </select>
+        <div class="ctrl-field">
+          <label class="ctrl-label" for="filter-type">tipo:</label>
+          <select class="select" id="filter-type" aria-label="Filtrar por tipo">
+            <option value="all">todos</option>
+            <option value="single">single</option>
+            <option value="ep">ep</option>
+            <option value="flexi">flexi</option>
+            <option value="compilation">compilación</option>
+            <option value="fanzine">fanzine</option>
+            <option value="boardgame">objeto / juego</option>
+          </select>
+        </div>
+        <div class="ctrl-field">
+          <label class="ctrl-label" for="sort-by">orden:</label>
+          <select class="select" id="sort-by" aria-label="Ordenar">
+            <option value="number">nº catálogo</option>
+            <option value="year">año</option>
+            <option value="artist">artista</option>
+          </select>
+        </div>
         ${viewToggleHtml()}
       </div>
 
@@ -426,7 +422,7 @@
     const listen = release.listen || {};
     const actions = [];
     actions.push(
-      `<button type="button" class="btn btn-play-web" data-play="${release.number}">▶ Escuchar en la web</button>`
+      `<button type="button" class="btn btn-play-web" data-play="${release.number}">▶ escuchar en la web</button>`
     );
     if (listen.bandcamp) {
       actions.push(
@@ -515,17 +511,17 @@
     app.innerHTML = `
       <article class="detail">
         <div class="detail-nav">
-          <a class="btn" href="#/">← Volver al catálogo</a>
+          <a class="btn" href="#/">← volver al catálogo</a>
           <div class="nav-arrows">
-            <a class="btn" href="${prev ? `#/sarah/${prev.number}` : "#"}" ${prev ? "" : "aria-disabled=\"true\" tabindex=\"-1\" style=\"pointer-events:none;opacity:.4\""}>Anterior</a>
-            <a class="btn" href="${next ? `#/sarah/${next.number}` : "#"}" ${next ? "" : "aria-disabled=\"true\" tabindex=\"-1\" style=\"pointer-events:none;opacity:.4\""}>Siguiente</a>
+            <a class="btn" href="${prev ? `#/sarah/${prev.number}` : "#"}" ${prev ? "" : "aria-disabled=\"true\" tabindex=\"-1\" style=\"pointer-events:none;opacity:.4\""}>anterior</a>
+            <a class="btn" href="${next ? `#/sarah/${next.number}` : "#"}" ${next ? "" : "aria-disabled=\"true\" tabindex=\"-1\" style=\"pointer-events:none;opacity:.4\""}>siguiente</a>
           </div>
         </div>
         ${relatedPairHtml(number)}
 
         <div class="detail-layout">
           <aside class="cover-panel">
-            <div class="cover-frame${lofi}">
+            <div class="cover-frame xerox-disc${lofi}">
               <img src="${escapeHtml(coverSrc(release))}" alt="Portada de ${escapeHtml(release.catalog)} — ${escapeHtml(release.title)}" width="600" height="600" />
             </div>
           </aside>
@@ -592,7 +588,7 @@
     app.innerHTML = `
       <section class="about">
         <div class="about-card">
-          <h1>Acerca de Sarah Records</h1>
+          <h1>acerca de</h1>
           <p>
             <span class="highlight">Sarah Records</span> no nació como sello. Nació de un sótano en Upper Belgrave Road, Clifton, y de dos fanzines: <em>Are You Scared To Get Happy?</em> (Matt Haynes, también Sha-la-la) y <em>Kvatch</em> (Clare Wadd). Bristol, no Londres: el punto era político. No hacía falta mudarse a la capital para sacar pop. Cada 7″ llevaba una foto de la ciudad en la label.
           </p>
@@ -617,7 +613,7 @@
             Este sitio es un catálogo visual estático, no un sitio oficial del sello.
           </p>
           <p>
-            <a class="btn btn-primary" href="#/">Ver el catálogo</a>
+            <a class="btn btn-primary" href="#/">ver el catálogo</a>
           </p>
         </div>
       </section>
