@@ -1,10 +1,10 @@
 :root {
-  --paper: #f3e4d4;
+  --paper: #ffffff;
   --ink: #111111;
   --kvatch: #1c3a2a;
   --spot: #b01812;
   --strip: #111;
-  --strip-ink: #f3e4d4;
+  --strip-ink: #ffffff;
   --ink-soft: #1a1a1a;
   --muted: #2a2a2a;
   --cover-bg: transparent;
@@ -31,41 +31,26 @@ body {
   min-height: 100vh;
   color: var(--ink);
   font-family: var(--font-body);
-  background-color: var(--paper);
-  background-image:
-    repeating-linear-gradient(
-      92deg,
-      transparent 0,
-      transparent 240px,
-      rgba(17, 17, 17, 0.045) 240px,
-      rgba(17, 17, 17, 0.045) 242px,
-      transparent 242px,
-      transparent 510px,
-      rgba(28, 58, 42, 0.04) 510px,
-      rgba(28, 58, 42, 0.04) 511px,
-      transparent 511px
-    ),
-    var(--grain);
-  background-size: 640px 100%, 140px 140px;
+  background-color: #fff;
   line-height: 1.45;
   -webkit-font-smoothing: none;
   -moz-osx-font-smoothing: unset;
 }
 
-/* heavy photocopy grain sitting on the pink stock */
+/* light overall grain — white paper, just a dusting */
 body.zine::before {
   content: "";
   pointer-events: none;
   position: fixed;
   inset: 0;
   z-index: 40;
-  opacity: 0.42;
+  opacity: 0.07;
   mix-blend-mode: multiply;
   background-image: var(--grain);
-  background-size: 120px 120px;
+  background-size: 180px 180px;
 }
 
-/* faint toner streaks */
+/* extra grain in patches — not uniform across the sheet */
 body.zine::after {
   content: "";
   pointer-events: none;
@@ -73,28 +58,23 @@ body.zine::after {
   inset: 0;
   z-index: 41;
   mix-blend-mode: multiply;
-  opacity: 0.28;
-  background-image:
-    repeating-linear-gradient(
-      180deg,
-      transparent 0,
-      transparent 170px,
-      rgba(17, 17, 17, 0.07) 170px,
-      rgba(17, 17, 17, 0.07) 173px,
-      transparent 173px,
-      transparent 390px,
-      rgba(17, 17, 17, 0.035) 390px,
-      rgba(17, 17, 17, 0.035) 391px,
-      transparent 391px
-    ),
-    repeating-linear-gradient(
-      8deg,
-      transparent 0,
-      transparent 88px,
-      rgba(17, 17, 17, 0.03) 88px,
-      rgba(17, 17, 17, 0.03) 90px,
-      transparent 90px
-    );
+  opacity: 0.45;
+  background-image: var(--grain);
+  background-size: 110px 110px;
+  -webkit-mask-image:
+    radial-gradient(ellipse 42% 34% at 12% 18%, #000 0%, transparent 72%),
+    radial-gradient(ellipse 28% 38% at 78% 8%, #000 0%, transparent 68%),
+    radial-gradient(ellipse 36% 30% at 92% 76%, #000 0%, transparent 70%),
+    radial-gradient(ellipse 24% 22% at 38% 88%, #000 0%, transparent 70%),
+    radial-gradient(ellipse 18% 16% at 58% 42%, #000 0%, transparent 75%),
+    radial-gradient(ellipse 22% 20% at 8% 62%, #000 0%, transparent 72%);
+  mask-image:
+    radial-gradient(ellipse 42% 34% at 12% 18%, #000 0%, transparent 72%),
+    radial-gradient(ellipse 28% 38% at 78% 8%, #000 0%, transparent 68%),
+    radial-gradient(ellipse 36% 30% at 92% 76%, #000 0%, transparent 70%),
+    radial-gradient(ellipse 24% 22% at 38% 88%, #000 0%, transparent 70%),
+    radial-gradient(ellipse 18% 16% at 58% 42%, #000 0%, transparent 75%),
+    radial-gradient(ellipse 22% 20% at 8% 62%, #000 0%, transparent 72%);
 }
 
 a {
@@ -258,10 +238,15 @@ a:hover {
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
-  filter: grayscale(1) contrast(2.8) brightness(1.04);
-  mix-blend-mode: multiply;
-  pointer-events: none;
+  filter: grayscale(1) contrast(1.15);
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  transition: filter 0.22s ease;
   background: var(--ink);
+}
+
+.xerox-circle:hover {
+  filter: none;
 }
 
 .xerox-circle.xc-a {
@@ -556,14 +541,28 @@ a:hover {
   object-fit: cover;
   display: block;
   background: transparent;
-  filter: grayscale(1) contrast(2.4) brightness(1.05);
-  mix-blend-mode: multiply;
+  filter: grayscale(1) contrast(1.12);
+  mix-blend-mode: normal;
+  transition: filter 0.22s ease;
+}
+
+.card:hover .card-cover img,
+.list-row:hover .list-thumb img,
+.cover-panel:hover img,
+.card.is-playing .card-cover img,
+.list-row.is-playing .list-thumb img {
+  filter: none;
 }
 
 .cover-lofi img {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
-  filter: grayscale(1) contrast(3.1) brightness(1.08);
+  filter: grayscale(1) contrast(1.25);
+}
+
+.card:hover .cover-lofi img,
+.card.is-playing .cover-lofi img {
+  filter: none;
 }
 
 /* centre-label circles — every 7th / 11th, not an avatar UI */
@@ -1580,7 +1579,11 @@ a:hover {
   .hero-paste {
     min-height: 168px;
   }
-  .xerox-circle.xc-a {
+  .xerox-circle:hover {
+  filter: none;
+}
+
+.xerox-circle.xc-a {
     width: 110px;
     height: 110px;
   }
