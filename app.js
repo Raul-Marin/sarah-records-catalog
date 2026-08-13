@@ -299,6 +299,7 @@
 
     app.innerHTML = `
       <section class="catalog-hero">
+        ${redactStack(3)}
         <p class="hero-strip">we don’t do encores</p>
         <p class="hero-typed">100 referencias · bristol 1987–1995 · clare wadd &amp; matt haynes</p>
       </section>
@@ -498,6 +499,7 @@
           </div>
         </div>
         ${relatedPairHtml(number)}
+        ${redactStack(4)}
 
         <div class="detail-layout">
           <aside class="cover-panel">
@@ -564,9 +566,21 @@
     syncPlayingUi();
   }
 
+
+  function redactStack(n) {
+    const bars = Array.from({ length: n }, () => '<span class="redact"></span>').join("");
+    return `<div class="redact-stack" aria-hidden="true">${bars}</div>`;
+  }
+
   function renderAbout() {
     app.innerHTML = `
       <section class="about">
+        <figure class="founders">
+          ${redactStack(5)}
+          <img src="founders.jpg" alt="Clare Wadd y Matt Haynes" width="1000" height="820" />
+          <figcaption>clare wadd &amp; matt haynes · bristol</figcaption>
+          ${redactStack(3)}
+        </figure>
         <div class="about-card">
           <h1>acerca de</h1>
           <p>
