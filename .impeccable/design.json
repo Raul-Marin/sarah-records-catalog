@@ -1,0 +1,44 @@
+{
+  "$comment": "Placeholder stub. The original .impeccable/design.json was written locally and never committed to main. Values here mirror what is already implemented in styles.css — this file documents the existing system, it does not propose a new one.",
+  "northStar": "There And Back Again Lane",
+  "scope": {
+    "catalog": "SARAH 1-100 only",
+    "discogsLabel": 887,
+    "excludes": ["401+", "bus compilations"]
+  },
+  "colors": {
+    "primary": "#d70000",
+    "paper": "#ffffff",
+    "ink": "#111111"
+  },
+  "radius": 0,
+  "typography": {
+    "display": "Special Elite",
+    "mono": "IBM Plex Mono",
+    "monoUsage": "catalogue numbers"
+  },
+  "player": {
+    "count": 1,
+    "id": "#deck",
+    "sticky": true,
+    "bandcamp": "buy-link-only, not a playback surface"
+  },
+  "assets": {
+    "wordmark": "wordmark.png",
+    "cherries": "cherries.png",
+    "policy": "official supplied files, never redrawn or replaced with SVG or type"
+  },
+  "sleeves": {
+    "default": "greyscale",
+    "onHoverOrPlaying": "colour",
+    "objectProportions": "native (fanzines/objects keep native proportion)",
+    "ficheSleeve": "square 7-inch, not a circle"
+  },
+  "grid": {
+    "readingOrder": "left-to-right by catalog number"
+  },
+  "locale": {
+    "ui": "es",
+    "slogans": "en"
+  }
+}
