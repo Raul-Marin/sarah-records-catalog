@@ -32,7 +32,7 @@ body {
   min-height: 100vh;
   color: var(--ink);
   font-family: var(--font-body);
-  background-color: #fff;
+  background-color: #ffdd00;
   line-height: 1.45;
   -webkit-font-smoothing: none;
   -moz-osx-font-smoothing: unset;
